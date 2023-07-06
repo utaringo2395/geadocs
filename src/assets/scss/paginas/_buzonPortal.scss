@@ -1,0 +1,42 @@
+#buzonPortal {
+    position: relative;
+    margin-bottom: 7%;
+    @media (max-width: 768.98px) {
+        margin-bottom: 15%;
+    }
+    .headerBuzon {
+        /*background-image: url('/imgs/headerags.png');*/
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+        height: 385px;
+        width: 100%;
+        margin-top: 100px;
+        @media (max-width: 991.98px) {
+            margin-top: 50px;
+        }
+    }
+    .grafico {
+        position: absolute;
+        top: 370px;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto;
+        z-index: -10;
+        
+    }
+    .mExtra {
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+    .buzonForm {
+        margin-top: 3%;
+        padding: 0 15%;
+        @media (max-width: 991.98px) {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+}

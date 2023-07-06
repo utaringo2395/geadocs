@@ -1,0 +1,78 @@
+#cartaCitas {
+// fix botones
+.btn-form.mb-3{
+  margin-bottom: 0.5rem !important;
+}
+
+
+  ::before {
+    background: none;
+  }
+  .swiper-slide {
+    position: relative;
+    // max-width: 280px; Antes
+    max-width: 350px;
+    min-width: 264.65px;
+    height: 420px;
+    padding: 30px 18px;
+    margin-left: 10px;
+    border-radius: 9px;
+    background: $color-blanco;
+    caret-color: none;
+    display: inline-block;
+
+    border-radius: 9px;
+    box-shadow: 0px 3.69885px 18.4942px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    font-family: $fuente-principal;
+
+    align-items: center;
+
+    h2.titulo-cita {
+      font-family: $fuente-principal;
+      font-size: 17px;
+      font-weight: 700;
+      color: #4f4f4f;
+      margin-top: 0;
+    }
+
+    p.fecha-cita,
+    p.horario-cita,
+    p.dependencia-cita,
+    p.direccion-cita {
+      font-family: $fuente-principal;
+      line-break: 0;
+      font-size: 14px;
+      color: $evento-color-1;
+    }
+
+    .links-cita {
+      position: absolute;
+      width: 254px;
+      bottom: 0;
+      margin-bottom: 30px;
+      display: block;
+
+      button.btn-form.btn-form-descarga {
+        margin: 12px 0;
+        font-size: 14px;
+        letter-spacing: 10%;
+        cursor: pointer;
+      }
+
+      a.link-cancelar-cita {
+        color: $color-negro;
+        // cambios
+        margin-bottom: 10px;
+        display: block;
+
+        &:hover {
+          color: #0093c9;
+          text-decoration: underline;
+        }
+      }
+
+
+    }
+  }
+}

@@ -1,0 +1,92 @@
+.mt-navbar {
+    margin-top: 150px;
+  }
+
+  .mb-72{
+    margin-bottom: 72px;
+  }
+
+  .loginImg {
+    height: 710px;
+    background: $color-grisClaro;
+    border-radius: 52px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .tituloLogin {
+    font-family: $fuente-principal;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 109.71%;
+    text-transform: uppercase;
+    color: $color-base;
+  }
+
+  .subtituloLogin {
+    font-family: $fuente-secundaria;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 18px;
+    color: $color-1;
+  }
+
+  .info_inferior {
+    bottom: 0;
+    margin-top: 2rem;
+  }
+
+  .info_inferior img {
+    width: 90px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .info_inferior p {
+    font-family: $fuente-principal;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 5px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    margin-top: 24px;
+    color: #000000;
+  }
+
+  .info_inferior a {
+    font-family: $fuente-principal;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-top: 24px;
+    letter-spacing: 0.1em;
+    color: $color-base;
+  
+  }
+
+  .p-login{
+    padding: 3rem;
+  }
+
+  @media (max-width:991px){
+    .mt-navbar {
+    margin-top: 80px;
+  }
+    .loginImg{
+      height: 200px;
+      border-radius: 10px;
+    }
+    .tituloLogin {
+      font-size: 2.5rem;
+    }
+    .p-login{
+    padding: 2rem 2rem;
+  }
+  }

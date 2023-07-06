@@ -1,0 +1,114 @@
+/*Modulos Cajero de Servicio*/
+#CAS-main {
+  margin-top: 5%;
+  margin-bottom: 3%;
+
+  .CAS-info {
+    margin: 25px 0;
+  }
+}
+
+.servicio-body {
+  background-color: $color-blanco;
+  padding: 1.2rem 1rem 1rem;
+  border: 1px solid $color-2;
+  border-radius: 5px;
+
+  width: 255px;
+  height: 95px;
+  margin: 5px 7px;
+
+  .icon-modulos {
+    margin-right: 1rem;
+  }
+
+  .titulo-servicio {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 8px;
+    word-break: break-word;
+  }
+}
+
+#encuentra-cas {
+  margin-top: 5%;
+
+  .CAS-list {
+    list-style: none;
+    margin-top: 5%;
+
+    .cas-item {
+      margin-bottom: 2rem;
+
+      .fa-chevron-right {
+        color: $color-gris;
+      }
+
+      .subtitulo {
+        margin-bottom: 0;
+      }
+
+      .cas-direccion {
+        font-size: 1rem;
+        line-height: 1rem;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+#responsable-info {
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+  .responsable-text {
+    text-transform: uppercase;
+    color: $color-1;
+    margin-bottom: 0;
+  }
+}
+
+/*Teléfonos de Emergencia*/
+#tel-emergencia {
+  margin-top: 5%;
+
+  .emergencia-list {
+    list-style: none;
+    margin-top: 5%;
+
+    .emer-item {
+      margin-bottom: 2rem;
+
+      .fa-chevron-right {
+        color: $color-gris;
+      }
+
+      .emer-telefono {
+        font-size: 1.375rem;
+        line-height: 2rem;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+/*Quejas y Denuncias*/
+#quejas-denuncias-main {
+  margin-top: 5%;
+
+  .banner-img {
+    border-radius: 5px 0 0 5px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #quejas-denuncias-main {
+    .banner-img {
+      border-radius: 5px 5px 0 0;
+    }
+  }
+}

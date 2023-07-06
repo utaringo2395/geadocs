@@ -1,0 +1,122 @@
+.alert {
+  .alert-heading {
+    font-family: $fuente-principal;
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+  hr {
+    margin: 1rem 0s;
+  }
+  .iconify {
+    font-size: 1rem;
+  }
+}
+
+.alert-success {
+  background: #9be48d;
+  border: 1px solid $color-5;
+
+  font-family: $fuente-secundaria;
+  font-size: 0.925rem;
+  font-weight: 600;
+  color: #12330c;
+
+  p {
+    font-family: $fuente-secundaria;
+    font-size: 0.925rem;
+    font-weight: 600;
+    color: #12330c;
+  }
+
+  a.alert-link {
+    font-weight: 900;
+    text-decoration: underline;
+  }
+}
+.alert-warning {
+  background: #ffd268;
+  border: 1px solid $color-3;
+
+  font-family: $fuente-secundaria;
+  font-size: 0.925rem;
+  font-weight: 600;
+  color: $color-base;
+
+  p {
+    font-family: $fuente-secundaria;
+    font-size: 0.925rem;
+    font-weight: 600;
+    color: $color-base;
+  }
+
+  a.alert-link {
+    font-weight: 900;
+    text-decoration: underline;
+  }
+}
+
+.alert-danger {
+  background: #fac5c5;
+  border: 1px solid $color-6;
+
+  font-family: $fuente-secundaria;
+  font-size: 0.925rem;
+  font-weight: 600;
+  color: #820b0b;
+
+  p {
+    font-family: $fuente-secundaria;
+    font-size: 0.925rem;
+    font-weight: 600;
+    color: #820b0b;
+  }
+
+  a.alert-link {
+    font-weight: 900;
+    text-decoration: underline;
+  }
+}
+
+.alert-light {
+  background: $color-blanco;
+  border: 1px solid $evento-color-1;
+
+  font-family: $fuente-secundaria;
+  font-size: 0.925rem;
+  font-weight: 600;
+  color: $evento-color-1;
+
+  p {
+    font-family: $fuente-secundaria;
+    font-size: 0.925rem;
+    font-weight: 600;
+    color: $evento-color-1;
+  }
+
+  a.alert-link {
+    font-weight: 900;
+    text-decoration: underline;
+  }
+}
+
+.alert-dark {
+  background: $color-gris;
+  border: 1px solid $color-negro;
+
+  font-family: $fuente-secundaria;
+  font-size: 0.925rem;
+  font-weight: 600;
+  color: $color-negro;
+
+  p {
+    font-family: $fuente-secundaria;
+    font-size: 0.925rem;
+    font-weight: 600;
+    color: $color-negro;
+  }
+
+  a.alert-link {
+    font-weight: 900;
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,130 @@
+.no-blur {
+  filter: blur(0) !important;
+}
+
+.opacidad-10 {
+  opacity: 0.7;
+}
+
+/*Margenes*/
+.margin-0 {
+  margin: 0;
+}
+
+.mb-100 {
+  margin-bottom: 300px !important;
+}
+
+/*Paddings*/
+.p-30 {
+  padding: 30px;
+}
+
+.img-100 {
+  width: 100%;
+  height: auto;
+}
+
+/*componente citas*/
+.chosen-container-single .chosen-single {
+  border-radius: 25px;
+}
+
+/*modal*/
+.modal-body {
+  .dirEl {
+    flex-direction: row;
+  }
+}
+
+/*google Search*/
+.gs-result .gs-title,
+.gs-result .gs-title * {
+  font-weight: 800 !important;
+  color: $color-base !important;
+}
+
+.gs-promotion .gs-visibleUrl,
+.gs-webResult .gs-visibleUrl {
+  color: $color-1 !important;
+  letter-spacing: 1px !important;
+  font-size: 13px !important;
+}
+
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+  color: $color-2 !important;
+}
+
+.gcsc-find-more-on-google {
+  color: #5f6368 !important;
+}
+
+.gcsc-find-more-on-google-magnifier {
+  fill: #5f6368 !important;
+}
+
+.gcsc-find-more-on-google-branding {
+  display: none !important;
+}
+
+.gsc-adBlock {
+  display: none !important;
+}
+
+/*fecha*/
+#geaFecha {
+  width: 277px;
+  display: inline-flex;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+a {
+  transition: all ease 0.2s;
+}
+
+a:hover .card {
+  border: 1px solid;
+}
+
+/*loader*/
+.loaderSliderContainer {
+  display: flex;
+  height: inherit;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  background-color: rgba(0,0,0,0.2);
+  animation: skeleton-anim 1s infinite alternate;
+  border-radius: 5px;
+} 
+
+@keyframes skeleton-anim{
+  0%{opacity: 0.3}
+  100%{opacity: 0.8}
+}
+
+#appAgs{
+  p.text-end{
+    color: $color-2;
+    text-align: left !important;
+    margin-top: 100px;
+  }
+  strong{
+    color: $color-base;
+  }
+}
+
+// /*vscata*/
+// #lblSiglas{
+//   font-size: 30px!important;
+// }
+
+/*navbar*/
+.navbar-toggler-icon{
+  background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2841, 60, 152, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler{
+  border: 3px solid #293c98;
+}

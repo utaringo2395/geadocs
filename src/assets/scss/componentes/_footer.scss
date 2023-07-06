@@ -1,0 +1,134 @@
+footer {
+  font-family: $fuente-principal;
+  background-color: $color-blanco;
+  text-align: left;
+  line-height: 2rem;
+  padding: 70px 0px;
+  border-top: 1px solid $color-grisClaro;
+  margin-top: 5%;
+
+  .footer-icons-media{
+    svg{
+      width: 2rem;
+      height: auto;
+      margin-right: 10px;
+    }
+  }
+
+  p {
+    color: $color-5;
+    font-weight: 500;
+  }
+  a {
+    color: $color-5;
+    transition: all ease 0.2s;
+    &:hover {
+      color: $color-1;
+    }
+  }
+
+  .titulo {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1rem;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: $color-5;
+
+    &:after {
+      content: "";
+      display: block;
+      height: 1px;
+      width: 65px;
+      margin-top: 10px;
+    }
+
+    &.ags:after {
+      background-color: $color-1;
+    }
+    &.mapaSitio:after {
+      background-color: $color-4;
+    }
+    &.contactoF:after {
+      background-color: $color-5;
+    }
+  }
+  ul {
+    color: $color-5;
+    font-weight: 500;
+    list-style-type: none;
+    padding: 0;
+    word-break: break-word;
+
+    li {
+      padding: 0;
+    }
+  }
+
+  .container .d-flex.flex-row.justify-content-center.mt-5 {
+    flex-wrap: wrap;
+
+    p.footer-item.p-2 {
+      text-align: center;
+    }
+  }
+
+  /*PENDIENTE PROXIMA SEMANA cambios para elementos finales de footer*/
+  // .refInfo {
+  //   display: flex;
+  //   flex-direction: row;
+  //   flex-wrap: wrap;
+  //   justify-content: center;
+
+  //   margin-top: 1.25rem;
+
+  //   .footer-item {
+  //     text-align: center;
+  //   }
+  // }
+  
+}
+
+footer {
+  hr {
+    opacity: 1;
+  }
+}
+footer .footer-title {
+  font-family: $fuente-principal, sans-serif;
+  font-weight: 700;
+  font-size: 0.788rem;
+  color: $color-5;
+  letter-spacing: 2px;
+}
+footer .hr-ags {
+  border: 1px solid $color-1;
+  width: 65px;
+  border-top: 1px;
+  margin-left: 0;
+  background: $color-1;
+}
+footer .hr-mapa {
+  border: 1px solid $color-2;
+  width: 65px;
+  border-top: 1px;
+  margin-left: 0;
+  background: $color-4;
+}
+footer .hr-contacto {
+  border: 1px solid $color-4;
+  width: 65px;
+  border-top: 1px;
+  margin-left: 0;
+  background: $color-5;
+}
+@media (max-width: 575.98px) {
+  footer .seccion-footer {
+    margin: 5% 0;
+  }
+  footer .logogob-footer {
+    margin: 3% 0 7%;
+    
+  }
+}

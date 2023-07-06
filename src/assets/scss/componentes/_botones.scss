@@ -1,0 +1,312 @@
+.btn {
+  font-family: $fuente-principal;
+  font-size: 1rem;
+  font-weight: $btn-fntWeight;
+  letter-spacing: .04rem;
+  // padding: 8px 12px;
+  // border-radius: $standard-radius;
+  // font-size: 0.875rem;
+}
+
+.disablePointer .isDisabled {
+  pointer-events: none;
+}
+
+.disablePointer {
+  cursor: not-allowed !important;
+}
+
+// deshabilitado
+.isDisabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  text-decoration: none;
+
+}
+
+
+/*Colores de botones*/
+.btn-principal {
+  background: $color-base;
+  color: $color-blanco;
+  transition: all ease-in-out 0.2s;
+  // border-radius: $standard-radius;
+  line-height: unset;
+
+  &:hover {
+    background: lighten($color-base, 10%);
+    color: $color-blanco;
+    text-decoration: none;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 0.2rem $shadow-blue;
+  }
+}
+
+.btn-principal-light {
+  // height: 35px;
+  background: $color-blanco;
+  color: $color-base;
+  border: 1px solid $color-grisClaro;
+  transition: all ease-in-out 0.2s;
+  border-radius: $standard-radius;
+  line-height: unset;
+
+  &:hover {
+    background: $color-grisClaro;
+    color: $color-base;
+    text-decoration: none;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 0.2rem $shadow-blue;
+  }
+}
+
+.btn-xl-azul {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  border: 1px solid $color-base;
+  color: $color-base;
+  font-weight: 900;
+  font-size: 22px;
+  text-transform: uppercase;
+  padding: 18px 12px;
+  transition: all ease 0.2s;
+
+  path {
+    fill: $color-base;
+  }
+
+  p {
+    margin: 0;
+    font-weight: 900;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-left: 10px;
+  }
+
+  &:hover {
+    background: $color-base;
+    color: $color-blanco;
+    text-decoration: none;
+
+    p {
+      color: $color-blanco;
+
+    }
+
+    path {
+      fill: $color-blanco;
+    }
+  }
+}
+
+/*Formularios*/
+.btn-form {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  border-radius: 50px;
+  font-size: 1.125rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: 0.875rem;
+  border: 0px;
+  text-align: center;
+  background: $color-base;
+  color: $color-blanco;
+  transition: all ease-in-out 0.2s;
+  justify-self: center;
+  align-self: center;
+  text-decoration: none;
+  padding: 20px 0px;
+
+  &:hover {
+    background: lighten($color-base, 10%);
+    color: $color-blanco;
+    text-decoration: none;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 0.2rem $shadow-blue;
+  }
+}
+
+/*botones de color*/
+.btn.bg-1 {
+  color: $color-blanco;
+  background: $color-1;
+
+  &:hover {
+    background: lighten($color-1, 10%);
+  }
+}
+
+.btn.bg-2 {
+  color: $color-blanco;
+  background: $color-2;
+
+  &:hover {
+    background: lighten($color-2, 10%);
+  }
+}
+
+.btn.bg-3 {
+  color: $color-negro;
+  background: $color-3;
+
+  &:hover {
+    background: lighten($color-3, 10%);
+  }
+}
+
+.btn.bg-4 {
+  color: $color-blanco;
+  background: $color-4;
+
+  &:hover {
+    background: lighten($color-4, 5%);
+  }
+}
+
+.btn.bg-5 {
+  color: $color-blanco;
+  background: $color-5;
+
+  &:hover {
+    background: lighten($color-5, 5%);
+  }
+}
+
+.btn.bg-6 {
+  color: $color-blanco;
+  background: $color-6;
+
+  &:hover {
+    background: lighten($color-6, 10%);
+  }
+}
+
+/*Botones de línea*/
+
+
+.btn-ln-default {
+  border: $btn-stroke solid $color-base;
+  font-weight: $btn-fntWeight;
+  color: $color-base;
+  background: transparent;
+
+  &:hover {
+    border: $btn-stroke solid $color-base;
+    background: $color-base;
+    color: $color-blanco  !important;
+  }
+}
+
+.btn-ln-bg1 {
+  border: $btn-stroke solid $color-1;
+  font-weight: $btn-fntWeight;
+  color: $color-1;
+  background: transparent;
+
+  &:hover {
+    border: $btn-stroke solid $color-1;
+    background: $color-1;
+    color: $color-blanco;
+  }
+}
+
+.btn-ln-bg2 {
+  border: $btn-stroke solid $color-2;
+  font-weight: $btn-fntWeight;
+  color: $color-2;
+  background: transparent;
+
+  &:hover {
+    border: $btn-stroke solid $color-2;
+    background: $color-2;
+    color: $color-blanco;
+  }
+}
+
+.btn-ln-bg3 {
+  border: $btn-stroke solid $color-3;
+  font-weight: $btn-fntWeight;
+  color: $color-3;
+  background: transparent;
+
+  &:hover {
+    border: $btn-stroke solid $color-3;
+    background: $color-3;
+    color: $color-blanco;
+  }
+}
+
+.btn-ln-bg4 {
+  border: $btn-stroke solid $color-4;
+  font-weight: $btn-fntWeight;
+  color: $color-4;
+  background: transparent;
+
+  &:hover {
+    border: $btn-stroke solid $color-4;
+    background: $color-4;
+    color: $color-blanco;
+  }
+}
+
+.btn-ln-bg5 {
+  border: $btn-stroke solid $color-5;
+  font-weight: $btn-fntWeight;
+  color: $color-5;
+  background: transparent;
+
+  &:hover {
+    border: $btn-stroke solid $color-5;
+    background: $color-5;
+    color: $color-blanco;
+  }
+}
+
+.btn-ln-bg6 {
+  border: $btn-stroke solid $color-6;
+  font-weight: $btn-fntWeight;
+  color: $color-6;
+  background: transparent;
+
+  &:hover {
+    border: $btn-stroke solid $color-6;
+    background: $color-6;
+    color: $color-blanco;
+  }
+}
+
+.btn-ln-blanco {
+  border: $btn-stroke solid $color-blanco;
+  font-weight: $btn-fntWeight;
+  color: $color-blanco;
+  background: transparent;
+
+  &:hover {
+    border: $btn-stroke solid $color-blanco;
+    background: $color-blanco;
+    color: $color-negro;
+  }
+}
+
+/*fix inputs como botenes*/
+input.btn{
+  height: auto;
+}
+
+input.btn-form{
+  height: auto !important;
+  font-family: $fuente-principal !important;
+  font-weight: 500 !important;
+  letter-spacing: 1px !important;
+}
+

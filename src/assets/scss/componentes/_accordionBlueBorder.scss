@@ -1,0 +1,81 @@
+.accordion {
+  .titulo,
+  .subtitulo-sm {
+    margin-bottom: 2rem;
+    text-align: left;
+    text-transform: uppercase;
+  }
+}
+.card.borderBlue-card {
+  font-family: $fuente-principal;
+  border-radius: 10px;
+  border-color: $color-2;
+}
+
+.card-header.borderBlue-accordion.collapsed {
+  background-color: $color-blanco;
+  text-align: left;
+  color: $color-base;
+  margin: 0;
+  border-color: $color-2;
+}
+
+.card-header.borderBlue-accordion:not(.collapsed) {
+  background: $color-2;
+  color: $color-blanco;
+  text-align: left;
+  border-color: $color-2;
+}
+
+a.accordion-bg {
+  background-color: inherit;
+  font-weight: 700;
+  color: inherit;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding: auto;
+  text-align: left;
+  line-height: 1.5rem;
+}
+
+.fa-chevron-down {
+  float: left;
+  padding-right: 2rem;
+  padding-bottom: 3.5rem;
+  font-size: 1.3rem;
+}
+
+table {
+  font-family: $fuente-principal;
+
+  th {
+    font-weight: 900;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+  }
+
+  tr {
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
+
+  a.descarga-icon {
+    color: lighten($color-negro, 50%);
+    font-size: 1.2rem;
+
+    &:hover {
+      color: $color-2;
+    }
+  }
+}
+
+.accordion-button{
+  img{
+    width: 100px;
+    height: auto;
+
+    @media (max-width:600px){
+      width: 80px;
+    }
+  }
+}

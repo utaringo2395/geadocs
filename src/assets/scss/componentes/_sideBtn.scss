@@ -1,0 +1,90 @@
+.sideBtn {
+  border-radius: 5px;
+  padding: 3.5%;
+  margin-bottom: 1rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  transition: transform 250ms;
+
+  i {
+    font-size: 30px;
+    margin: 0 10px;
+  }
+
+  p {
+    font-family: $fuente-principal;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    padding-left: 8px;
+    line-height: 1.2;
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.12);
+
+    text-decoration: none;
+  }
+}
+
+.side-blanco {
+  background: $color-blanco;
+  border: 1px solid $color-base;
+
+  i,
+  p {
+    color: $color-base;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.side-aqua {
+  background: $color-1;
+  border: 1px solid $color-1;
+  i,
+  p {
+    color: $color-blanco;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.side-rojo {
+  background: $color-6;
+  border: 1px solid $color-6;
+  i,
+  p {
+    color: $color-blanco;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.side-azul {
+  background: $color-2;
+  border: 1px solid $color-2;
+  i,
+  p {
+    color: $color-blanco;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+// .sideBtn:hover[class^="btn-ln-"] {
+// color: $color-blanco;
+// }

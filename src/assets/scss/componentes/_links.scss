@@ -1,0 +1,24 @@
+// a {
+//   text-decoration: none !important;
+// }
+
+// a::after {
+//   content: "";
+//   display: block;
+//   width: 0;
+//   height: 2px;
+//   background: $color-1;
+//   transition: width 0.3s;
+// }
+
+// a:hover::after {
+//   content: "";
+//   display: block;
+//   width: inherit;
+//   //transition: width .3s;
+// }
+
+/*no todos los links deberian de tener lineas*/
+a{
+    text-decoration: none !important;
+}

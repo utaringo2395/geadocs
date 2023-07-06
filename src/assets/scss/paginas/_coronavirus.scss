@@ -1,0 +1,353 @@
+#header-container {
+  background: linear-gradient(80.16deg, #01375b 39.7%, #4a7ef1 149.45%);
+  padding: 5% 2.5% 0;
+  border-radius: 10px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+  .covid-logo {
+    width: 100%;
+  }
+  .header-title {
+    font-weight: 900;
+    font-size: 1.75rem;
+    color: $color-blanco;
+    text-align: right;
+
+    span {
+      font-weight: 200;
+    }
+  }
+
+  ul.casos-list {
+    list-style: none;
+    margin: 1.5rem 0;
+
+    li.casos-item {
+      display: inline-block;
+      text-align: right;
+      margin-left: 3rem;
+
+      #c-descartados,
+      #c-investigacion,
+      #c-confirmados,
+      #c-defunciones {
+        font-weight: 900;
+        color: $color-blanco;
+        font-size: 2rem;
+      }
+
+      .casos-detalle {
+        font-size: 1.125rem;
+        font-weight: 500;
+        color: $color-blanco;
+      }
+
+      .hr-1 {
+        margin-top: 3px;
+        border-color: $color-1;
+      }
+      .hr-2 {
+        margin-top: 3px;
+        border-color: $color-3;
+      }
+      .hr-3 {
+        margin-top: 3px;
+        border-color: $color-6;
+      }
+      .hr-4 {
+        margin-top: 3px;
+        border-color: $color-negro;
+      }
+    }
+  }
+
+  .fecha-actualizacion {
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    color: $color-blanco;
+    margin-top: 2.5rem;
+  }
+
+  .breadcrumb {
+    background: none;
+    margin-top: 2rem;
+
+    a {
+      font-family: $fuente-principal;
+      color: $color-blanco;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 18px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+  }
+}
+
+#mapas {
+  margin: 5% 0;
+
+  .subtitulo {
+    margin-bottom: 1.5rem;
+  }
+
+  .mapas-container {
+    padding: 4.313rem;
+    background-color: $color-blanco;
+    box-shadow: 0px 4px 20px 0px $shadow-black;
+    border-radius: 5px;
+
+    .content-title {
+      font-weight: 800;
+      font-size: 1.625rem;
+      text-transform: uppercase;
+    }
+
+    .mapa-mx {
+      width: 100%;
+    }
+
+    .mapas-ags-container {
+      padding: 1rem;
+      width: 100%;
+      margin-bottom: 3rem;
+
+      .datos-ags {
+        width: 80%;
+      }
+      .mapa-ags {
+        width: 100%;
+      }
+    }
+  }
+}
+
+#telefonos {
+  margin: 5% 0;
+
+  .telefonos-container {
+    margin: 1.5rem 0;
+    .tel-img-container {
+      background-color: $color-blanco;
+      padding: 5%;
+      box-shadow: 0px 4px 20px 0px $shadow-black;
+      border-radius: 5px 0 0 5px;
+    }
+
+    .tel-text-container {
+      background-color: $color-6;
+      padding: 2%;
+      box-shadow: 0px 4px 20px 0px $shadow-black;
+      border-radius: 0 5px 5px 0;
+
+      .telefonos-text {
+        margin: 3rem 2% 0;
+        color: $color-blanco;
+        font-weight: 800;
+        font-size: 1.5rem;
+        line-height: 30px;
+      }
+
+      .btn-mini {
+        margin-top: 4rem;
+      }
+    }
+  }
+}
+
+#protocolos {
+  margin: 5% 0;
+
+  .protocolos-content {
+    margin: 2rem 0;
+  }
+
+  .protocolo-box {
+    width: 255px;
+    height: 255px;
+    background-color: $color-blanco;
+    border: 1px solid;
+    border-color: $color-2;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .protocolo-img {
+      margin: 1.2rem 0;
+    }
+    .protocolo-title {
+      font-weight: 900;
+      font-size: 18px;
+      text-transform: uppercase;
+      color: lighten($color-base, 5%);
+      line-height: 1;
+      padding: 0 0.3rem;
+    }
+
+    &:hover {
+      background-color: $color-1;
+      border: 1px solid;
+      border-color: $color-1;
+
+      .protocolo-title {
+        color: $color-blanco;
+      }
+    }
+  }
+}
+
+#info-covid {
+  margin: 5% 0;
+  .recomendaciones-img {
+    margin: 1rem;
+  }
+  #covid-sides {
+    .bolsa-trabajo,
+    .cuadrante-covid,
+    .reportes-covid-btn {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+
+      &:hover {
+        border-radius: 10px;
+        box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.35);
+      }
+    }
+  }
+}
+
+#info-videos {
+  margin: 5% 0;
+  .infografias-container {
+    background-color: $color-base;
+    width: 100%;
+    height: 346px;
+    border-radius: $standard-radius;
+  }
+
+  .videos-container {
+    background-color: $color-1;
+    width: 100%;
+    height: 346px;
+    border-radius: $standard-radius;
+  }
+}
+
+#noticias {
+  margin: 5% 0;
+
+  .noticias-side-link {
+    border-radius: $standard-radius;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+    .noticias-side {
+      width: 100%;
+      margin-bottom: 1.5rem;
+      border-radius: $standard-radius;
+
+      &:hover {
+        border-radius: $standard-radius;
+        box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.35);
+      }
+    }
+  }
+}
+
+#info-general {
+  margin: 5% 0;
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+
+    li.info-gral-item {
+      padding: 3px 0;
+
+      a.info-gral-link {
+        font-weight: 400;
+        font-size: 1rem;
+        color: $color-1;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+#social-media {
+  margin: 5% 0;
+  .twitter-timeline,
+  .fb-page {
+    width: 100%;
+    height: auto;
+  }
+}
+
+#contacto {
+  margin: 5% 0;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 767.98px) {
+  #header-container {
+    .covid-logo {
+      width: 70%;
+      margin-bottom: 2rem;
+    }
+  }
+
+  #telefonos {
+    .telefonos-container {
+      .tel-atencion {
+        padding: 10px;
+      }
+      .tel-text-container {
+        p.telefonos-text {
+          font-size: 14px;
+          line-height: 1.5;
+          margin-top: 1.5rem;
+        }
+
+        .btn-mini {
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+
+  #protocolos {
+    .protocolo-box {
+      width: 160px;
+      height: 160px;
+      margin: 5px;
+
+      .protocolo-img {
+        width: 5rem;
+      }
+
+      .protocolo-title {
+        font-size: 12px;
+        padding: 0 8px;
+      }
+    }
+  }
+
+  #info-covid {
+    .recomendaciones-img {
+      width: 145px;
+      margin: 10px;
+    }
+  }
+
+  #covid-sides {
+    margin: 5% 0;
+  }
+}

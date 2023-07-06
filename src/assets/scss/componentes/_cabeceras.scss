@@ -1,0 +1,1027 @@
+.cabecera-1 {
+  overflow: hidden;
+  width: 100%;
+  height: 600px;
+  margin-top: 105px;
+  background: $color-2;
+  background-size: cover;
+  border-radius: 0px;
+  position: relative;
+  padding: 0px 100px;
+
+
+  @media (max-width: 600px) {
+    padding: 12px;
+    margin-top: 70px;
+    height: 400px;
+  }
+
+  .info-contenedor-cb {
+    position: absolute;
+    bottom: 50%;
+    background: none;
+    text-align: left;
+    padding: 0;
+    z-index: 1;
+    // left: 35px;
+
+
+    @media (max-width: 600px) {
+      bottom: 100px;
+    }
+
+    /*logo en mobile*/
+    .logo {
+
+      max-height: 110px;
+      display: none;
+
+      @media (max-width: 780px) {
+        display: block;
+      }
+    }
+
+    /*logo en tablets y pc*/
+    .logoCompleto {
+      display: block;
+      max-height: 110px;
+
+      @media (max-width: 780px) {
+        display: none;
+      }
+    }
+
+    .abr-dependencia {
+      display: none;
+      font-family: $fuente-principal;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 72px;
+      line-height: 72px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: $color-blanco;
+
+      &:after {
+        content: "";
+        display: block;
+        width: 111px;
+        height: 10px;
+        position: absolute;
+        background: url("https://aguascalientes.gob.mx/img/colorDivider.svg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: bottom;
+        transition: all ease .2s;
+        position: relative;
+        display: inline-block;
+
+      }
+
+      @media (max-width: 600px) {
+        font-size: 35px;
+      }
+    }
+
+    .nombre-dependencia {
+      display: none;
+      font-family: $fuente-principal;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 30px;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: $color-blanco;
+      max-width: 700px;
+
+      @media (max-width: 600px) {
+        font-size: 20px;
+        margin-top: -20px;
+        letter-spacing: 0.1em;
+      }
+    }
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    width: 724px;
+    height: 718px;
+    position: absolute;
+    background: url("https://aguascalientes.gob.mx/img/divider.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    bottom: -1px;
+    left: -100px;
+    transition: all ease .2s;
+    z-index: 0;
+
+    @media (max-width: 1444px) {
+      background-size: 100%;
+    }
+  }
+
+  nav {
+    position: absolute;
+    bottom: calc(50% - 71px);
+    display: inline-flex;
+    max-width: 800px;
+    width: 100%;
+    z-index: 1;
+
+    @media (max-width: 600px) {
+      font-size: 16px;
+      max-width: 590px;
+      bottom: 20px;
+    }
+  }
+}
+
+.cabecera-2 {
+  margin-top: 120px;
+  width: 100%;
+  min-height: 230px;
+  border-radius: 10px;
+  position: relative;
+  padding: 35px;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+
+  @media (max-width: 600px) {
+    min-height: 180px;
+  }
+
+  .cb-mainWrapper {
+    width: 100%;
+    display: flex;
+  }
+
+  .imgContenedor {
+    margin: 0 40px 0 0;
+  }
+
+  .info-contenedor-cb {
+    position: relative;
+    background: none;
+    text-align: left;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 20px;
+
+    .logo {
+      display: block;
+      max-height: 110px;
+    }
+
+    .abr-dependencia {
+      font-family: $fuente-principal;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 72px;
+      line-height: 72px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: $color-blanco;
+
+      @media (max-width: 991px) {
+        font-size: 3.2rem;
+      }
+
+      @media (max-width: 762px) {
+        font-size: 2.5rem;
+      }
+
+      @media (max-width: 600px) {
+        font-size: 2.2rem;
+      }
+
+      @media (max-width: 411px) {
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+      }
+    }
+
+    .sub-dependencia {
+      font-family: $fuente-secundaria;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 1.3rem;
+      letter-spacing: 0.05em;
+    }
+
+    .nombre-dependencia {
+      font-family: $fuente-secundaria;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 30px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+
+      max-width: 560px;
+    }
+  }
+
+  .breadcrumb-sae {
+    position: relative !important;
+    bottom: 0;
+    margin-bottom: 0rem;
+  }
+}
+
+.cabecera-3 {
+  margin-top: 120px;
+  width: 100%;
+  min-height: 230px;
+  border-radius: 10px;
+  position: relative;
+  padding: 35px;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+
+  @media (max-width: 600px) {
+    min-height: 150px;
+    padding: 25px;
+  }
+
+  .info-contenedor-cb {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 20px;
+
+    .logo {
+      max-height: 145px;
+      text-align: center;
+      margin-right: 2rem;
+
+      @media (max-width: 762px) {
+        display: none;
+      }
+    }
+
+    .abr-dependencia {
+      font-family: $fuente-principal;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 72px;
+      line-height: 72px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: $color-base;
+
+      @media (max-width: 762px) {
+        font-size: 32px;
+        line-height: 30px;
+      }
+    }
+
+    nav ol.breadcrumb.breadcrumb-sae,
+    .breadcrumb-sae .breadcrumb-item+.breadcrumb-item::before,
+    nav ol.breadcrumb.breadcrumb-sae a,
+    nav ol.breadcrumb.breadcrumb-sae li.breadcrumb-item {
+      color: $color-base;
+    }
+  }
+}
+
+.cabecera-4 {
+  // margin-top: 180px;
+  width: 100%;
+  min-height: 330px;
+  border-radius: 10px;
+  position: relative;
+  padding: 35px 0px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 980px) {
+    flex-wrap: wrap-reverse;
+  }
+
+  .texto {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    max-width: 400px;
+
+    color: $color-base;
+
+    @media (max-width: 600px) {
+      text-align: center;
+      font-size: 48px;
+      margin: 0 auto;
+    }
+  }
+
+  .breadcrumb-sae {
+    position: relative !important;
+    margin-top: 20px;
+
+    @media (max-width: 600px) {
+      justify-content: center;
+    }
+  }
+
+  nav ol.breadcrumb.breadcrumb-sae,
+  .breadcrumb-sae .breadcrumb-item+.breadcrumb-item::before,
+  nav ol.breadcrumb.breadcrumb-sae a,
+  nav ol.breadcrumb.breadcrumb-sae li.breadcrumb-item {
+    color: $color-base;
+  }
+
+  img {
+    max-width: 100%;
+
+    @media (max-width: 600px) {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+.cabecera-5 {
+  margin-top: 120px;
+  width: 100%;
+  min-height: 230px;
+  border-radius: 10px;
+  position: relative;
+  padding: 35px;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+
+  @media (max-width: 600px) {
+    margin-top: 80px;
+    min-height: 200px;
+    padding: 16px;
+  }
+
+  .breadcrumb-sae {
+    @media (max-width: 600px) {
+      bottom: 10px;
+      margin: 0;
+    }
+
+    li {
+      @media (max-width: 600px) {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .info-contenedor-cb {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 20px;
+
+    .logo {
+      max-height: 145px;
+      text-align: center;
+      margin-right: 2rem;
+
+      @media (max-width: 600px) {
+        display: none;
+      }
+    }
+
+    .abr-dependencia {
+      font-family: $fuente-principal;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 72px;
+      line-height: 72px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: $color-base;
+
+      @media (max-width: 600px) {
+        font-size: 30px;
+        line-height: 32px;
+      }
+    }
+
+    .nombre-dependencia {
+      font-family: $fuente-principal;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 22px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: $color-base;
+    }
+
+    .sub-dependencia {
+      font-family: $fuente-principal;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 22px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: $evento-color-1;
+
+      @media (max-width: 600px) {
+        font-size: 14px;
+      }
+    }
+
+    nav ol.breadcrumb.breadcrumb-sae,
+    .breadcrumb-sae .breadcrumb-item+.breadcrumb-item::before,
+    nav ol.breadcrumb.breadcrumb-sae a,
+    nav ol.breadcrumb.breadcrumb-sae li.breadcrumb-item {
+      color: $color-base;
+    }
+  }
+}
+
+.mini-1 {
+  width: 100%;
+  padding: 25px 0;
+
+  background: $color-blanco;
+
+  h1 {
+    font-family: $fuente-principal;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: $color-base;
+
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-family: $fuente-principal;
+    font-size: 20px;
+    font-weight: 300;
+  }
+}
+
+.cabecera-5.bg_dg-7 {
+  margin-bottom: 20px;
+}
+
+.cabecera-5.bg_dg-7 .abr-dependencia {
+  color: $color-blanco  !important;
+}
+
+.cabecera-5.bg_dg-7 .sub-dependencia {
+  color: $color-blanco  !important;
+  opacity: 0.5;
+}
+
+.cabecera-5.bg_dg-7 .breadcrumb-sae .breadcrumb-item {
+  color: $color-blanco  !important;
+}
+
+.cabecera-5.bg_dg-7 .breadcrumb-sae a {
+  color: $color-blanco  !important;
+}
+
+.cabecera-5.bg_dg-7 .breadcrumb-sae a:hover {
+  color: $color-1  !important;
+}
+
+.cabecera-5.bg_dg-7 .breadcrumb-sae .breadcrumb-item+.breadcrumb-item::before {
+  color: $color-blanco  !important;
+}
+
+$leftSpaceHeader-xl: 110px;
+$leftSpaceHeader-lg: 60px;
+$leftSpaceHeader-md: 20px;
+
+.cabecera6 {
+  position: relative;
+  max-width: 1390px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  transition: all ease 0.2s;
+
+  @media (max-width: 1400px) {
+    margin: 0 20px;
+  }
+
+  @media (max-width: 830px) {
+    flex-wrap: wrap;
+  }
+
+  .img {
+    height: 446px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0;
+    border-radius: 10px;
+
+    @media (max-width: 830px) {
+      height: 220px;
+    }
+  }
+
+  .ciudad {
+    color: $color-blanco;
+    position: absolute;
+    transform: rotate(-90deg);
+    transform-origin: left;
+    bottom: 40px;
+    left: 21px;
+    letter-spacing: 3px;
+
+    @media (max-width: 1170px) {
+      display: none;
+    }
+  }
+
+  .tituloContainer {
+    margin-left: $leftSpaceHeader-xl;
+    z-index: 1;
+    margin-top: 150px;
+
+    @media (max-width: 1350px) {
+      margin-left: $leftSpaceHeader-lg;
+    }
+
+    @media (max-width: 1170px) {
+      margin-left: $leftSpaceHeader-md;
+    }
+
+    @media (max-width: 1125px) {}
+
+    @media (max-width: 830px) {
+      margin-top: 100px;
+    }
+
+    .superior {
+      font-weight: 400;
+      font-size: 30px;
+      color: $color-blanco;
+      line-height: 0;
+
+      @media (max-width: 1350px) {
+        font-size: 30px;
+      }
+
+      @media (max-width: 830px) {
+        font-size: 26px;
+      }
+
+
+    }
+
+    .inferior {
+      font-weight: 700;
+      font-size: 65px;
+      color: $color-blanco;
+
+      @media (max-width: 1350px) {
+        font-size: 50px;
+      }
+
+      @media (max-width: 830px) {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .dependenciaContainer {
+    position: absolute;
+    bottom: 2rem;
+    left: $leftSpaceHeader-xl;
+
+    @media (max-width: 1350px) {
+      left: $leftSpaceHeader-lg;
+    }
+
+    @media (max-width: 1170px) {
+      left: $leftSpaceHeader-md;
+    }
+
+    @media (max-width: 830px) {
+      bottom: unset;
+      left: 20px;
+      top: 25px;
+    }
+
+    .superior {
+      font-weight: 400;
+      font-size: 24px;
+      color: $color-blanco;
+      margin: 0;
+      line-height: 1.8rem;
+
+      @media (max-width: 1125px) {
+        font-size: 20px;
+        line-height: 0.5rem;
+      }
+
+      @media(max-width: 600px) {
+        font-size: 18px;
+        line-height: 1.3rem;
+      }
+    }
+
+    .inferior {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 28px;
+      text-transform: uppercase;
+      color: $color-blanco;
+
+      @media (max-width: 1125px) {
+        font-size: 10px;
+      }
+    }
+  }
+
+  .extraContainer {
+    width: 560px;
+    height: auto;
+    padding: 30px;
+    background: $color-blanco;
+    border-radius: 20px;
+    position: absolute;
+    right: 40px;
+    top: 190px;
+    box-shadow: 0px 4px 70px rgba(85, 85, 85, 0.23);
+
+    @media (max-width: 1350px) {
+      right: 20px;
+    }
+
+    @media (max-width: 1170px) {
+      padding: 20px 10px;
+    }
+
+    @media (max-width: 830px) {
+      width: calc(100% - 20px);
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      top: -50px;
+      position: relative;
+    }
+
+    ul,
+    ol {
+      list-style: none;
+      padding: 0;
+      margin-top: 30px;
+      height: 170px;
+      overflow-y: auto;
+
+      &::-webkit-scrollbar {
+        width: 5px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 5px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: rgb(185, 185, 185);
+        border-radius: 5px;
+        transition: all ease 0.5s;
+      }
+
+      &::-webkit-scrollbar-thumb:hover {
+        background: #012557;
+      }
+
+      li {
+        margin-bottom: 16px;
+      }
+    }
+
+    a {
+      text-transform: uppercase;
+      color: $color-base;
+
+      &:hover {
+        color: $color-1;
+      }
+    }
+  }
+}
+
+.cabeceraPOE {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  margin-top: 100px;
+  position: relative;
+
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden;
+
+  @media (max-width: 991.98px) {
+    flex-direction: column;
+  }
+
+  .swiperPOE {
+    position: absolute;
+    height: 100%;
+    z-index: -2;
+
+    .swiper-wrapper {
+      .swiper-slide {
+        img {
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  .titulos {
+    text-transform: uppercase;
+    color: $color-blanco;
+    padding: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+    h1 {
+      font-size: 58px;
+      font-weight: 700;
+      margin-bottom: 0;
+
+      @media (max-width: 991.98px) {
+        font-size: 38px;
+        margin-top: 20px;
+      }
+      @media (max-width: 575.98px) {
+        font-size: 28px;
+      }
+    }
+
+    p {
+      font-size: 38px;
+      font-weight: 400;
+      color: $color-blanco;
+      margin-top: 0;
+      line-height: 1.2;
+
+      @media (max-width: 991.98px) {
+        font-size: 28px;
+      }
+      @media (max-width: 575.98px) {
+        font-size: 16px;
+      }
+    }
+
+    nav {
+
+      .breadcrumb {
+
+        .breadcrumb-item {
+          font-weight: 500;
+          font-size: 18px;
+          color: $color-blanco;
+
+          @media (max-width: 991.98px) {
+            font-size: 14px;
+          }
+
+          a {
+            color: $color-blanco;
+
+            &:hover {
+              color: $color-1;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .info {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.55) 0%, rgba(74, 126, 241, 0.8) 100%);
+    width: 30%;
+    padding: 2%;
+    border-radius: 0 10px 10px 0;
+    justify-content: start;
+
+    @media (max-width: 991.98px) {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      border-radius: 0 0px 10px 10px;
+    }
+
+    .infoItem {
+      display: flex;
+      flex-direction: row;
+      align-self: center;
+      padding: 7px;
+      margin: 8px 0;
+      /*border: 1px solid red;*/
+
+      @media (max-width: 991.98px) {
+        flex-direction: column;
+        justify-content: center;
+        width: 165px;
+        margin: 20px;
+      }
+      @media (max-width: 575.98px) {
+        width: 140px;
+        margin: 0;
+      }
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.25);
+        border-radius: 5px;
+      }
+
+      .infoImg {
+        width: 45px;
+        height: auto;
+        margin-right: 10px;
+
+        @media (max-width: 991.98px) {
+          margin-bottom: 10px;
+        }
+      }
+
+      .infoText {
+        color: $color-blanco;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 800;
+        word-break: break-word;
+        margin: 0;
+
+        @media (max-width: 991.98px) {
+          text-align: center;
+        }
+        @media (max-width: 575.98px) {
+          font-size: 10px;
+        }
+
+      }
+    }
+
+  }
+}
+
+.cabeceraNormateca {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  position: relative;
+
+  margin-top: 120px;
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+
+  @media (max-width: 991.98px) {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .swiperNormateca {
+    position: absolute;
+    height: 100%;
+    z-index: 0;
+
+    .swiper-wrapper {
+      .swiper-slide {
+        img {
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  .titulos {
+    text-transform: uppercase;
+    color: $color-blanco;
+    padding: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    z-index: 1;
+
+    h1 {
+      font-size: 58px;
+      font-weight: 700;
+      margin-bottom: 0;
+      text-transform: uppercase;
+
+      @media (max-width: 991.98px) {
+        font-size: 38px;
+        margin-top: 20px;
+      }
+
+      @media (max-width: 575.98px) {
+        font-size: 24px;
+        margin-top: 20px;
+      }
+
+
+    }
+
+    p {
+      font-size: 38px;
+      font-weight: 400;
+      color: $color-blanco;
+      margin-top: 0;
+      line-height: 1.2;
+
+      @media (max-width: 991.98px) {
+        font-size: 28px;
+      }
+
+      @media (max-width: 575.98px) {
+        font-size: 15px;
+      }
+    }
+
+    nav {
+
+      .breadcrumb {
+
+        .breadcrumb-item {
+          font-weight: 500;
+          font-size: 18px;
+          color: $color-blanco;
+
+          @media (max-width: 991.98px) {
+            font-size: 14px;
+          }
+
+          a {
+            color: $color-blanco;
+
+            &:hover {
+              color: $color-1;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*fix sicat*/
+#main_container {
+  .cabecera6 {
+    margin-bottom: 2rem;
+
+    .extraContainer {
+      top: 255px;
+
+      tbody {
+        height: 175px;
+        overflow-y: auto;
+        display: block;
+
+        &::-webkit-scrollbar {
+          width: 5px;
+        }
+
+        &::-webkit-scrollbar-track {
+          background: #f1f1f1;
+          border-radius: 5px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+          background: rgb(185, 185, 185);
+          border-radius: 5px;
+          transition: all ease 0.5s;
+        }
+
+        &::-webkit-scrollbar-thumb:hover {
+          background: #012557;
+        }
+      }
+    }
+  }
+}

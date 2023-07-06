@@ -1,0 +1,32 @@
+
+.tarjeta{
+  padding: 30px;
+  border-radius: 10px;
+  display: block;
+  transition: all ease .4s;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px 0px rgb(0 0 0 / 15%);
+
+&:hover{
+  transform: scale(1.03);
+  box-shadow: 0 5px 10px 0px rgb(4 2 0 / 20%);
+}
+
+
+  p{
+    margin: 0;
+  }
+
+  .superior{
+    color: $color-blanco;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.6rem;
+  }
+  .inferior{
+    color: $color-blanco;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2rem;
+  }
+}

@@ -1,0 +1,33 @@
+/*Deprecado - usar la navbar Sistemas*/
+nav.navbar.navbarSistemas.navbar-expand-lg {
+  border-bottom: 1px solid rgb(182, 182, 182);
+  margin-top: 1.25rem;
+
+  .nav-titulo {
+    font-family: $fuente-principal;
+    font-weight: 900;
+    font-size: 16px;
+    text-transform: uppercase;
+
+    color: $color-base;
+  }
+
+  ul {
+    font-family: $fuente-principal;
+    color: $color-base;
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+
+    li.nav-item {
+      margin-right: 10px;
+    }
+    a.nav-link {
+      color: $color-base;
+
+      &:hover {
+        color: $color-2;
+      }
+    }
+  }
+}

@@ -1,0 +1,113 @@
+.grid-container.padron-insp-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  gap: 10px 0px;
+  grid-template-areas:
+    "cabecera-insp"
+    "desc-insp"
+    "cta-registro-insp";
+
+  padding: 1.5rem;
+  border-radius: 10px;
+
+  background-color: $color-blanco;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.35);
+}
+
+.cabecera-insp {
+  grid-area: cabecera-insp;
+  display: flex;
+
+  .foto-cabecera {
+    background-image: url("https://www.aguascalientes.gob.mx/iegemer/images/Inspectores/Lucero.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 117px;
+    width: 94px;
+    border-radius: 1px;
+  }
+
+  .info-insp {
+    padding-left: 1rem;
+
+    .nombre-insp {
+      font-weight: 900;
+      font-size: 1rem;
+      text-transform: uppercase;
+      color: $color-base;
+    }
+
+    .direccion-insp,
+    .tel-insp {
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: uppercase;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.desc-insp {
+  grid-area: desc-insp;
+
+  .depto-insp {
+    font-weight: 800;
+    font-size: 1rem;
+    color: $color-base;
+  }
+
+  .subdepto-insp {
+    font-weight: 400;
+    font-size: 14px;
+    color: $color-base;
+  }
+
+  .fund-jurid-lista {
+    font-weight: 900;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+
+  ol.fundamento-lista {
+    color: $color-1;
+
+    li.fundamento-item {
+      padding: 3px 0;
+
+      a.fundamento-link {
+        color: $color-1;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+.cta-registro-insp {
+  grid-area: cta-registro-insp;
+
+  .btn-registro {
+    font-size: 12px;
+    font-weight: 500;
+    color: $color-base;
+    background-color: $color-blanco;
+    border: 1px solid;
+    border-color: $color-base;
+    padding: 0.5rem 0.9rem;
+
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+
+    &:hover {
+      background-color: $color-base;
+      color: $color-blanco;
+      box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.35);
+    }
+  }
+}

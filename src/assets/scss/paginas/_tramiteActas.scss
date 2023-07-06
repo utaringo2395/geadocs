@@ -1,0 +1,126 @@
+#tramiteact-content {
+  margin-top: 3%;
+
+  .banner-body {
+    background-color: #3d70e2;
+    border-radius: 5px;
+  }
+
+  .baninfo-wrapper {
+    padding: 5% 6% 7%;
+
+    .banner-list {
+      padding-left: 1.5rem;
+      color: #fff;
+    }
+
+    .banner-titulo {
+      font-weight: 900;
+      font-size: 2.25rem;
+      color: #fff;
+      text-transform: uppercase;
+    }
+
+    .banner-item {
+      font-size: 1.25rem;
+    }
+
+    .btn {
+      display: table;
+      margin-right: 0;
+      margin-left: auto;
+    }
+  }
+  
+  .banner-foto {
+    object-fit: cover;
+    width: 100%;
+    height: 238px;
+  }
+  
+  .sidesection-line {
+    border-color: $color-base;
+    margin: 0.5rem 0;
+  }
+
+  .side-list {
+    list-style: none;
+    padding-left: 0;
+
+    .side-item {
+      margin: 1rem 0;
+
+      .side-link {
+        color: $color-base;
+        font-size: 1rem;
+        font-weight: 400;
+        text-transform: uppercase;
+
+        .iconify {
+          margin-right: 0.75rem;
+          color: $color-base;
+
+          &:hover {
+            color: $color-1;
+          }
+        }
+        &:hover {
+          color: $color-1;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .proceso-acta {
+    margin-top: 5%;
+
+    img {
+      margin: 2% 0;
+      box-shadow: $shadow-black;
+    }
+  }
+
+  .requisitos-acta {
+    margin-top: 5%;
+
+    .subtitulo {
+      margin-bottom: 1rem;
+    }
+
+    .requisitos-item {
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
+/*BREAKPOINTS*/
+@media (max-width: 767.98px) {
+  #tramiteact-content {
+    .banner-body {
+      .baninfo-wrapper {
+        .banner-titulo {
+          font-size: 1.75rem;
+        }
+
+        .banner-list {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .side-pagina {
+      margin-top: 5%;
+    }
+
+    .proceso-acta {
+      .proceso-acta-img {
+        margin-right: 0;
+      }
+    }
+
+    .requisitos-acta {
+      margin-top: 7%;
+    }
+  }
+}

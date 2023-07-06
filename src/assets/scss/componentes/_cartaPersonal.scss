@@ -1,0 +1,55 @@
+.carta-personal {
+  background: $color-blanco;
+  border-radius: 10px;
+  box-shadow: $shadow-black;
+  height: auto;
+  min-width: 280px;
+
+  padding: 15px;
+  margin: 10px 0;
+
+  .cabecera {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin-bottom: 25px;
+
+    img {
+      width: 94px;
+      height: auto;
+    }
+
+    .datos {
+      margin-left: 1rem;
+      .subtitulo-sm {
+        margin-bottom: 0;
+      }
+      .info {
+        font-size: 14px;
+        font-weight: normal;
+        text-transform: uppercase;
+        color: $color-base;
+        margin-bottom: 0;
+      }
+    }
+  }
+  .cuerpo {
+    .organo {
+      font-size: 1rem;
+      font-weight: 700;
+      color: $color-base;
+    }
+    .giro {
+      font-size: 14px;
+      font-weight: normal;
+      color: $color-base;
+    }
+  }
+
+  .visitas {
+    height: 45px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}

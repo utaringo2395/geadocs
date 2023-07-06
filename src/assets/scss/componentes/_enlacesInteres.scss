@@ -1,0 +1,75 @@
+#enlacesInteres {
+  margin: 1.5rem 0 1.5rem;
+
+  .enlacesInt-wrapper {
+    padding: 2rem 0 1rem;
+  }
+
+  ul.enlacesInt-list {
+    list-style: none;
+    padding-left: 0;
+
+    li.enlacesInt-item {
+      padding: 3px 0;
+
+      a.enlacesInt-link {
+        color: $color-1;
+        font-size: 1rem;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .collapsible-link {
+    width: 100%;
+    position: relative;
+    text-align: left;
+    color: inherit;
+
+    &::before {
+      content: "\f078";
+      position: absolute;
+      top: 50%;
+      right: 0.8rem;
+      transform: translateY(-50%);
+      display: block;
+      font-family: "Font Awesome 5 Free";
+      font-size: 1.1rem;
+    }
+
+    &[aria-expanded="true"]::before {
+      content: "\f077";
+    }
+  }
+}
+
+/* BREAKPOINTS*/
+/*> 768px */
+@media (min-width: 768px) {
+  #accordionEnlaces {
+    visibility: hidden;
+    position: absolute;
+    display: none;
+  }
+
+  #enlacesInteres-desktop {
+    visibility: visible;
+  }
+}
+
+/*< 767.98px */
+@media (max-width: 767.98px) {
+  #accordionEnlaces {
+    visibility: visible;
+  }
+
+  #enlacesInteres-desktop {
+    visibility: hidden;
+    position: absolute;
+    display: none;
+  }
+}

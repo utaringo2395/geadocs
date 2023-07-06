@@ -1,0 +1,12 @@
+.list-item-planes {
+  margin-bottom: 5px;
+
+  .list-link-planes {
+    text-decoration: none;
+    color: $color-1;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,183 @@
+.banner-body-up {
+  border-radius: $standard-radius;
+  margin: 1rem 0;
+
+  img {
+    width: 100%;
+    height: 238px;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .baninfo-wrapper {
+    padding: 3.5%;
+    color: $color-blanco;
+
+    h1 {
+      font-weight: 900;
+      font-size: 2rem;
+      color: $color-blanco;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: $color-blanco;
+    }
+  }
+}
+
+.banner-body-left {
+  border-radius: $standard-radius;
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0;
+
+  img {
+    width: 55%;
+    height: auto;
+    border-radius: 5px 0 0 5px;
+  }
+
+  .baninfo-wrapper {
+    padding: 3%;
+    overflow-wrap: break-word;
+    position: relative;
+
+    h1 {
+      font-weight: 900;
+      font-size: 2rem;
+      color: $color-blanco;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: $color-blanco;
+    }
+    a {
+      position: absolute;
+      bottom: 30px;
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .banner-body-up {
+    .baninfo-wrapper {
+      padding: 5%;
+      h1 {
+        font-size: 1.75rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .banner-body-left {
+    height: auto;
+    img {
+      width: 100%;
+      height: 238px;
+      border-radius: 5px 5px 0 0;
+    }
+
+    .baninfo-wrapper {
+      padding: 5%;
+      h1 {
+        font-size: 1.75rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .banner-body-left {
+    display: flex;
+    flex-direction: column;
+
+    img {
+      width: 100%;
+      height: 238px;
+      border-radius: 5px 5px 0 0;
+    }
+
+    .baninfo-wrapper {
+      padding: 3.5%;
+      color: $color-blanco;
+    }
+  }
+}
+
+.banner_sm {
+  width: 100%;
+  min-height: 150px;
+  display: grid;
+  gap: 2rem;
+  grid-auto-rows: 6rem;
+  grid-template-columns: 2fr 2fr 1fr;
+  border-radius: $standard-radius;
+  padding: 50px 90px;
+
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  background-size: 100%;
+  background-position:center;
+
+ 
+  .titulo,
+  .contenido {
+    color: $color-blanco;
+    margin: 0;
+  }
+  .item1 {
+    border-right: 1px solid $color-blanco;
+  }
+
+  [class^="item"] {
+    padding: 10px;
+
+    .titulo {
+      font-size: 26px;
+      text-align: right;
+    }
+
+    .contenido {
+      font-size: 18px;
+    }
+  }
+
+  @media (max-width: 1158px) {
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+    .item3{
+      grid-column: 1 /span 2;
+    }
+  }
+
+  @media (max-width:930px) {
+    .item1 {
+      border-right: 0px;
+      border-bottom: 1px solid $color-blanco;
+    }
+    .item3{
+      grid-column: 1 ;
+    }
+    [class^="item"] {
+      .titulo,
+      .contenido {
+        text-align: center;
+      }
+    }
+  }
+
+}
+.banner-img {
+  border-radius: 5px 0 0 5px;
+}

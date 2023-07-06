@@ -1,0 +1,69 @@
+  /*clima*/
+  .weatherCard {
+    border: 1px solid lighten($color-grisClaro, 10%);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .cityContainer {
+    text-align: center;
+  }
+  .todayContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .todayContainer .wi {
+    font-size: 2rem;
+    margin: 0 10px;
+  }
+  .weatherForecast {
+    display: flex;
+  }
+  .forecastCard {
+    width: 33%;
+    text-align: center;
+  }
+  .forecastCard p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #0f3160;
+    margin: 0;
+  }
+  .forecastMax {
+    color: $color-2 !important;
+    font-weight: 700 !important;
+  }
+  .forecastMin {
+    color: $color-1 !important;
+    font-weight: 700 !important;
+  }
+  .weatherTemp {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+    color: $color-base;
+  }
+  .iconTempWrapper {
+    margin-bottom: 10px;
+  }
+  .forecastContainer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .forecastContainer .wi {
+    font-size: 1.5rem;
+  }
+  .tempAndCity {
+    margin-top: 16px;
+  }
+  .cityName{
+    text-align: center;
+    margin: 0;
+  }
+  .fecha{
+    text-align: center;
+  }
+  .weatherDesc{
+    text-transform: capitalize;
+  }

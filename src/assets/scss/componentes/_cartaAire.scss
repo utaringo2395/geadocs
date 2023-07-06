@@ -1,0 +1,77 @@
+.cartaAireContenedor {
+  width: 100%;
+  height: 230px;
+  padding: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+
+  p {
+    margin: 0;
+  }
+
+  .titulo {
+    color: $color-blanco;
+    font-weight: 700;
+    font-size: 1.125rem;
+    width: 100%;
+  }
+
+  .riesgo {
+    color: #0f3160;
+    font-weight: 700;
+    font-size: 1.875rem;
+    width: 100%;
+    text-transform: uppercase;
+    line-height: 8px;
+  }
+  .leyenda {
+    width: 100%;
+    color: #0f3160;
+    font-weight: 400;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  .datos {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+    p {
+      margin: 10px;
+    }
+
+    .iuv {
+      font-weight: 700;
+      display: inline-flex;
+
+      svg{margin-right: 5px;}
+      
+      span {
+        margin-left: 5px;
+        font-weight: 500;
+        font-size: 9px;
+        width: 42px;
+        display: block;
+      }
+    }
+  }
+}
+
+.estandar {
+  background: $color-1;
+}
+.aceptable {
+  background: #4cd432;
+}
+.moderado {
+  background: #f5ce01;
+}
+.peligro {
+  background: $color-6;
+}

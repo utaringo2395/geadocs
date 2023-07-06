@@ -1,0 +1,13 @@
+li {
+  margin-bottom: 10px;
+}
+
+a.link-item {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    text-decoration: underline;
+    color: $color-2;
+  }
+}

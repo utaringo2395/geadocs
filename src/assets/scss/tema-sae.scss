@@ -1,0 +1,181 @@
+/* sass/
+|
+------------------------------------------------------------------------
+-|Css modular
+-|Tema SAE v r1.11
+-|Cambios
+    r 1.0
+    -Se publico el css con la mayoría de los elementos necesarios para las interfaces
+    r 1.01
+    -Se arreglaron los estilos de las sombras.
+    -header 2 clases reponsivas.
+    r 1.1
+    -se cambio el funcionamiento de la fuente
+    -nuevas cartas agregadas
+    -formulario con los estilos correctos
+    -multiples errores corregidos
+    r 1.2
+    -modulos de noticias
+    -se limpio codigo basura
+    r 1.3
+    -nuevo css para las tarjetas de contacto
+    -css para los modales de las noticias
+    r 1.4
+    -Bugfixes
+    r 1.5
+    -fixes para las nuevas plantillas
+    r 1.6
+    -se agregaron los labels
+    -css responsivo de los headers 3 y 5
+     r 1.7
+    -nueva cabecera - transparencia
+    r 1.8
+    -css para los sliders de la página principal
+      -principal
+      -ciudadano
+      -eventos
+      -estadisticas
+    -css para modulo de redes sociales _redesSociales.scss añadido
+    -Cambio en el css del modulo contacto
+    -Nuevos colores y degradados
+    -nueva carta simple para mostrar nuevos sitios imgCard
+    -podcast modulo css
+    r 1.9
+    -modulo eventos
+    -nuevos sliders
+    -addon para sliders
+    r 1.10
+    -Se recupero una versión más actualizada despues de una limpieza
+    (revisar que esta versión no de problemas)
+
+    r1.11
+    -Fix para página "Mesa de ayuda"
+    -Csss para input radio y ceckbox 
+    -Estilos para veda
+    
+    r2.0
+    -Se quitaron los colores $color-x-bg ahora son parte de $color-x.
+    -Se cambiaron las fuentes por las principales de la nueva administracion (Visby) $fuente-principal.
+    -Se agrego una fuente diferente para los bloques de texto más legible (Nunito) $fuente-secundaria.
+    -Se cambiaron los colores de las variables por la nueva paleta de color y se agregaron nuevos.
+    -Se agregaron estilos para el visor de trámites
+
+    ------------------------------------------------------------------------
+|– abstracts/ (or utilities/)
+|   |– _variables.scss    // Sass Variables
+|   |– _functions.scss    // Sass Functions
+|   |– _mixins.scss       // Sass Mixins
+|
+|– base/
+|   |– _reset.scss        // Reset/normalize
+|   |– _tipografias.scss  // Typography rules
+|   |– _colores.scss      // Typography rules
+|
+|– components/ (or modules/)
+|   |– Multiples Archivos      // Todos los componentes
+|
+|– layout/
+|   |– _navigation.scss   // Navigation
+|   |– _grid.scss         // Grid system
+|   |– _header.scss       // Header
+|   |– _footer.scss       // Footer
+|   |– _sidebar.scss      // Sidebar
+|   |– _forms.scss        // Forms
+|
+|– paginas/
+|   |– _home.scss         // Home specific styles
+|   |– _about.scss        // About specific styles
+|   |– _contact.scss      // Contact specific styles
+|
+|– themes/
+|   |– _theme.scss        // Default theme
+|   |– _admin.scss        // Admin theme
+|
+|– vendors/
+|   |– _bootstrap.scss    // Bootstrap - Modificado
+|   |– _jquery-ui.scss    // jQuery UI
+|
+`– tema-sae.scss              // Main Sass file
+*/
+
+//vendors
+@import "vendors/bootstrap";
+@import "vendors/swiper";
+//@import "vendors/gea_iconos"; deprecado
+//abstracts
+@import "abstracts/variables";
+//base
+@import "base/tipografias";
+@import "base/colores";
+@import "base/listas";
+@import "base/propiedades";
+
+//componentes
+@import "componentes/accordionBlueBorder";
+@import "componentes/alertas";
+@import "componentes/banners";
+@import "componentes/botones";
+@import "componentes/breadcrumb";
+@import "componentes/blueBorderCard";
+@import "componentes/blueBorderPill";
+@import "componentes/buscador";
+@import "componentes/cabeceras";
+@import "componentes/cartas";
+@import "componentes/cartaCitas";
+@import "componentes/cartaInfo";
+@import "componentes/cartaPersonal";
+@import "componentes/cartaTramites";
+@import "componentes/cartaAire";
+@import "componentes/clima";
+@import "componentes/contactoCard";
+@import "componentes/contenedorSimple";
+@import "componentes/directorio";
+@import "componentes/enlacesDependecias";
+@import "componentes/enlacesInteres";
+@import "componentes/footer";
+@import "componentes/inputs";
+@import "componentes/listas";
+@import "componentes/links";
+@import "componentes/labels";
+@import "componentes/mapa";
+@import "componentes/navbar-sae";
+@import "componentes/navbarCitas";
+@import "componentes/navbarSistemas";
+@import "componentes/navMiniportales";
+@import "componentes/routerLink";
+@import "componentes/redesSociales";
+@import "componentes/sideBtn";
+@import "componentes/slider";
+@import "componentes/sombras";
+@import "componentes/tarjetaBoton";
+@import "componentes/tarjetas";
+@import "componentes/tramites";
+@import "componentes/noticias";
+@import "componentes/padronInspectores_card";
+@import "componentes/podcast";
+
+
+@import "componentes/tabs";
+//paginas
+@import "paginas/eventos";
+@import "paginas/portalPrincipal";
+@import "paginas/citasWeb";
+@import "paginas/coronavirus";
+@import "paginas/contraloria";
+@import "paginas/contribVehiculos";
+@import "paginas/cplap";
+@import "paginas/expedienteDigital";
+@import "paginas/gabinete";
+@import "paginas/tramiteActas";
+@import "paginas/tramites";
+@import "paginas/bolsaTrabajo";
+@import "paginas/atencionCiudadana";
+@import "paginas/loginCiudadano";
+@import "paginas/mesaDeAyuda";
+@import "paginas/issspea";
+@import "paginas/multasProespa";
+@import "paginas/buzonPortal";
+@import "paginas/hoyCompra";
+
+//temas
+@import "temas/temaPrincipal";

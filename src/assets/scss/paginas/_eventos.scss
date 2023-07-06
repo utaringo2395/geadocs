@@ -1,0 +1,277 @@
+
+#eventsContent{
+  margin-top: 245px;
+}
+
+.eventos-contenedor {
+  height: initial;
+  // margin-top: 140px;
+}
+.eventos-fondo-bloque {
+  height: 500px;
+  width: 100%;
+  max-width: 1575px;
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 0 auto;
+  border-radius: 10px;
+  
+  img {
+    width: 110%;
+    filter: blur(5px);
+    top: -10px;
+    left: -10px;
+    position: absolute;
+  }
+}
+.eventos-fondo-bloque::after {
+  content: "Aguascalientes. Ags MX";
+  position: absolute;
+  left: -70px;
+  color: white;
+  transform: rotate(-90deg);
+  bottom: 130px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 19px;
+}
+.eventos-fondo-bloque2 {
+  height: 500px;
+  width: 100%;
+  background: royalblue;
+  position: absolute;
+  top: 111px;
+  overflow: hidden;
+
+  img {
+    width: 110%;
+    filter: blur(5px);
+    top: -10px;
+    left: -10px;
+    position: absolute;
+  }
+}
+.eventos-busqueda-contenedor {
+  width: 100%;
+  position: relative;
+}
+.eventos-slider-contenedor {
+  height: 500px;
+  max-width: 900px !important;
+  // background: $color-negro;
+  background:transparent !important;
+  position: absolute;
+  overflow: hidden;
+
+  .leyenda {
+    position: absolute;
+    bottom: 20px;
+    padding: 45px;
+    z-index: 2 !important;
+  }
+  .text-1 {
+    color: $color-blanco;
+    font-weight: 500;
+    font-size: 1.625rem;
+    line-height: 1.625rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+  }
+  .text-2 {
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 3rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  #slider {
+    height: inherit;
+    overflow: hidden;
+  }
+  .swiper-slide {
+    height: inherit;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+.eventos-busqueda-formulario {
+  height: 335px;
+  width: 460px;
+  background: $color-blanco;
+  position: absolute;
+  right: 0px;
+  top: 90px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  padding: 25px 35px;
+  z-index: 2;
+
+  .titulo {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: $color-negro;
+  }
+}
+
+.carta-evento {
+  height: 320px;
+  width: 100%;
+  padding: 10px;
+
+  .img-container {
+    width: 100%;
+    height: 190px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
+  }
+  .info {
+    padding: 10px 0px;
+
+    .carta-evento-fecha:nth-last-child(1) {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+.carta-evento-titulo {
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1rem;
+  letter-spacing: 0.05em;
+  color: $color-negro;
+  margin-bottom: 5px;
+}
+.carta-evento-subtitulo {
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 0.875rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: $color-negro;
+  margin-bottom: 12px;
+}
+.carta-evento-fecha {
+  display: inline-flex;
+  width: 100%;
+  height: 20px;
+  justify-content: space-between;
+  color: $color-1;
+  margin-bottom: 5px;
+  margin-top: -5px;
+}
+
+#recomendados-carrusel {
+  width: 100%;
+  overflow: hidden;
+
+  .img-container {
+    width: 254px;
+    height: 190px;
+  }
+}
+/*
+css - del detalle de eventos
+*/
+.info-contenedor {
+  background: $evento-color-1;
+  height: 350px;
+  position: relative;
+  padding-left: 50px;
+
+  .titulo-evento {
+    color: $color-blanco;
+    font-weight: bold;
+    font-size: 1.75rem;
+    line-height: 1.75rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .lugar-evento {
+    color: $color-blanco;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: -10px;
+  }
+}
+
+.img-wrapper {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+
+  #img-evento {
+    background: gray;
+    background-size: cover;
+    background-position: center;
+    width: 435px;
+    height: 512px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .tipo-evento {
+    background: $evento-color-1;
+    bottom: 0;
+
+    p {
+      color: $color-blanco;
+      padding: 16px 22px;
+      font-size: 14px;
+      line-height: 14px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+  }
+}
+.divider {
+  height: 1px;
+  background: gray;
+  width: 100%;
+  display: block;
+}
+
+#evento-fechas {
+  min-height: 120px;
+}
+
+.eventos-redes {
+  padding: 0;
+
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+}
+
+@keyframes fades {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fades {
+  animation: fades 0.7s ease-out;
+}

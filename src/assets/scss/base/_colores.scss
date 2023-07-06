@@ -1,0 +1,361 @@
+///////////////////////////////////////////////////////////////////////////
+/*Colores Fondo*/
+///////////////////////////////////////////////////////////////////////////
+
+.bg_base {
+  background-color: $color-base !important;
+}
+
+.bg_base-light {
+  //   background: lighten($color-base, 15%) !important;
+  background: lighten($color-base, 15%) !important;
+}
+
+.bg_base-light-2 {
+  background: lighten($color-base, 30%) !important;
+}
+
+
+//---------------------------------------------------------------------//
+.bg_1 {
+  background: $color-1 !important;
+}
+
+.bg_1-light {
+  background: lighten($color-1, 20%) !important;
+}
+
+.bg_1-light-2 {
+  background: lighten($color-1, 40%) !important;
+}
+
+.bg_1-darken {
+  background: darken($color-1, 15%) !important;
+}
+
+.bg_1-darken-2 {
+  background: darken($color-1, 25%) !important;
+}
+
+
+//---------------------------------------------------------------------//
+.bg_2 {
+  background: $color-2 !important;
+}
+
+.bg_2-light {
+  background: lighten($color-2, 20%) !important;
+}
+
+.bg_2-light-2 {
+  background: lighten($color-2, 40%) !important;
+}
+
+
+.bg_2-darken {
+  background: darken($color-2, 15%) !important;
+}
+
+.bg_2-darken-2 {
+  background: darken($color-2, 25%) !important;
+}
+
+//---------------------------------------------------------------------//
+.bg_3 {
+  background: $color-3 !important;
+}
+
+.bg_3-light {
+  background: lighten($color-3, 15%) !important;
+}
+
+.bg_3-light-2 {
+  background: lighten($color-3, 30%) !important;
+}
+
+.bg_3-darken {
+  background: darken($color-3, 15%) !important;
+}
+
+.bg_3-darken-2 {
+  background: darken($color-3, 30%) !important;
+}
+
+
+
+//---------------------------------------------------------------------//
+.bg_4 {
+  background: $color-4 !important;
+}
+
+.bg_4-light {
+  background: lighten($color-4, 15%) !important;
+}
+
+.bg_4-light-2 {
+  background: lighten($color-4, 30%) !important;
+}
+
+.bg_4-darken {
+  background: darken($color-4, 10%) !important;
+}
+
+.bg_4-darken-2 {
+  background: darken($color-4, 20%) !important;
+}
+
+
+
+//---------------------------------------------------------------------//
+.bg_5 {
+  background: $color-5 !important;
+}
+
+.bg_5-light {
+  background: lighten($color-5, 15%) !important;
+}
+
+.bg_5-light-2 {
+  background: lighten($color-5, 30%) !important;
+}
+
+.bg_5-darken {
+  background: darken($color-5, 15%) !important;
+}
+
+.bg_5-darken-2 {
+  background: darken($color-5, 30%) !important;
+}
+
+
+
+//---------------------------------------------------------------------//
+.bg_6 {
+  background: $color-6 !important;
+}
+
+.bg_6-light {
+  background: lighten($color-6, 15%) !important;
+}
+
+.bg_6-light-2 {
+  background: lighten($color-6, 30%) !important;
+}
+
+.bg_6-darken {
+  background: darken($color-6, 15%) !important;
+}
+
+.bg_6-darken-2 {
+  background: darken($color-6, 30%) !important;
+}
+
+//---------------------------------------------------------------------//
+.bg_morado {
+  background: $bg-morado;
+}
+
+.bg_cyan {
+  background: $bg-cyan;
+}
+
+.bg_rosa {
+  background: $bg-rosa;
+}
+
+.bg_verde {
+  background: $bg-verde;
+}
+
+//---------------------------------------------------------------------//
+.bg_blanco {
+  background: $color-blanco !important;
+}
+
+.bg_negro {
+  background: $color-negro !important;
+}
+
+.bg_carbon {
+  background-color: $evento-color-1 !important;
+}
+
+.bg_gris {
+  background-color: $color-gris !important;
+}
+
+.bg_grisClaro {
+  background-color: $color-gris !important;
+}
+
+///////////////////////////////////////////////////////////////////////////
+/*Texto*/
+///////////////////////////////////////////////////////////////////////////
+
+.c_base {
+  color: $color-base !important;
+}
+
+.c_base-light {
+  color: lighten($color-base, 15%) !important;
+}
+
+.c_base-light-2 {
+  color: lighten($color-base, 30%) !important;
+}
+
+//---------------------------------------------------------------------//
+
+.c_1 {
+  color: $color-1 !important;
+}
+
+.c_1-darken {
+  color: darken($color-1, 15%) !important;
+}
+
+.c_1-darken-2 {
+  color: darken($color-1, 25%) !important;
+}
+
+//---------------------------------------------------------------------//
+
+.c_2 {
+  color: $color-2 !important;
+}
+
+.c_2-darken {
+  color: darken($color-2, 15%) !important;
+}
+
+.c_2-darken-2 {
+  color: darken($color-2, 25%) !important;
+}
+
+//---------------------------------------------------------------------//
+.c_3 {
+  color: $color-3 !important;
+}
+
+.c_3-darken {
+  color: darken($color-3, 15%) !important;
+}
+
+.c_3-darken-2 {
+  color: darken($color-3, 25%) !important;
+}
+
+//---------------------------------------------------------------------//
+.c_4 {
+  color: $color-4 !important;
+}
+
+.c_4-darken {
+  color: darken($color-4, 15%) !important;
+}
+
+.c_4-darken-2 {
+  color: darken($color-4, 25%) !important;
+}
+
+//---------------------------------------------------------------------//
+.c_5 {
+  color: $color-5 !important;
+}
+
+.c_5-darken {
+  color: darken($color-5, 15%) !important;
+}
+
+.c_5-darken-2 {
+  color: darken($color-5, 25%) !important;
+}
+
+
+//---------------------------------------------------------------------//
+.c_6 {
+  color: $color-6 !important;
+}
+
+.c_6-darken {
+  color: darken($color-6, 15%) !important;
+}
+
+.c_6-darken-2 {
+  color: darken($color-6, 25%) !important;
+}
+
+//---------------------------------------------------------------------//
+.c_blanco {
+  color: $color-blanco !important;
+}
+
+//---------------------------------------------------------------------//
+.c_negro {
+  color: $color-negro !important;
+}
+
+//---------------------------------------------------------------------//
+.c_carbon {
+  color: $evento-color-1 !important;
+}
+
+//---------------------------------------------------------------------//
+.c_gris {
+  color: $color-gris !important;
+}
+
+//---------------------------------------------------------------------//
+.c_grisClaro {
+  color: $color-grisClaro !important;
+}
+
+//---------------------------------------------------------------------//
+
+
+///////////////////////////////////////////////////////////////////////////
+/*Degradados*/
+///////////////////////////////////////////////////////////////////////////
+.bg_dg-1 {
+  background: linear-gradient(106.55deg, #425AD3 19.3%, #B9E6F5 101.56%) !important;
+}
+
+.bg_dg-2 {
+  background: linear-gradient(180deg, #75D5F4 0%, #B9E6F5 100%) !important;
+}
+
+.bg_dg-3 {
+  background: linear-gradient(90deg, #293C98 0%, #16B7EB 100%) !important;
+}
+
+.bg_dg-4 {
+  background: linear-gradient(90deg, #006484 0%, #16B7EB 100%) !important;
+}
+
+.bg_dg-5 {
+  background: linear-gradient(90deg, #425AD3 0%, #BDC7F9 100%) !important;
+}
+
+.bg_dg-6 {
+  background: linear-gradient(90deg, #A1005E 0%, #F356B2 100%) !important;
+}
+
+.bg_dg-7 {
+  background: linear-gradient(90deg, #F36600 0%, #F6B905 100%) !important;
+}
+
+.bg_dg-8 {
+  background: linear-gradient(90deg, #769B00 0%, #C5EE46 100%) !important;
+}
+
+.bg_dg-9 {
+  background: linear-gradient(90deg, #6950FF 0%, #CBD4FF 99.99%, #BDC7F9 100%) !important;
+}
+
+.bg_dg-10 {
+  background: linear-gradient(180deg, #f1f8ff 43.05%, #95caff 107.47%) !important;
+}
+
+.bg_dg-11 {
+  background: linear-gradient(180deg, #59C2A5 0%, #B4EADC 100%) !important;
+}

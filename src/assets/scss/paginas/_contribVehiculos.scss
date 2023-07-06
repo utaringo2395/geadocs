@@ -1,0 +1,313 @@
+#headerConsulta {
+    // background: linear-gradient(90deg, #6950FF 0%, #CBD4FF 99.99%, #BDC7F9 100%);
+    margin-top: 100px;
+    padding: 7% 0;
+    
+    @media (max-width: 575.98px) {
+        margin-top: 10px;
+        padding: 7% 5%;
+    }
+    @media (max-width: 991.98px) {
+        margin-top: 50px;
+    }
+
+    #Panel1 {
+      padding: 0 15%;
+      @media (max-width: 575.98px) {
+        padding: 0 5%;
+      }
+    }
+    
+    .tituloContainer {
+        @media (max-width: 991.98px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-bottom: 1rem;
+          }
+        .tituloHeader {
+            font-family: $fuente-principal;
+            color: $color-blanco;
+
+            margin: 0 1.5rem;
+            
+            .sub {
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 1;
+            color: $color-blanco;
+            text-transform: uppercase;
+
+            margin-bottom: 0;
+
+                @media (max-width: 575.98px) {
+                    font-size: 16px;
+                    width: auto;
+                }
+                
+                @media (max-width: 991.98px) {
+                    text-align: center;
+                }
+            }
+            
+            .titulo1 {
+            font-size: 46px;
+            font-weight: 900;
+            margin-bottom: 0;
+            line-height: 1;
+            text-transform: uppercase;
+            width: 450px;
+
+                @media (max-width: 575.98px) {
+                    font-size: 30px;
+                    width: auto;
+                }
+              
+                @media (max-width: 991.98px) {
+                    text-align: center;
+                    width: auto;
+                }
+            }
+            
+        }
+
+        .imgElemento {
+            @media (max-width: 575.98px) {
+                width: 70px;
+               height: auto;
+             }
+           @media (max-width: 991.98px) {
+               width: 150px;
+               height: auto;
+             margin: 10px auto 0;
+             }
+        }
+    }
+  
+  .consultContainer {
+    nav {
+      .nav.nav-tabs {  
+        a.nav-link {
+          color: $color-gris;
+          font-size: 1rem;
+          font-weight: 700;
+          text-transform: uppercase;
+
+          background: $color-blanco;
+          opacity: 0.35;
+          border-radius: 3px 3px 0 0;
+
+          &:active {
+            color: $color-2;
+          }
+        }
+
+        a.nav-link.active {
+          background: $color-blanco;
+          opacity: 1;
+          color: $color-2;
+        }
+      }
+    }
+    .tab-content {
+      background: $color-blanco;
+      padding: 5%;
+      border-radius: 0 3px 3px 3px;
+    }
+  }
+}
+
+
+
+#infoConsulta {
+  .cartaControl {
+    border: 1px solid $color-base;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border-radius: 5px;
+    padding: 3% 15%;
+    margin: 10px 0;
+  
+    .iconoCarta {
+      width: 135px;
+      margin: 0 auto;
+    }
+    
+    .titulo {
+      text-align: center;
+      color: $color-base;
+    }
+    .descripcion {
+      text-align: center;
+    }
+    
+  }
+  
+  .bancos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    margin: 5% 0;
+
+    @media (max-width: 575.98px) {
+        margin-bottom: 15%;
+      }
+    
+    img {
+      margin: 15px 30px;
+
+      @media (max-width: 575.98px) {
+        width: 85px;
+        height: auto;
+        
+        margin: 8px 15px;
+      }
+    }
+  }
+  
+  
+  .monocolorVerde {
+    background: $bg-verde;
+    padding: 5%;
+    border-radius: 10px;
+    color: $color-8;
+    
+    h1, h2, h3, h4, p {
+      color: $color-8;
+    }
+    
+    h1 {
+      margin-top: 0;
+    }
+    .datosImg {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      justify-content: space-evenly;
+      
+      margin-top: 1rem;
+    }
+  }
+  .monocolorRosa {
+    background: $bg-rosa;
+    padding: 5%;
+    border-radius: 10px;
+    color: $color-2;
+    
+    h1, h2, h3, h4 {
+      color: $color-2;
+    }
+    
+    h1 {
+      margin-top: 0;
+    }
+  }
+
+  .monocolorMorado {
+    background: $bg-morado;
+    padding: 5%;
+    border-radius: 10px;
+    color: $color-base;
+    
+    h1, h2, h3, h4 {
+      color: $color-2;
+    }
+    
+    h1 {
+      margin-top: 0;
+    }
+  }
+
+  .monocolorCyan {
+    background: $bg-cyan;
+    padding: 5%;
+    border-radius: 10px;
+    color: $color-7;
+    
+    h1, h2, h3, h4 {
+      color: $color-2;
+    }
+    
+    h1 {
+      margin-top: 0;
+    }
+  }
+}
+
+
+.asistenciaGlobo {
+  background: $color-blanco;
+  padding: 8px 10px;
+  border-radius: 50px;
+  max-width: 200px;
+  
+  margin-top: -25px;
+  margin-left: auto;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  @media (max-width: 767.98px) {
+      margin-top: 0px;
+  }
+  
+  .asistElement {
+    margin: 0 10px;
+    @media (max-width: 767.98px) {
+          margin: 0 5px;
+    }
+    .iconify, img {
+      @media (max-width: 767.98px) {
+          height: 25px;
+          width: auto;
+       }
+    }
+  }
+}
+
+.mini-1.consultaHeader {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: baseline;
+	
+	.izquierdaHeader {
+		.tituloMain {
+			display: flex;
+			flex-direction: row;
+			align-items: flex-end;
+
+			img {
+				height: 7px;
+				width: auto;
+				margin: 0 8px 10px;
+			}
+		}
+		
+		.derechaHeader {
+			justify-content: flex-end;
+			width: 100%;
+			
+			@media (max-width: 575.98px) {
+				 margin-left: auto;
+        }
+		}
+	}
+}
+
+
+#consultaModal {
+  .modal-body {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

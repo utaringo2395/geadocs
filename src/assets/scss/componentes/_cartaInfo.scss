@@ -1,0 +1,67 @@
+.cartaInfo {
+  border: 1px solid $color-1;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.875rem 0.9375rem;
+
+  .icono {
+    margin: 0 auto;
+    text-align: center;
+    width: 5rem;
+    height: auto;
+    position: relative;
+    padding: 0;
+    left: unset;
+  }
+  .titulo {
+    font-weight: 800;
+    font-size: 1.25rem;
+    color: $color-base;
+  }
+}
+
+// ***************
+.card .card-body h1 {
+    font-family: $fuente-principal;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $color-base;
+  }
+
+  .card .card-body p {
+    font-family: $fuente-principal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $color-base;
+  }
+
+  .card-img {
+    position: relative;
+  }
+
+  .card .card-img .texto-importante {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px 20px;
+    border-top-right-radius: 5px;
+    font-family: $fuente-principal;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $color-blanco;
+  }

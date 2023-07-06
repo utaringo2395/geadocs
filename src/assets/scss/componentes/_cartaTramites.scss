@@ -1,0 +1,102 @@
+.carta-tramites {
+  background: #003a5d;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 22px;
+  height: 250px;
+}
+
+#tramitesGEA .carta-tramites a.c-blanco.noUnderline {
+  &:hover {
+    color: $color-blanco;
+  }
+}
+
+.numero-tramite {
+  font-family: $fuente-principal;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  color: $color-blanco;
+}
+
+.titulo-tramite {
+  font-family: $fuente-principal;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $color-blanco;
+  margin: 0px;
+}
+
+.dependencia-tramite {
+  font-family: $fuente-principal;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 155.5%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: $color-blanco;
+}
+
+.boton-tramite {
+  background: #0567a3;
+  font-family: $fuente-principal;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 155.5%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: $color-blanco;
+  padding: 15px 20px;
+  transition: all ease-in 0.2s;
+  bottom: 40px;
+  position: absolute;
+  right: 30px;
+}
+
+.boton-tramite:hover {
+  background: rgb(8, 144, 228);
+  color: $color-blanco;
+}
+
+.carta-icono {
+  padding: 25px 17px;
+  width: 100%;
+  background: transparent;
+  height: 170px;
+  display: block;
+  border-radius: 25px;
+  transition: all ease-in 0.2s;
+  margin-bottom: 30px;
+}
+
+.carta-icono:hover {
+  padding: 25px 17px;
+  width: 100%;
+  background: $color-blanco;
+  height: 170px;
+  display: block;
+  border-radius: 25px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.img-icon {
+  margin-bottom: 20px;
+}
+
+.tramite-nombre {
+  font-family: $fuente-principal;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 118.18%;
+  color: #626262;
+}

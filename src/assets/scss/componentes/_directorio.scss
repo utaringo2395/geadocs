@@ -1,0 +1,115 @@
+.dirEl-Container {
+  transition: all ease 0.2s;
+  margin-top: 10px;
+  display: table;
+  border-radius: $standard-radius;
+}
+.dirEl-Container:hover {
+  background: $color-grisClaro;
+  text-decoration: none;
+  cursor: pointer;
+} 
+
+.divisorCategoria {
+  border-bottom: solid 1px;
+  border-color: $color-gris;
+
+  p {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 28px;
+    color: $color-gris;
+    text-transform: uppercase;
+    margin-bottom: 8px; 
+  }
+}
+
+
+.divisorCategoriaAzul {
+  border-bottom: solid 1px;
+  border-color: $color-base;
+  margin: 65px 0;
+
+  p {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    color: $color-base;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+}
+
+
+
+.dirEl {
+  position: relative;
+  padding: 0 40px;
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column; /*row*/
+  flex-wrap: nowrap;
+  align-items: start;
+
+  .iconWrapper {
+    width: 25px;
+  }
+
+  .iconify {
+    color: $color-gris;
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+
+  .abr {
+    color: $color-base;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+
+  /*.abr:before {
+    font-family: "Font Awesome\ 5 Free";
+    font-weight: 900;
+    content: "\f054";
+    position: absolute;
+    left: 20px;
+    color: $color-gris;
+    font-size: 14px;
+  }*/
+  
+  .nombre {
+    color: $color-base;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .abrSmall {
+    font-size: 20px;
+    color: $color-base;
+    font-weight: 900;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+
+  /*.abrSmall:before {
+    font-family: "Font Awesome\ 5 Free";
+    font-weight: 900;
+    content: "\f054";
+    position: absolute;
+    left: 20px;
+    color: $color-gris;
+    font-size: 14px;
+  }*/
+}
+
+#dvgeasearch{
+  .dirEl{
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,31 @@
+.breadcrumb-sae {
+  position: absolute !important;
+  bottom: 10px;
+  background: transparent;
+  padding: 0;
+
+  li,
+  li.active {
+    font-family: $fuente-principal;
+    color: $color-3;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    @media (max-width: 600px){
+      font-size: 14px;
+    }
+  }
+  a {
+    color: $color-base;
+
+    &:hover {
+      color: lighten($color-base, 50%) !important;
+    }
+  }
+  .breadcrumb-item + .breadcrumb-item::before {
+    color: $color-base;
+  }
+}

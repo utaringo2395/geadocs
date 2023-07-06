@@ -1,0 +1,32 @@
+.protocolo-box {
+  width: 255px;
+  height: 255px;
+  background-color: $color-blanco;
+  border: 1px solid;
+  border-color: $color-2;
+  border-radius: 10px;
+  text-decoration: none;
+  margin: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  .protocolo-title {
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: lighten($color-base, 5%);
+    line-height: 1;
+    padding: 0 0.3rem;
+  }
+
+  &:hover {
+    background-color: $color-1;
+    border: 1px solid;
+    border-color: $color-1;
+
+    .protocolo-title {
+      color: $color-blanco;
+    }
+  }
+}

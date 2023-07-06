@@ -1,0 +1,179 @@
+/*Colores tipografias*/
+.c-negro {
+  color: $color-negro;
+}
+
+.c-blanco {
+  color: $color-blanco;
+}
+
+/*Colores <a> en hover*/
+.c_blanco-hover {
+  &:hover {
+    color: $color-blanco;
+  }
+}
+
+.c_negro-hover {
+  &:hover {
+    color: $color-negro;
+  }
+}
+
+/*Colores Fondos*/
+.bg-principal {
+  background-color: $color-base;
+}
+
+.bg-negro {
+  background-color: $color-negro;
+}
+
+.bg-blanco {
+  background-color: $color-blanco;
+}
+
+.bg-1 {
+  background-color: $color-1;
+}
+
+.bg-2 {
+  background-color: $color-2;
+}
+
+.bg-3 {
+  background-color: $color-3;
+}
+
+.bg-4 {
+  background-color: $color-4;
+}
+
+.bg-5 {
+  background-color: $color-5;
+}
+
+.bg-6 {
+  background-color: $color-6;
+}
+
+/*Margenes*/
+.mt-n-30 {
+  margin-top: -30px;
+}
+
+.mt-90 {
+  margin-top: 90px;
+}
+
+/*Configuraciones*/
+
+body {
+  font-family: sans-serif;
+  /*Fallback para viejos navegadores */
+  font-family: $fuente-principal;
+}
+
+code {
+  background: lighten($color-negro, 90%);
+  color: $color-negro;
+  padding: 10px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: $color-2;
+}
+
+.contenidoDependencia {
+  text-align: left;
+}
+
+.tituloSecundario {
+  font-family: $fuente-principal;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: $color-base;
+}
+
+.tituloDivisor {
+  font-weight: 900;
+  font-size: 20px;
+  color: $color-base;
+  text-transform: uppercase;
+  border-bottom: 1px solid $color-base;
+  padding-bottom: 5px;
+}
+
+::selection {
+  color: $color-blanco;
+  background: $color-1;
+  /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  color: $color-blanco;
+  background: $color-1;
+  /* Gecko Browsers */
+}
+
+/*transicion*/
+.fade-enter-active,
+.fade-leave-active {
+  transition-duration: 0.3s;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+
+/*Fix Directorio*/
+.gridItem {
+  font-family: inherit !important;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.gridAlternateItem {
+  font-family: inherit !important;
+  background-color: rgba(4, 40, 62, 0.10) !important;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.gridSelectedItem {
+  font-family: inherit !important;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#grvTelefonos tr {
+  height: 50px;
+}
+
+#grvTelefonos {
+  margin: 30px 0px;
+}
+
+.gridHeader {
+  background: $color-base;
+  color: $color-blanco;
+}
+#ddlDependencia{
+  font-weight: 300;
+}

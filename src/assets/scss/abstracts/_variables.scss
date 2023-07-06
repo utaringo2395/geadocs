@@ -1,0 +1,77 @@
+/*fuentes*/
+$fuente-principal: 'Visby', sans-serif;
+$fuente-secundaria: 'Nunito', sans-serif;
+/*paddings*/
+$navbar-padding-x: 10px;
+$navbar-padding-x: 10px;
+/*Radio*/
+$standard-radius: 5px;
+
+/*Variables de colores*/
+/*Base*/
+$color-base: #2F328A;
+$color-1: #21B4E9;
+$color-2: #E6007E;
+$color-3: #FFCC19;
+$color-4: #B3CC05;
+
+/*Accesibles*/
+$color-5: #111F62;
+$color-6: #8b44ef;
+$color-7: #154F8E;
+$color-8: #5F800B;
+/*Secundarios*/
+$color-9: #9B9B9A;
+$color-10: #214586;
+
+/*Fondos*/
+$bg-morado: #EDE8FB;
+$bg-cyan: #D3F2FF;
+$bg-rosa: #FFEBF6;
+$bg-verde: #EEFDDB;
+
+/*Apoyo*/
+//ver si estos se van a borrar y a que elementos afectan
+$color-negro: #000;
+$color-blanco: #fff;
+$color-grisClaro: #e9e9e9;
+$color-gris: #c4c4c4;
+
+/*Otros*/
+$evento-color-1: #2b2a25;
+$swiper-theme-color: #007aff;
+$noticias-fecha: #019b95;
+$noticias-fecha-fondo: #bff1ef;
+
+
+/*Sombras*/
+$shadow-blue: rgba(39, 138, 199, 0.25);
+$shadow-black: rgba(0, 0, 0, 0.8);
+
+/*Bordes*/
+$btn-stroke: 2px;
+
+/*Botones*/
+$btn-fntWeight: 500;
+
+
+/*Variables de colores en veda*/
+// $color-base: #313131;
+// $color-negro: #000;
+// $color-blanco: #fff;
+// $color-grisClaro: #e9e9e9;
+// $color-gris: #c4c4c4;
+// $color-1: #7c7c7c;
+// $color-1-bg: #797979;
+// $color-2: #616161;
+// $color-2-bg: #616161;
+// $color-3: #c2c2c2;
+// $color-4: #8a8a8a;
+// $color-5: #5e5e5e;
+// $color-5-bg: #5c5c5c;
+// $color-6: #979797;
+// $evento-color-1: #2b2a25;
+// $swiper-theme-color: #525252 !important;
+// $noticias-fecha: #292929;
+// $noticias-fecha-fondo: #d3d3d3;
+//cambiar --swiper-theme-color del archivo _swiper

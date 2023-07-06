@@ -1,0 +1,44 @@
+.ul-lateral {
+  list-style: none;
+  padding: 0;
+
+  li {
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 16px;
+
+    a {
+      color: $color-base;
+      text-transform: uppercase;
+      transition: all ease 0.2s;
+
+      svg {
+        vertical-align: text-bottom;
+        height: 20px;
+        width: auto;
+        margin-right: 10px;
+      }
+      &:hover {
+        color: $color-1;
+      }
+    }
+  }
+}
+
+.ul-estilo-secundario {
+  list-style: none;
+  padding: 0;
+  a {
+    color: $color-1;
+    font-weight: 400;
+    font-size: 1rem;
+
+    &:hover{
+      color: lighten($color-1, 20%);
+    }
+  }
+}
+
+::marker {
+  color: $color-2;
+}

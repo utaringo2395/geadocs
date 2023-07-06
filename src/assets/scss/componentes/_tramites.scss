@@ -1,0 +1,420 @@
+.grid-container.tramites-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 0px 30px;
+  grid-template-areas: "enLinea masBuscado tramServicios";
+
+  margin: 3rem 0;
+}
+
+
+.btn-mini {
+  font-family: $fuente-principal;
+  font-weight: 500;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  width: auto;
+  padding: 7px 20px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+
+
+.enLinea {
+  grid-area: enLinea;
+
+  .btn-mini {
+    background: transparent;
+    color: $color-base;
+    border: 2px solid $color-base;
+    transition: all ease .2s;
+  
+    &:hover {
+    color: $color-blanco;
+    background-color: $color-base;      
+    }
+  }
+
+  .tramites-insc-card {
+    background-color: rgba($color-base, 10%);
+    ;
+    border-radius: 5px;
+    padding: 1.8rem;
+  }
+
+  .tramites-titulo {
+    text-transform: uppercase;
+    font-family: $fuente-principal;
+    font-weight: 900;
+    font-size: 24px;
+    color: $color-base;
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+
+  ul.tramites-listado {
+    text-align: left;
+    list-style: none;
+    padding-left: 1rem;
+    line-height: 1.5;
+  }
+
+  li.tramites-item {
+    text-indent: -0.7rem;
+    padding: 2px 0;
+
+    &::before {
+      content: "⬤ ";
+      color: $color-base;
+      font-size: 0.5em;
+      margin-right: 5px;
+    }
+  }
+
+  a.tramites-link {
+    font-family: $fuente-secundaria;
+    text-decoration: none;
+    color: $color-negro;
+    font-size: 14px;
+
+    &:hover {
+      color: $color-base;
+      text-decoration: underline;
+    }
+  }
+}
+
+.masBuscado {
+  grid-area: masBuscado;
+
+  .btn-mini {
+    background: transparent;
+    color: $color-2;
+    border: 2px solid $color-2;
+    transition: all ease .2s;
+  
+    &:hover {
+    color: $color-blanco;
+    background-color: $color-2;      
+    }
+  }
+
+  .tramites-buscado-card {
+    background-color: rgba($color-2, 10%);
+    ;
+    border-radius: 5px;
+    padding: 1.8rem;
+  }
+
+  .tramites-titulo {
+    text-transform: uppercase;
+    font-family: $fuente-principal;
+    font-weight: 900;
+    font-size: 24px;
+    color: $color-2;
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+
+  ul.tramites-listado {
+    text-align: left;
+    list-style: none;
+    padding-left: 1rem;
+    line-height: 1.5;
+  }
+
+  li.tramites-item {
+    text-indent: -0.7rem;
+    padding: 2px 0;
+
+    &::before {
+      content: "⬤ ";
+      color: $color-2;
+      font-size: 0.5em;
+      margin-right: 5px;
+    }
+  }
+
+  a.tramites-link {
+    font-family: $fuente-secundaria;
+    text-decoration: none;
+    color: $color-negro;
+    font-size: 14px;
+
+    &:hover {
+      color: $color-base;
+      text-decoration: underline;
+    }
+  }
+}
+
+.tramServicios {
+  grid-area: tramServicios;
+  .btn-mini {
+    background: transparent;
+    color: $color-3;
+    border: 2px solid $color-3;
+    transition: all ease .2s;
+  
+    &:hover {
+    color: $color-blanco;
+    background-color: $color-3;      
+    }
+  }
+
+  .tramites-servicios-card {
+    background-color: rgba($color-3, 10%);
+    border-radius: 5px;
+    padding: 1.8rem;
+  }
+
+  .tramites-titulo {
+    text-transform: uppercase;
+    font-family: $fuente-principal;
+    font-weight: 900;
+    font-size: 24px;
+    color: $color-3;
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+
+  ul.tramites-listado {
+    text-align: left;
+    list-style: none;
+    padding-left: 1rem;
+    line-height: 1.5;
+  }
+
+  li.tramites-item {
+    text-indent: -0.7rem;
+    padding: 2px 0;
+
+    &::before {
+      content: "⬤ ";
+      color: $color-3;
+      font-size: 0.5em;
+      margin-right: 5px;
+    }
+  }
+
+  a.tramites-link {
+    font-family: $fuente-secundaria;
+    text-decoration: none;
+    color: $color-negro;
+    font-size: 14px;
+
+    &:hover {
+      color: $color-negro;
+      text-decoration: underline;
+    }
+  }
+}
+
+/*ACCORDION */
+#accordion {
+  text-align: left;
+  font-family: $fuente-secundaria;
+  margin: 1.5rem 0 3rem;
+
+  .btn-link {
+    background-color: inherit;
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: left;
+    padding-left: 0;
+    white-space: normal;
+    height: auto;
+  }
+
+  .collapsible-link {
+    width: 100%;
+    position: relative;
+    text-align: left;
+    color: inherit;
+
+    &::before {
+      content: "\f078";
+      position: absolute;
+      top: 50%;
+      right: 0.8rem;
+      transform: translateY(-50%);
+      display: block;
+      font-family: "Font Awesome 5 Free";
+      font-size: 1.1rem;
+    }
+
+    &[aria-expanded="true"]::before {
+      content: "\f077";
+    }
+  }
+
+
+  .card.enLinea-card {
+    background-color: $color-base;
+    color: $color-base;
+
+    .collapsible-link {
+      width: 100%;
+      position: relative;
+      text-align: left;
+    }
+  }
+
+  .card.servicios-card {
+    background-color: $color-3;
+    color: $color-negro;
+
+    .btn-link {
+      background-color: inherit;
+      font-size: 24px;
+      font-weight: 900;
+      text-transform: uppercase;
+      line-height: 1;
+      text-align: left;
+      padding-left: 0;
+    }
+  }
+
+  .card.masBuscado-card {
+    .btn-link {
+      background-color: inherit;
+      font-size: 24px;
+      font-weight: 900;
+      text-transform: uppercase;
+      line-height: 1;
+      text-align: left;
+      padding-left: 0;
+    }
+  }
+
+  ul.tramites-listado {
+    text-align: left;
+    list-style: none;
+    padding-left: 1rem;
+    line-height: 1.5;
+
+    li.tramites-item {
+      text-indent: -0.7rem;
+      padding: 5px 0;
+
+      &::before {
+        content: "• ";
+        color: inherit;
+      }
+
+      a.tramites-link {
+        text-decoration: none;
+        font-size: 14px;
+        color: inherit;
+      }
+    }
+  }
+}
+
+.tramites-insc-card {
+  position: relative;
+
+  button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+.tramites-buscado-card {
+  position: relative;
+
+  button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+.tramites-servicios-card {
+  position: relative;
+
+  button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+
+
+
+
+/*BREAKPOINTS*/
+/*< 991.98px*/
+@media (max-width: 991.98px) {
+  .grid-container.tramites-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+    gap: 0px 30px;
+    grid-template-areas:
+      "enLinea"
+      "tramServicios"
+      "masBuscado";
+  }
+
+  .enLinea {
+    grid-area: enLinea;
+
+    .tramites-insc-card {
+      border-radius: 5px 5px 0 0;
+    }
+  }
+
+  .masBuscado {
+    grid-area: masBuscado;
+
+    .tramites-buscado-card {
+      background-color: $color-5;
+      border-radius: 0 0 5px 5px;
+      padding: 1.8rem;
+    }
+  }
+
+  .tramServicios {
+    grid-area: tramServicios;
+
+    .tramites-servicios-card {
+      background-color: $color-3;
+      border-radius: 0;
+      padding: 1.8rem;
+    }
+  }
+}
+
+/*> 768px*/
+@media (min-width: 769px) {
+  #accordion {
+    visibility: hidden;
+    position: absolute;
+    display: none;
+  }
+
+  .grid-container.tramites-container {
+    visibility: visible;
+  }
+}
+
+/*< 768px*/
+@media (max-width: 768px) {
+  .grid-container.tramites-container {
+    visibility: hidden;
+    position: absolute;
+    display: none;
+  }
+
+  #accordion {
+    visibility: visible;
+  }
+}

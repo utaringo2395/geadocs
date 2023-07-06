@@ -1,0 +1,45 @@
+#ctl00_main_upPanel {
+    .mini-1 {
+        h3 {
+            font-family: $fuente-principal;
+            font-weight: 800;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            color: $color-base;
+        }
+    }
+
+    #ctl00_main_lblProyecto {
+        width: 100%;
+        display: block;
+    }
+
+    #ctl00_main_rblTipoServicio {
+        width: 100%;
+
+        td {
+            width: 25%;
+            text-align: center;
+            padding: 10px 0px;
+            
+            label{
+                font-size: 0.8rem;
+            }
+
+        }
+
+    }
+
+    #ctl00_main_txtSolicitud{
+        min-height: 220px;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+}
+
+#ctl00_main_cbAdjunto{
+    width: 30px;
+    height: 18px;
+    vertical-align: bottom;
+}

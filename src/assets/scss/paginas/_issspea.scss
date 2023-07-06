@@ -1,0 +1,45 @@
+.enlaces a:hover {
+    color: white;
+    background: #00afaa;
+}
+
+.enlaces ul {
+    padding: 0;
+}
+
+.enlaces li {
+    list-style-type: none;
+}
+
+.enlaces a {
+    color: #00afaa;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.noviñeta {
+
+    padding: 0;
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        color: #00afaa;
+        padding: 4px 15px;
+        border-radius: 10px;
+        font-size: 14px;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 100%;
+        text-overflow: ellipsis;
+        display: block;
+
+        &:hover {
+            color: white;
+            background: #00afaa;
+        }
+    }
+}
+

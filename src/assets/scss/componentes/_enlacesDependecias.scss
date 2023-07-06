@@ -1,0 +1,32 @@
+/*enlacesDependencias y  enlaces-link*/
+
+.enlacesDependencias {
+  .enlaces-list {
+    list-style: none;
+    padding: 0;
+
+    .enlaces-item {
+      padding: 6px 10px;
+      transition: all ease 0.2s;
+
+      &:hover {
+        background: lighten($color-base, 55%) !important;
+        border-radius: 5px;
+
+        .enlaces-link {
+          color: $color-base;
+        }
+      }
+
+      .enlaces-link {
+        display: inline-block;
+        font-size: 1rem;
+        font-weight: 500;
+        text-decoration: none !important;
+        color: $color-base;
+        width: 100%;
+      }
+    }
+  }
+}
+

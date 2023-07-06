@@ -1,0 +1,445 @@
+.t-tipo {
+    font-weight: 700;
+    background: lighten($color-2, 50%);
+    color: $color-2;
+    padding: 5px 15px;
+    width: auto;
+    display: table;
+    border-radius: 40px;
+    text-transform: capitalize;
+
+}
+
+.t-titulo {
+    font-size: 1.3rem;
+    color: $color-base;
+}
+
+.t-subtitulo {
+    font-size: 1.2rem;
+    color: $color-1;
+    margin: 10px 0;
+}
+
+.t-tagsContenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.t-status {
+    font-weight: 700;
+    padding: 5px 15px;
+    width: auto;
+    display: flex;
+    border-radius: 40px;
+
+    svg {
+
+        margin-right: 5px;
+    }
+}
+
+.t-status[class$="enlinea"] {
+    background: lighten($color-1, 42%);
+    color: $color-1;
+}
+
+.t-status[class$="presolicitud"] {
+    background: lighten($color-7, 42%);
+    color: $color-7;
+}
+
+.t-status[class$="gestion"] {
+    background: lighten($color-5, 70%);
+    color: $color-5;
+}
+
+.t-status[class$="presencial"] {
+    background: lighten($color-8, 50%);
+    color: $color-8;
+}
+
+.t-resCard {
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+    .resCard-titulo {
+        font-size: 1rem;
+        color: $color-base;
+        font-weight: 600;
+        font-family: $fuente-principal;
+    }
+
+    p span {
+        color: $color-base;
+        font-weight: 800;
+    }
+}
+
+.t-ordenamiento {
+    background: lighten($color-base, 60%);
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: $color-base;
+    font-weight: 600;
+
+    svg {
+        transition: all ease .2s;
+    }
+
+    p {
+        padding: 10px;
+        background: rgba($color-base, .1);
+        border-radius: 5px;
+
+    }
+
+    summary {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+
+        &:focus {
+            border-color: black;
+        }
+    }
+
+    summary::-webkit-details-marker {
+        display: none;
+    }
+
+
+}
+
+.t-ordenamiento-alt {
+    // background: lighten($color-base, 60%);
+    padding: 10px 0px;
+    border-radius: 5px;
+    color: $color-base;
+    font-weight: 600;
+
+    svg {
+        transition: all ease .2s;
+        margin-left: 10px;
+    }
+
+    p {
+        padding: 10px;
+        background: rgba($color-base, .1);
+        border-radius: 5px;
+
+    }
+
+    summary {
+        list-style: none;
+        display: flex;
+        // justify-content: space-between;
+        align-items: center;
+
+
+
+        &:focus {
+            border-color: black;
+        }
+    }
+
+    summary::-webkit-details-marker {
+        display: none;
+    }
+
+
+}
+
+
+details[open] {
+    svg {
+        transform: rotate(450deg) !important;
+    }
+}
+
+.mapCard {
+    display: flex;
+    border: 1px solid gainsboro;
+    border-radius: 5px; 
+
+}
+
+.mapStyle {
+    width: 50%;
+    border-radius: 5px;
+}
+
+.mapInfo {
+    padding: 20px;
+    width: 50%;
+    strong,
+    .iconify {
+        color: #2F328A;
+    }
+
+}
+
+
+
+.t-nav {
+
+    .nav-link.active,
+    .show>.nav-link {
+        background-color: rgba($color-base, 1);
+    }
+
+    .nav-link {
+        color: $color-base;
+    }
+
+
+}
+
+#accordionTramite {
+
+    .accordion-button:not(.collapsed) {
+        color: $color-base;
+        background-color: rgba($color-base , 0.1);
+        box-shadow: inset 0 calc(var(--bs-accordion-border-width) * -1) 0 #2f328a45;
+    }
+
+    .accordion-button:focus {
+        z-index: 3;
+        border-color: $color-base;
+        outline: 0;
+        box-shadow: 0 0 0 0.25rem rgb(135 97 202 / 36%);
+    }
+
+    .accordion-button:not(.collapsed)::after {
+        filter: hue-rotate(45deg);
+    }
+}
+
+.lineCard {
+    background-color: rgba($color-base, 1);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: all ease .2s;
+
+    &::before,
+    &::after {
+        transition: all ease .2s;
+    }
+
+
+    &:hover {
+        transform: scale(1.03);
+        transition: all ease .2s;
+
+        &::before {
+            content: "";
+            z-index: -1;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: linear-gradient(-45deg, #762f8a 0%, #411aff 100%);
+            transform: translate3d(0px, 12px, 0) scale(0.85);
+            filter: blur(20px);
+            opacity: var(0.7);
+            transition: opacity 0.3s;
+            border-radius: inherit;
+        }
+
+        &::after {
+            content: "";
+            z-index: -1;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: inherit;
+            border-radius: inherit;
+        }
+
+    }
+
+    p {
+        font-family: $fuente-secundaria;
+        font-weight: 800;
+        font-size: 1.8rem;
+        color: $color-blanco;
+    }
+
+    a {
+        color: $color-blanco;
+        padding: 10px 15px;
+        background: saturate(lighten(rgba($color-base, .46), 33%), 50%);
+        display: flex;
+        width: 150px;
+        transition: all ease .2s;
+        position: relative;
+        overflow: hidden;
+
+        &:hover {
+            background: saturate(lighten($color-base, 40%), 50%);
+            color: $color-blanco;
+            border-color: lighten($color-base, 20%);
+            width: 180px;
+
+            svg {
+
+                right: 10px;
+                width: 24px;
+                height: 24px;
+                opacity: 1;
+            }
+        }
+
+        svg {
+            position: absolute;
+            right: 10px;
+            width: 0px;
+            height: 0px;
+            background: lighten($color-base, 20%);
+            display: block;
+            padding: 3px;
+            border-radius: 30px;
+            margin-left: 10px;
+            transition: all ease .2s;
+
+            opacity: 0;
+        }
+    }
+}
+
+.t-infoContainer {
+
+    /*componente*/
+    .t-miniCard {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .t-miniCard-icon.secondary {
+            border: 0px;
+            height: 30px;
+            margin: 0px
+        }
+
+        .t-miniCard-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 64px;
+            border: 2px solid $color-base;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+
+
+
+
+            .iconify {
+                color: $color-base;
+                height: 30px;
+                width: 30px;
+            }
+
+        }
+
+        .t-cardTitle {
+            font-size: 0.85rem;
+            font-weight: 700;
+            width: 100%;
+            text-transform: uppercase;
+            margin: 0;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+
+.t-label-1 {
+    padding: 6px 15px;
+    background-color: #411aff;
+    color: $color-blanco;
+    border-radius: 30px;
+    margin-top: 5px;
+}
+
+.t-label-2 {
+    padding: 6px 15px;
+    background-color: #efb700;
+    color: $color-blanco;
+    border-radius: 30px;
+    margin-top: 5px;
+}
+
+.t-label-3 {
+    padding: 6px 15px;
+    background-color: #ef0070;
+    color: $color-blanco;
+    border-radius: 30px;
+}
+
+.t-label-4 {
+    padding: 6px 15px;
+    background-color: lighten($color-base, 55%);
+    border-color: $color-base;
+    color: $color-base;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.t-label-5 {
+    padding: 6px 15px;
+    background-color: #b3e37c;
+    border-color: #32550a;
+    color: #145e17;
+    border-radius: 30px;
+    margin-top: 5px;
+}
+
+.t-label-br {
+    padding: 6px 10px;
+    color: $color-base;
+    border-radius: 30px;
+    margin-right: 3px;
+    display: inline-block;
+    
+}
+
+
+
+.popUp {
+    max-width: 400px;
+    padding: 20px;
+    margin: 0;
+}
+
+.customLabelContainer {
+    display: flex;
+    align-items: center;
+
+    .v-popper {
+        height: 20px;
+        margin-left: 5px;
+    }
+
+    .iconify {
+        height: 24px;
+        width: 24px;
+
+    }
+}
+
+.documento {
+
+    a {
+        bottom: 20px;
+        right: 20px;
+    }
+}
