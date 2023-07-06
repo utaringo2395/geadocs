@@ -1,9 +1,12 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <header class="headerInicio">
+      <h1 class="titulo">Bienvenido</h1>
+      <p class="desc">Sistema de Diseño del Gobierno del Estado de Aguascalientes</p>
+    </header>
   </main>
 </template>
