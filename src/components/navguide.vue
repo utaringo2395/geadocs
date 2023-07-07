@@ -23,19 +23,19 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><RouterLink to="guiaConfig" class="nav-link dropdown-link">Configuración</RouterLink></li>
-                                <li><RouterLink to="/" class="nav-link dropdown-link">Google Analytics</RouterLink></li>
-                                <li><RouterLink to="/" class="nav-link dropdown-link">JavaScript</RouterLink></li>
-                                <li><RouterLink to="/" class="nav-link dropdown-link">Plantillas para dependencias</RouterLink></li>
+                                <li><RouterLink to="guiaGA" class="nav-link dropdown-link">Google Analytics</RouterLink></li>
+                                <li><RouterLink to="guiaJS" class="nav-link dropdown-link">JavaScript</RouterLink></li>
+                                <li><RouterLink to="guiaPlantillas" class="nav-link dropdown-link">Plantillas para dependencias</RouterLink></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <RouterLink to="/" class="nav-link">Plantillas</RouterLink>
+                            <RouterLink to="plantillas" class="nav-link">Plantillas</RouterLink>
                         </li>  
                         <li class="nav-item">
-                            <RouterLink to="/" class="nav-link">Color</RouterLink>
+                            <RouterLink to="color" class="nav-link">Color</RouterLink>
                         </li>  
                         <li class="nav-item">
-                            <RouterLink to="/" class="nav-link">Texto</RouterLink>
+                            <RouterLink to="texto" class="nav-link">Texto</RouterLink>
                         </li> 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

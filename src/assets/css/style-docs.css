@@ -6,9 +6,14 @@
   background-size: 1 0%;
   background-position: center;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column;
   justify-content: center;
   padding: 40px;
+}
+@media (max-width: 575.98px) {
+  .headerInicio {
+    height: 300px;
+  }
 }
 .headerInicio .titulo {
   color: #fff;
@@ -48,9 +53,14 @@
   background-size: 1 0%;
   background-position: center;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column;
   justify-content: center;
   padding: 40px;
+}
+@media (max-width: 575.98px) {
+  .headerSec_1 {
+    height: 300px;
+  }
 }
 .headerSec_1 .titulo {
   color: #fff;
@@ -83,13 +93,27 @@
   }
 }
 
-.make-snippet, pre.language-markup, code.language-markup, span.token, span.token.tag, span.token.attr-name, span.token.attr-value, span.token.punctuation {
+.make-snippet, pre.hljs, span.hljs-comment, span.hljs-class, span.hljs-symbol, span.hljs-string, pre.language-markup, code.language-markup, span.token, span.token.tag, span.token.attr-name, span.token.attr-value, span.token.punctuation {
   font-family: "Consolas", "Monaco", "Andale Mono", "Ubuntu Mono", monospace !important;
   font-size: 1rem;
+  white-space: pre-wrap;
 }
 
 #notShow .make-snippet {
   display: none;
+}
+
+.cBox {
+  height: 200px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.cBoxLined {
+  height: 200px;
+  border-radius: 5px;
+  border: 1px dotted rgb(169, 169, 169);
+  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=style-docs.css.map */
