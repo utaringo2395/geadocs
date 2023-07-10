@@ -42,8 +42,8 @@
                                 Iconos
                             </a>
                             <ul class="dropdown-menu">
-                                <li><RouterLink to="/" class="nav-link dropdown-link">Iconify</RouterLink></li>
-                                <li><RouterLink to="/" class="nav-link dropdown-link">Portal GEA</RouterLink></li>
+                                <li><RouterLink to="icIconify" class="nav-link dropdown-link">Iconify</RouterLink></li>
+                                <li><RouterLink to="icPortal" class="nav-link dropdown-link">Portal GEA</RouterLink></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">

@@ -9,6 +9,8 @@ import guiaPlantillas from '../views/guiaPlantillas.vue'
 import plantillas from '../views/plantillas.vue'
 import color from '../views/color.vue'
 import texto from '../views/texto.vue'
+import icIconify from '../views/icIconify.vue'
+import icPortal from '../views/icPortal.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -62,6 +64,16 @@ const router = createRouter({
       path: '/texto',
       name: 'texto',
       component: texto
+    },
+    {
+      path: '/icIconify',
+      name: 'icIconify',
+      component: icIconify
+    },
+    {
+      path: '/icPortal',
+      name: 'icPortal',
+      component: icPortal
     }
     // {
     //   path: '/about',

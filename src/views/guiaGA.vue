@@ -24,61 +24,54 @@
         <div class="row mb-3">
           <div class="col-lg-12">
             <p class="titulo">www</p>
-            <div id="notShow">
-              <div class="make-snippet">
-                &lt;script async
-                src="https://www.googletagmanager.com/gtag/js?id=UA-102112885-1"&gt;&lt;/script&gt;
-                &lt;script&gt;
-                window.dataLayer = window.dataLayer || []; function
-                gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config',
-                'UA-102112885-1'); &lt;/script&gt;
-              </div>
-            </div>
+            <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(39, 40, 34); color: rgb(221, 221, 221);"><span class="xml"><span class="hljs-comment" style="color: rgb(117, 113, 94);">&lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;</span>
+<span class="hljs-tag" style="color: rgb(249, 38, 114);">&lt;<span class="hljs-name" style="color: rgb(249, 38, 114);">script</span> <span class="hljs-attr">async</span> <span class="hljs-attr">src</span>=<span class="hljs-string" style="color: rgb(166, 226, 46);">"https://www.googletagmanager.com/gtag/js?id=UA-102112885-1"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag" style="color: rgb(249, 38, 114);">&lt;/<span class="hljs-name" style="color: rgb(249, 38, 114);">script</span>&gt;</span>
+<span class="hljs-tag" style="color: rgb(249, 38, 114);">&lt;<span class="hljs-name" style="color: rgb(249, 38, 114);">script</span>&gt;</span><span class="javascript">
+  <span class="hljs-built_in" style="color: rgb(166, 226, 46);">window</span>.dataLayer = <span class="hljs-built_in" style="color: rgb(166, 226, 46);">window</span>.dataLayer || [];
+  <span class="hljs-function"><span class="hljs-keyword" style="color: rgb(249, 38, 114); font-weight: 700;">function</span> <span class="hljs-title" style="color: rgb(166, 226, 46); font-weight: 700;">gtag</span>(<span class="hljs-params"></span>)</span>{dataLayer.push(<span class="hljs-built_in" style="color: rgb(166, 226, 46);">arguments</span>);}
+  gtag(<span class="hljs-string" style="color: rgb(166, 226, 46);">'js'</span>, <span class="hljs-keyword" style="color: rgb(249, 38, 114); font-weight: 700;">new</span> <span class="hljs-built_in" style="color: rgb(166, 226, 46);">Date</span>());
+  gtag(<span class="hljs-string" style="color: rgb(166, 226, 46);">'config'</span>, <span class="hljs-string" style="color: rgb(166, 226, 46);">'UA-102112885-1'</span>);
+</span><span class="hljs-tag" style="color: rgb(249, 38, 114);">&lt;/<span class="hljs-name" style="color: rgb(249, 38, 114);">script</span>&gt;</span></span></pre>
           </div>
         </div>
         <div class="row mb-3">
           <div class="col-lg-12">
             <p class="titulo">Egobierno2</p>
-            <div id="notShow">
-              <div class="make-snippet">
-                &lt;script async src="https://www.googletagmanager.com/gtag/js?id=UA-102112885-2"&gt;&lt;/script&gt;
-                &lt;script&gt;
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'UA-102112885-2'); &lt;/script&gt;
-              </div>
-            </div>
+            <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(39, 40, 34); color: rgb(221, 221, 221);"><span class="xml"><span class="hljs-comment" style="color: rgb(117, 113, 94);">&lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;</span>
+<span class="hljs-comment" style="color: rgb(117, 113, 94);">&lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;</span>
+<span class="hljs-tag" style="color: rgb(249, 38, 114);">&lt;<span class="hljs-name" style="color: rgb(249, 38, 114);">script</span> <span class="hljs-attr">async</span> <span class="hljs-attr">src</span>=<span class="hljs-string" style="color: rgb(166, 226, 46);">"https://www.googletagmanager.com/gtag/js?id=UA-102112885-2"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag" style="color: rgb(249, 38, 114);">&lt;/<span class="hljs-name" style="color: rgb(249, 38, 114);">script</span>&gt;</span>
+<span class="hljs-tag" style="color: rgb(249, 38, 114);">&lt;<span class="hljs-name" style="color: rgb(249, 38, 114);">script</span>&gt;</span><span class="javascript">
+  <span class="hljs-built_in" style="color: rgb(166, 226, 46);">window</span>.dataLayer = <span class="hljs-built_in" style="color: rgb(166, 226, 46);">window</span>.dataLayer || [];
+  <span class="hljs-function"><span class="hljs-keyword" style="color: rgb(249, 38, 114); font-weight: 700;">function</span> <span class="hljs-title" style="color: rgb(166, 226, 46); font-weight: 700;">gtag</span>(<span class="hljs-params"></span>)</span>{dataLayer.push(<span class="hljs-built_in" style="color: rgb(166, 226, 46);">arguments</span>);}
+  gtag(<span class="hljs-string" style="color: rgb(166, 226, 46);">'js'</span>, <span class="hljs-keyword" style="color: rgb(249, 38, 114); font-weight: 700;">new</span> <span class="hljs-built_in" style="color: rgb(166, 226, 46);">Date</span>());
+  gtag(<span class="hljs-string" style="color: rgb(166, 226, 46);">'config'</span>, <span class="hljs-string" style="color: rgb(166, 226, 46);">'UA-102112885-2'</span>);
+</span><span class="hljs-tag" style="color: rgb(249, 38, 114);">&lt;/<span class="hljs-name" style="color: rgb(249, 38, 114);">script</span>&gt;</span></span></pre>
           </div>
         </div>
         <div class="row mb-3">
           <div class="col-lg-12">
             <p class="titulo">Eservicios2</p>
-            <div id="notShow">
-              <div class="make-snippet">
-                &lt;script async src="https://www.googletagmanager.com/gtag/js?id=UA-116517396-1"&gt;&lt;/script&gt;
-                &lt;script&gt;  
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'UA-116517396-1'); &lt;/script&gt;
-              </div>
-            </div>
+            <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(39, 40, 34); color: rgb(221, 221, 221);"><span class="xml"><span class="hljs-comment" style="color: rgb(117, 113, 94);">&lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;</span>
+<span class="hljs-tag" style="color: rgb(249, 38, 114);">&lt;<span class="hljs-name" style="color: rgb(249, 38, 114);">script</span> <span class="hljs-attr">async</span> <span class="hljs-attr">src</span>=<span class="hljs-string" style="color: rgb(166, 226, 46);">"https://www.googletagmanager.com/gtag/js?id=UA-116517396-1"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag" style="color: rgb(249, 38, 114);">&lt;/<span class="hljs-name" style="color: rgb(249, 38, 114);">script</span>&gt;</span>
+<span class="hljs-tag" style="color: rgb(249, 38, 114);">&lt;<span class="hljs-name" style="color: rgb(249, 38, 114);">script</span>&gt;</span><span class="javascript">
+  <span class="hljs-built_in" style="color: rgb(166, 226, 46);">window</span>.dataLayer = <span class="hljs-built_in" style="color: rgb(166, 226, 46);">window</span>.dataLayer || [];
+  <span class="hljs-function"><span class="hljs-keyword" style="color: rgb(249, 38, 114); font-weight: 700;">function</span> <span class="hljs-title" style="color: rgb(166, 226, 46); font-weight: 700;">gtag</span>(<span class="hljs-params"></span>)</span>{dataLayer.push(<span class="hljs-built_in" style="color: rgb(166, 226, 46);">arguments</span>);}
+  gtag(<span class="hljs-string" style="color: rgb(166, 226, 46);">'js'</span>, <span class="hljs-keyword" style="color: rgb(249, 38, 114); font-weight: 700;">new</span> <span class="hljs-built_in" style="color: rgb(166, 226, 46);">Date</span>());
+  gtag(<span class="hljs-string" style="color: rgb(166, 226, 46);">'config'</span>, <span class="hljs-string" style="color: rgb(166, 226, 46);">'UA-116517396-1'</span>);
+</span><span class="hljs-tag" style="color: rgb(249, 38, 114);">&lt;/<span class="hljs-name" style="color: rgb(249, 38, 114);">script</span>&gt;</span></span></pre>
           </div>
         </div>
         <div class="row mb-3">
           <div class="col-lg-12">
             <p class="titulo">ICA</p>
-            <div id="notShow">
-              <div class="make-snippet">
-                &lt;script async src="https://www.googletagmanager.com/gtag/js?id=UA-102112885-2"&gt;&lt;/script&gt;
-                &lt;script&gt;  
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'UA-102112885-2');&lt;/script&gt;
-              </div>
-            </div>
+            <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(39, 40, 34); color: rgb(221, 221, 221);"><span class="xml"><span class="hljs-comment" style="color: rgb(117, 113, 94);">&lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;</span>
+<span class="hljs-tag" style="color: rgb(249, 38, 114);">&lt;<span class="hljs-name" style="color: rgb(249, 38, 114);">script</span> <span class="hljs-attr">async</span> <span class="hljs-attr">src</span>=<span class="hljs-string" style="color: rgb(166, 226, 46);">"https://www.googletagmanager.com/gtag/js?id=UA-102112885-2"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag" style="color: rgb(249, 38, 114);">&lt;/<span class="hljs-name" style="color: rgb(249, 38, 114);">script</span>&gt;</span>
+<span class="hljs-tag" style="color: rgb(249, 38, 114);">&lt;<span class="hljs-name" style="color: rgb(249, 38, 114);">script</span>&gt;</span><span class="javascript">
+  <span class="hljs-built_in" style="color: rgb(166, 226, 46);">window</span>.dataLayer = <span class="hljs-built_in" style="color: rgb(166, 226, 46);">window</span>.dataLayer || [];
+  <span class="hljs-function"><span class="hljs-keyword" style="color: rgb(249, 38, 114); font-weight: 700;">function</span> <span class="hljs-title" style="color: rgb(166, 226, 46); font-weight: 700;">gtag</span>(<span class="hljs-params"></span>)</span>{dataLayer.push(<span class="hljs-built_in" style="color: rgb(166, 226, 46);">arguments</span>);}
+  gtag(<span class="hljs-string" style="color: rgb(166, 226, 46);">'js'</span>, <span class="hljs-keyword" style="color: rgb(249, 38, 114); font-weight: 700;">new</span> <span class="hljs-built_in" style="color: rgb(166, 226, 46);">Date</span>());
+  gtag(<span class="hljs-string" style="color: rgb(166, 226, 46);">'config'</span>, <span class="hljs-string" style="color: rgb(166, 226, 46);">'UA-102112885-2'</span>);
+</span><span class="hljs-tag" style="color: rgb(249, 38, 114);">&lt;/<span class="hljs-name" style="color: rgb(249, 38, 114);">script</span>&gt;</span></span></pre>
           </div>
         </div>
       </div>

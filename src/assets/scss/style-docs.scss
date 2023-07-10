@@ -81,17 +81,25 @@
     }
 }
 
-.make-snippet, pre.hljs, span.hljs-comment, span.hljs-class, span.hljs-symbol, span.hljs-string, pre.language-markup, code.language-markup, span.token, span.token.tag, span.token.attr-name, span.token.attr-value, span.token.punctuation {
+.make-snippet, pre.hljs, span.hljs-name, span.xml, span.hljs-keyword, span.hljs-attr, span.hljs-attribute, span.actionscript,  span.hljs-meta, span.hljs-comment, span.hljs-keyword, span.hljs-class, span.hljs-symbol, span.hljs-string, span.hljs-built_in, span.token, span.token.tag, span.token.attr-name, span.hljs-title, span.javascript, span.token.attr-value, span.token.punctuation {
     font-family: 'Consolas', 'Monaco','Andale Mono','Ubuntu Mono',monospace !important;
     font-size: 1rem;
     white-space: pre-wrap;
+    font-weight: 500;
 }
 
-#notShow {
-    .make-snippet {
-        display: none;
-    }
+
+:not(pre)>code[class*=language-], pre[class*=language-], pre[class*=language-], pre[class*=language-], pre.markup-language, code.markup-language {
+    display: none !important;
+} 
+.make-snippet#notShow {
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 5px;
+    padding: 10px;
+    
+    margin-bottom: 1rem;
 }
+
 
 .cBox {
     height: 200px;
@@ -104,4 +112,10 @@
     border-radius: 5px;
     border: 1px dotted rgb(169, 169, 169);
     margin-bottom: 10px;
+}
+
+.col-lg-2.position-fixed.px-0.navbarColumn {
+    @media (min-width: 991.98px) {
+      height: 100% !important;
+    }
 }

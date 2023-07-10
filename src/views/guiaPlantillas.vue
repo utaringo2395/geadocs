@@ -121,46 +121,45 @@
               style="
                 display: block;
                 overflow-x: auto;
-                background: rgb(45, 45, 45);
-                color: rgb(204, 204, 204);
                 padding: 0.5em;
+                background: rgb(39, 40, 34);
+                color: rgb(221, 221, 221);
               "
-            >
-            <span class="hljs-comment" style="color: rgb(153, 153, 153);">/*Carga las rutas locales de la dependencia*/</span>
-            import router from <span class="hljs-string" style="color: rgb(153, 204, 153);">"./rutas.js"</span>;
+            ><span class="hljs-comment" style="color: rgb(117, 113, 94);">//Carga las rutas locales de la dependencia</span>
+import router from <span class="hljs-string" style="color: rgb(166, 226, 46);">"./rutas.js"</span>;
 
-            <span class="hljs-comment" style="color: rgb(153, 153, 153);">/*Cargar componente dentro de la libreria*/</span>
-            <span class="hljs-class">import </span>{ gea_navbar } from <span class="hljs-string" style="color: rgb(153, 204, 153);">"./gea-lib.esm.js"</span>;
-            <span class="hljs-class">import </span>{ gea_cabecera } from <span class="hljs-string" style="color: rgb(153, 204, 153);">"./gea-lib.esm.js"</span>;
-            <span class="hljs-class">import </span>{ gea_contacto } from <span class="hljs-string" style="color: rgb(153, 204, 153);">"./gea-lib.esm.js"</span>;
+<span class="hljs-comment" style="color: rgb(117, 113, 94);">//Cargar componente dentro de la libreria</span>
+<span class="hljs-class">import </span>{ gea_navbar } from <span class="hljs-string" style="color: rgb(166, 226, 46);">"./gea-lib.esm.js"</span>;
+<span class="hljs-class">import </span>{ gea_cabecera } from <span class="hljs-string" style="color: rgb(166, 226, 46);">"./gea-lib.esm.js"</span>;
+<span class="hljs-class">import </span>{ gea_contacto } from <span class="hljs-string" style="color: rgb(166, 226, 46);">"./gea-lib.esm.js"</span>;
 
-            <span class="hljs-comment" style="color: rgb(153, 153, 153);">/*Inicializa la librería de Vue*/</span>
-            new Vue({
-            <span class="hljs-symbol" style="color: rgb(153, 204, 153);">  el:</span> <span class="hljs-string" style="color: rgb(153, 204, 153);">"#appAgs"</span>,
-            router,
-            <span class="hljs-symbol" style="color: rgb(153, 204, 153);">  components:</span> {
-                gea_navbar,
-                gea_cabecera,
-                gea_contacto,
+<span class="hljs-comment" style="color: rgb(117, 113, 94);">//Inicializa la librería de Vue</span>
+new Vue({
+<span class="hljs-symbol" style="color: rgb(191, 121, 219);">    el:</span> <span class="hljs-string" style="color: rgb(166, 226, 46);">"#appAgs"</span>,
+    router,
+<span class="hljs-symbol" style="color: rgb(191, 121, 219);">    components:</span> {
+        gea_navbar,
+        gea_cabecera,
+        gea_contacto,
+    },
+    data() {
+        <span class="hljs-class">return </span>{
+<span class="hljs-symbol" style="color: rgb(191, 121, 219);">            cabecera:</span> {
+                <span class="hljs-comment" style="color: rgb(117, 113, 94);">//todas las imagenes deben de seguir la siguiente ruta: /img/dependencias/nombre de la dependencia</span>
+                <span class="hljs-comment" style="color: rgb(117, 113, 94);">//medida minima de fondo 1110px x 540px</span>
+<span class="hljs-symbol" style="color: rgb(191, 121, 219);">                bg:</span> <span class="hljs-string" style="color: rgb(166, 226, 46);">"https://via.placeholder.com/1110x540?text=fondo 1110x540"</span>,
+                <span class="hljs-comment" style="color: rgb(117, 113, 94);">//medida minima de logotipo 320px x 110px</span>
+<span class="hljs-symbol" style="color: rgb(191, 121, 219);">                logo:</span> <span class="hljs-string" style="color: rgb(166, 226, 46);">"https://via.placeholder.com/320x110?text=logo 320x110"</span>,
+<span class="hljs-symbol" style="color: rgb(191, 121, 219);">                abreviatura:</span> <span class="hljs-string" style="color: rgb(166, 226, 46);">"Abreviatura"</span>,
+<span class="hljs-symbol" style="color: rgb(191, 121, 219);">                nombre:</span> <span class="hljs-string" style="color: rgb(166, 226, 46);">"Nombre de Dependencia"</span>,
+
+                <span class="hljs-comment" style="color: rgb(117, 113, 94);">//Migajas Folder = al nombre del padre del sitio (no mover)</span>
+<span class="hljs-symbol" style="color: rgb(191, 121, 219);">                folder:</span> <span class="hljs-string" style="color: rgb(166, 226, 46);">"Dependencias"</span>,
+<span class="hljs-symbol" style="color: rgb(191, 121, 219);">                ruta:</span> <span class="hljs-string" style="color: rgb(166, 226, 46);">"/gobierno/dependencias.html"</span>,
             },
-            data() {
-                <span class="hljs-class">return </span>{
-            <span class="hljs-symbol" style="color: rgb(153, 204, 153);">      cabecera:</span> {
-                    <span class="hljs-comment" style="color: rgb(153, 153, 153);">/*todas las imagenes deben de seguir la siguiente ruta: /img/dependencias/nombre de la dependencia*/</span>
-                    <span class="hljs-comment" style="color: rgb(153, 153, 153);">/*medida minima de fondo 1110px x 540px*/</span>
-            <span class="hljs-symbol" style="color: rgb(153, 204, 153);">        bg:</span> <span class="hljs-string" style="color: rgb(153, 204, 153);">"https://via.placeholder.com/1110x540?text=fondo 1110x540"</span>,
-                    <span class="hljs-comment" style="color: rgb(153, 153, 153);">/*medida minima de logotipo 320px x 110px*/</span>
-            <span class="hljs-symbol" style="color: rgb(153, 204, 153);">        logo:</span> <span class="hljs-string" style="color: rgb(153, 204, 153);">"https://via.placeholder.com/320x110?text=logo 320x110"</span>,
-            <span class="hljs-symbol" style="color: rgb(153, 204, 153);">        abreviatura:</span> <span class="hljs-string" style="color: rgb(153, 204, 153);">"Abreviatura"</span>,
-            <span class="hljs-symbol" style="color: rgb(153, 204, 153);">        nombre:</span> <span class="hljs-string" style="color: rgb(153, 204, 153);">"Nombre de Dependencia"</span>,
-
-                    <span class="hljs-comment" style="color: rgb(153, 153, 153);">/*Migajas Folder = al nombre del padre del sitio (no mover)*/</span>
-            <span class="hljs-symbol" style="color: rgb(153, 204, 153);">        folder:</span> <span class="hljs-string" style="color: rgb(153, 204, 153);">"Dependencias"</span>,
-            <span class="hljs-symbol" style="color: rgb(153, 204, 153);">        ruta:</span> <span class="hljs-string" style="color: rgb(153, 204, 153);">"/gobierno/dependencias.html"</span>,
-                },
-                };
-            },
-            });</pre>
+        };
+    },
+});</pre>
 
             <p class="mt-4">
               Dentro del apartado <b>data()</b> esta un objeto llamado <b>cabecera:{}</b> dentro de
@@ -175,48 +174,47 @@
             <p>El resto no se modifica</p>
           </div>
         </div>
-        <div class="row  mt-4 mb-3">
+        <div class="row mt-4 mb-3">
           <div class="col-lg-12">
             <p><b>Archivo rutas.js</b></p>
 
             <p>
-              Este archivo es el que nos ayuda a que nuestras diferentes secciones, creadas en la carpeta <b>secciones</b> se pueda visualizar. El archivo
-              rutas se encuentra dentro de la carpeta <b>js</b>, es el siguiente:
+              Este archivo es el que nos ayuda a que nuestras diferentes secciones, creadas en la
+              carpeta <b>secciones</b> se pueda visualizar. El archivo rutas se encuentra dentro de
+              la carpeta <b>js</b>, es el siguiente:
             </p>
             <pre
               class="hljs"
               style="
                 display: block;
                 overflow-x: auto;
-                background: rgb(45, 45, 45);
-                color: rgb(204, 204, 204);
                 padding: 0.5em;
+                background: rgb(39, 40, 34);
+                color: rgb(221, 221, 221);
               "
-            >
-            <span class="hljs-comment" style="color: rgb(153, 153, 153);">// 0. If using a module system (e.g. via vue-cli), import Vue and VueRouter</span>
-            <span class="hljs-comment" style="color: rgb(153, 153, 153);">// and then call `Vue.use(VueRouter)`.</span>
+            ><span class="hljs-comment" style="color: rgb(117, 113, 94);">// 0. If using a module system (e.g. via vue-cli), import Vue and VueRouter</span>
+<span class="hljs-comment" style="color: rgb(117, 113, 94);">// and then call `Vue.use(VueRouter)`.</span>
 
-            <span class="hljs-comment" style="color: rgb(153, 153, 153);">// 1. Importar la seccion (Componente)</span>
-            <span class="hljs-comment" style="color: rgb(153, 153, 153);">// Este se compone por un import + nombre de la seccion + from + la ruta de la seccion (Por default  "./secciones/nombre-de-archivo.js")</span>
-            <span class="hljs-keyword" style="color: rgb(204, 153, 204);">import</span> principal <span class="hljs-keyword" style="color: rgb(204, 153, 204);">from</span> <span class="hljs-string" style="color: rgb(153, 204, 153);">"../secciones/principal.js"</span>;
+<span class="hljs-comment" style="color: rgb(117, 113, 94);">// 1. Importar la seccion (Componente)</span>
+<span class="hljs-comment" style="color: rgb(117, 113, 94);">// Este se compone por un import + nombre de la seccion + from + la ruta de la seccion (Por default  "./secciones/nombre-de-archivo.js")</span>
+<span class="hljs-keyword" style="color: rgb(249, 38, 114); font-weight: 700;">import</span> principal <span class="hljs-keyword" style="color: rgb(249, 38, 114); font-weight: 700;">from</span> <span class="hljs-string" style="color: rgb(166, 226, 46);">"../secciones/principal.js"</span>;
 
-            <span class="hljs-comment" style="color: rgb(153, 153, 153);">// 2. Definir las rutas</span>
-            <span class="hljs-comment" style="color: rgb(153, 153, 153);">// Cada ruta debe de estar ligada a una sección</span>
-            <span class="hljs-comment" style="color: rgb(153, 153, 153);">// Esta se compone por { + path + nombre de la seccion + , + component : nombre de la seccion (Componente)}</span>
-            <span class="hljs-comment" style="color: rgb(153, 153, 153);">// Estas rutas son las que se pondran como un router link de la barra de navegación secundaría</span>
+<span class="hljs-comment" style="color: rgb(117, 113, 94);">// 2. Definir las rutas</span>
+<span class="hljs-comment" style="color: rgb(117, 113, 94);">// Cada ruta debe de estar ligada a una sección</span>
+<span class="hljs-comment" style="color: rgb(117, 113, 94);">// Esta se compone por { + path + nombre de la seccion + , + component : nombre de la seccion (Componente)}</span>
+<span class="hljs-comment" style="color: rgb(117, 113, 94);">// Estas rutas son las que se pondran como un router link de la barra de navegación secundaría</span>
 
-            <span class="hljs-keyword" style="color: rgb(204, 153, 204);">const</span> routes = [
-                { path: <span class="hljs-string" style="color: rgb(153, 204, 153);">"/"</span>, component: principal }, 
-            ];
-            
+<span class="hljs-keyword" style="color: rgb(249, 38, 114); font-weight: 700;">const</span> routes = [
+  { path: <span class="hljs-string" style="color: rgb(166, 226, 46);">"/"</span>, component: principal }, 
+];
 
-            <span class="hljs-comment" style="color: rgb(153, 153, 153);">//3. esto no se tiene que mover :D</span>
-            <span class="hljs-keyword" style="color: rgb(204, 153, 204);">const</span> router = <span class="hljs-keyword" style="color: rgb(204, 153, 204);">new</span> VueRouter({
-            routes, <span class="hljs-comment" style="color: rgb(153, 153, 153);">// short for `routes: routes`</span>
-            });
 
-            <span class="hljs-keyword" style="color: rgb(204, 153, 204);">export</span> <span class="hljs-keyword" style="color: rgb(204, 153, 204);">default</span> router;
-            </pre>
+<span class="hljs-comment" style="color: rgb(117, 113, 94);">//3. esto no se tiene que mover :D</span>
+<span class="hljs-keyword" style="color: rgb(249, 38, 114); font-weight: 700;">const</span> router = <span class="hljs-keyword" style="color: rgb(249, 38, 114); font-weight: 700;">new</span> VueRouter({
+  routes, <span class="hljs-comment" style="color: rgb(117, 113, 94);">// short for `routes: routes`</span>
+});
+
+<span class="hljs-keyword" style="color: rgb(249, 38, 114); font-weight: 700;">export</span> <span class="hljs-keyword" style="color: rgb(249, 38, 114); font-weight: 700;">default</span> router;</pre>
           </div>
         </div>
       </div>
