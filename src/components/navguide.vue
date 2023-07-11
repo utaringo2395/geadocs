@@ -51,11 +51,11 @@
                                Componentes
                             </a>
                             <ul class="dropdown-menu">
-                                <li><RouterLink to="/" class="nav-link dropdown-link">Acordiones</RouterLink></li>
+                                <li><RouterLink to="cAcordion" class="nav-link dropdown-link">Acordiones</RouterLink></li>
                                 <li><RouterLink to="/" class="nav-link dropdown-link">Alertas</RouterLink></li>
-                                <li><RouterLink to="/" class="nav-link dropdown-link">Botones</RouterLink></li>
+                                <li><RouterLink to="cBotones" class="nav-link dropdown-link">Botones</RouterLink></li>
                                 <li><RouterLink to="/" class="nav-link dropdown-link">Banners</RouterLink></li>
-                                <li><RouterLink to="/" class="nav-link dropdown-link">Cartas</RouterLink></li>
+                                <li><RouterLink to="cCartas" class="nav-link dropdown-link">Cartas</RouterLink></li>
                                 <li><RouterLink to="/" class="nav-link dropdown-link">Carruseles</RouterLink></li>
                                 <li><RouterLink to="/" class="nav-link dropdown-link">Headers</RouterLink></li>
                                 <li><RouterLink to="/" class="nav-link dropdown-link">Listas</RouterLink></li>

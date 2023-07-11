@@ -1,8 +1,8 @@
 <template>
     <div>
         <header class="headerSec_1">
-            <h1 class="titulo">Iconos</h1>
-            <p class="desc">Portal GEA</p>
+            <h1 class="titulo">Portal GEA</h1>
+            <p class="desc">Iconos</p>
         </header>
 
         <main>
@@ -32,10 +32,6 @@
                             <div class="col-lg-2 col-md-3 col-6 text-center">
                                 <img src="https://eservicios2.aguascalientes.gob.mx/portalGea/iconos/i_bebida.svg" class="img-fluid">
                                 <p>i_bebida.svg</p>
-                            </div>
-                            <div class="col-lg-2 col-md-3 col-6 text-center">
-                                <img src="https://eservicios2.aguascalientes.gob.mx/portalGea/iconos/i_tienda.svg" class="img-fluid">
-                                <p>i_tienda.svg</p>
                             </div>
                             <div class="col-lg-2 col-md-3 col-6 text-center">
                                 <img src="https://eservicios2.aguascalientes.gob.mx/portalGea/iconos/i_comida.svg" class="img-fluid">
@@ -144,12 +140,28 @@
                                 <img src="https://eservicios2.aguascalientes.gob.mx/portalGea/iconos/i_planoCatastral.svg" class="img-fluid">
                                 <p>i_planoCatastral.svg</p>
                             </div>
+                            <div class="col-lg-2 col-md-3 col-6 text-center">
+                                <img src="https://eservicios2.aguascalientes.gob.mx/portalGea/iconos/i_mapa.svg" class="img-fluid">
+                                <p>i_mapa.svg</p>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-6 text-center">
+                                <img src="https://eservicios2.aguascalientes.gob.mx/portalGea/iconos/i_elevacionmapa.svg" class="img-fluid">
+                                <p>i_elevacionmapa.svg</p>
+                            </div>
                         </div>
                         <br>
                         <br>
                         <div class="row mt-5">
                             <div class="col-lg-12">
                                 <p class="subtitulo">Documentos</p>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-6 text-center">
+                                <img src="https://eservicios2.aguascalientes.gob.mx/portalGea/iconos/i_id2.svg" class="img-fluid">
+                                <p>i_id2.svg</p>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-6 text-center">
+                                <img src="https://eservicios2.aguascalientes.gob.mx/portalGea/iconos/i_justicia.svg" class="img-fluid">
+                                <p>i_justicia.svg</p>
                             </div>
                             <div class="col-lg-2 col-md-3 col-6 text-center">
                                 <img src="https://eservicios2.aguascalientes.gob.mx/portalGea/iconos/i_avaluo.svg" class="img-fluid">
@@ -639,6 +651,26 @@
                                 <img src="https://eservicios2.aguascalientes.gob.mx/portalGea/iconos/i_hotel.svg" class="img-fluid">
                                 <p>i_hotel.svg</p>
                             </div>
+                            <div class="col-lg-2 col-md-3 col-6 text-center">
+                                <img src="https://eservicios2.aguascalientes.gob.mx/portalGea/iconos/i_transporteescolar.svg" class="img-fluid">
+                                <p>i_transporteescolar.svg</p>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-6 text-center">
+                                <img src="https://eservicios2.aguascalientes.gob.mx/portalGea/iconos/i_ciclovias.svg" class="img-fluid">
+                                <p>i_ciclovias.svg</p>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-6 text-center">
+                                <img src="https://eservicios2.aguascalientes.gob.mx/portalGea/iconos/i_taller.svg" class="img-fluid">
+                                <p>i_taller.svg</p>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-6 text-center">
+                                <img src="https://eservicios2.aguascalientes.gob.mx/portalGea/iconos/i_ropa.svg" class="img-fluid">
+                                <p>i_ropa.svg</p>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-6 text-center">
+                                <img src="https://eservicios2.aguascalientes.gob.mx/portalGea/iconos/i_aeropuerto.svg" class="img-fluid">
+                                <p>i_aeropuerto.svg</p>
+                            </div>
                         </div>
                         <br>
                         <br>
@@ -671,8 +703,48 @@
                                 <p>i_promoVenta.svg</p>
                             </div>
                         </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="row mt-5">
+                            <div class="col-lg-12">
+                                <p class="subtitulo">Otros</p>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-6 text-center">
+                                <img src="https://eservicios2.aguascalientes.gob.mx/portalGea/iconos/i_deportes.svg" class="img-fluid">
+                                <p>i_deportes.svg</p>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-6 text-center">
+                                <img src="https://eservicios2.aguascalientes.gob.mx/portalGea/iconos/i_iglesia.svg" class="img-fluid">
+                                <p>i_iglesia.svg</p>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-6 text-center">
+                                <img src="https://eservicios2.aguascalientes.gob.mx/portalGea/iconos/i_informes.svg" class="img-fluid">
+                                <p>i_informes.svg</p>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-6 text-center">
+                                <img src="https://eservicios2.aguascalientes.gob.mx/portalGea/iconos/i_preguntas.svg" class="img-fluid">
+                                <p>i_preguntas.svg</p>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-6 text-center">
+                                <img src="https://eservicios2.aguascalientes.gob.mx/portalGea/iconos/i_llaves.svg" class="img-fluid">
+                                <p>i_llaves.svg</p>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-6 text-center">
+                                <img src="https://eservicios2.aguascalientes.gob.mx/portalGea/iconos/i_NoPropiedad.svg" class="img-fluid">
+                                <p>i_NoPropiedad.svg</p>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-6 text-center">
+                                <img src="https://eservicios2.aguascalientes.gob.mx/portalGea/iconos/i_estrellas.svg" class="img-fluid">
+                                <p>i_estrellas.svg</p>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-6 text-center">
+                                <img src="https://eservicios2.aguascalientes.gob.mx/portalGea/iconos/i_NoPropiedad.svg" class="img-fluid">
+                                <p>i_NoPropiedad.svg</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                
                
             </div>
         </main>

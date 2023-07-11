@@ -11,6 +11,9 @@ import color from '../views/color.vue'
 import texto from '../views/texto.vue'
 import icIconify from '../views/icIconify.vue'
 import icPortal from '../views/icPortal.vue'
+import cAcordion from '../views/cAcordion.vue'
+import cBotones from '../views/cBotones.vue'
+import cCartas from '../views/cCartas.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -74,6 +77,21 @@ const router = createRouter({
       path: '/icPortal',
       name: 'icPortal',
       component: icPortal
+    },
+    {
+      path: '/cAcordion',
+      name: 'cAcordion',
+      component: cAcordion
+    },
+    {
+      path: '/cBotones',
+      name: 'cBotones',
+      component: cBotones
+    },
+    {
+      path: '/cCartas',
+      name: 'cCartas',
+      component: cCartas
     }
     // {
     //   path: '/about',

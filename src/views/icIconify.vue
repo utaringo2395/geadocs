@@ -1,7 +1,7 @@
 <template>
     <div>
         <header class="headerSec_1">
-            <h1 class="titulo">Iconos</h1>
+            <h1 class="titulo">Iconify</h1>
             <p class="desc">Iconify</p>
         </header>
 

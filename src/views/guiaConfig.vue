@@ -1,8 +1,8 @@
 <template>
   <div>
     <header class="headerSec_1">
-      <h1 class="titulo">Guías</h1>
-      <p class="desc">Configuración</p>
+      <h1 class="titulo">Configuración</h1>
+      <p class="desc">Guías</p>
     </header>
 
     <main>

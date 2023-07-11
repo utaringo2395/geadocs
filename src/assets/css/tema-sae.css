@@ -13426,6 +13426,10 @@ input.btn-form {
   line-height: 1;
   color: #2F328A;
   margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  word-break: break-word;
 }
 .pill-card .btn {
   position: absolute;

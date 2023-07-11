@@ -1,8 +1,8 @@
 <template>
   <div>
     <header class="headerSec_1">
-      <h1 class="titulo">Guías</h1>
-      <p class="desc">Google Analytics</p>
+      <h1 class="titulo">Google Analytics</h1>
+      <p class="desc">Guías</p>
     </header>
 
     <main>

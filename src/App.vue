@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import navguide from './components/navguide.vue'
+import endcontent from './components/endcontent.vue'
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import navguide from './components/navguide.vue'
       </div>
       <div class="col-lg-10 offset-lg-2 px-0" style="height: 100vh; background: #fff;">
         <RouterView />
+        <endcontent />
       </div>
     </div>
   </div>
