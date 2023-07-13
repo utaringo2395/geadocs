@@ -13537,7 +13537,7 @@ Buscador para mini portales
   .cabecera-1 {
     padding: 12px;
     margin-top: 70px;
-    height: 400px;
+    height: 320px;
   }
 }
 .cabecera-1 .info-contenedor-cb {
@@ -13567,11 +13567,6 @@ Buscador para mini portales
 .cabecera-1 .info-contenedor-cb .logoCompleto {
   display: block;
   max-height: 110px;
-}
-@media (max-width: 780px) {
-  .cabecera-1 .info-contenedor-cb .logoCompleto {
-    display: none;
-  }
 }
 .cabecera-1 .info-contenedor-cb .abr-dependencia {
   display: none;
@@ -13973,6 +13968,40 @@ Buscador para mini portales
   margin-bottom: 0;
 }
 .mini-1 h2 {
+  font-family: "Visby", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.mini-grafico {
+  width: 100%;
+  padding: 25px 0;
+  background: #fff;
+}
+.mini-grafico div {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+.mini-grafico div img {
+  height: 7px;
+  width: auto;
+  margin: 0 8px 10px;
+}
+@media (max-width: 768.98px) {
+  .mini-grafico div img {
+    display: none;
+  }
+}
+.mini-grafico h1 {
+  font-family: "Visby", sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #2F328A;
+  margin-bottom: 0;
+}
+.mini-grafico h2 {
   font-family: "Visby", sans-serif;
   font-size: 20px;
   font-weight: 300;
@@ -14832,6 +14861,56 @@ Buscador para mini portales
   display: block;
 }
 #cartaCitas .swiper-slide .links-cita a.link-cancelar-cita:hover {
+  color: #0093c9;
+  text-decoration: underline;
+}
+
+.cartaCitasWeb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  border-radius: 9px;
+  background: #fff;
+  border-radius: 9px;
+  box-shadow: 0px 3.69885px 12.4942px rgba(0, 0, 0, 0.08);
+  border: 1px solid #9B9B9A;
+}
+.cartaCitasWeb .titulo {
+  font-family: "Visby", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.cartaCitasWeb .fecha,
+.cartaCitasWeb .horario,
+.cartaCitasWeb .dependencia,
+.cartaCitasWeb .direccion {
+  line-break: 0;
+  font-size: 14px;
+  color: #2b2a25;
+  text-align: center;
+  margin-bottom: 6px;
+}
+.cartaCitasWeb .links {
+  width: 254px;
+  bottom: 0;
+}
+.cartaCitasWeb .links button.btn-form.btn-form-descarga {
+  width: 100%;
+  letter-spacing: 10%;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.cartaCitasWeb .links a.link-cancelar-cita {
+  color: #000;
+}
+.cartaCitasWeb .links a.link-cancelar-cita:hover {
   color: #0093c9;
   text-decoration: underline;
 }

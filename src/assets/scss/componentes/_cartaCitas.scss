@@ -76,3 +76,62 @@
     }
   }
 }
+
+.cartaCitasWeb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  padding: 15px;
+  border-radius: 9px;
+  background: $color-blanco;
+
+  border-radius: 9px;
+  box-shadow: 0px 3.69885px 12.4942px rgba(0, 0, 0, 0.08);
+  border: 1px solid $color-9;
+
+  .titulo {
+    font-family: $fuente-principal;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .fecha,
+  .horario,
+  .dependencia,
+  .direccion {
+    line-break: 0;
+    font-size: 14px;
+    color: $evento-color-1;
+    text-align: center;
+    margin-bottom: 6px;
+  }
+
+  .links {
+    width: 254px;
+    bottom: 0;
+
+    button.btn-form.btn-form-descarga {
+      width: 100%;
+      letter-spacing: 10%;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    a.link-cancelar-cita {
+      color: $color-negro;
+
+      &:hover {
+        color: #0093c9;
+        text-decoration: underline;
+      }
+    }
+
+}
+}

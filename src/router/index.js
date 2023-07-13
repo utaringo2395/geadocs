@@ -14,6 +14,8 @@ import icPortal from '../views/icPortal.vue'
 import cAcordion from '../views/cAcordion.vue'
 import cBotones from '../views/cBotones.vue'
 import cCartas from '../views/cCartas.vue'
+import cCarruseles from '../views/cCarruseles.vue'
+import cHeaders from '../views/cHeaders.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -92,6 +94,16 @@ const router = createRouter({
       path: '/cCartas',
       name: 'cCartas',
       component: cCartas
+    },
+    {
+      path: '/cCarruseles',
+      name: 'cCarruseles',
+      component: cCarruseles
+    },
+    {
+      path: '/cHeaders',
+      name: 'cHeaders',
+      component: cHeaders
     }
     // {
     //   path: '/about',

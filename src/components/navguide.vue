@@ -56,8 +56,8 @@
                                 <li><RouterLink to="cBotones" class="nav-link dropdown-link">Botones</RouterLink></li>
                                 <li><RouterLink to="/" class="nav-link dropdown-link">Banners</RouterLink></li>
                                 <li><RouterLink to="cCartas" class="nav-link dropdown-link">Cartas</RouterLink></li>
-                                <li><RouterLink to="/" class="nav-link dropdown-link">Carruseles</RouterLink></li>
-                                <li><RouterLink to="/" class="nav-link dropdown-link">Headers</RouterLink></li>
+                                <li><RouterLink to="cCarruseles" class="nav-link dropdown-link">Carruseles</RouterLink></li>
+                                <li><RouterLink to="cHeaders" class="nav-link dropdown-link">Headers</RouterLink></li>
                                 <li><RouterLink to="/" class="nav-link dropdown-link">Listas</RouterLink></li>
                                 <li><RouterLink to="/" class="nav-link dropdown-link">Navbars</RouterLink></li>
                                 <li><RouterLink to="/" class="nav-link dropdown-link">Sidebars</RouterLink></li>
