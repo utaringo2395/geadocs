@@ -156,25 +156,25 @@
                                 <div class="row">
                                     <div class="col-lg-3 col-md-6 mb-3">
                                         <a href="#" class="cartaBorde">
-                                            <img src="http://eservicios2.aguascalientes.gob.mx/portalgea/iconos/i_taller.svg">
+                                            <img src="https://eservicios2.aguascalientes.gob.mx/portalgea/iconos/i_taller.svg">
                                             <p>Título corto</p>
                                         </a>
                                     </div>
                                     <div class="col-lg-3 col-md-6 mb-3">
                                         <a href="#" class="cartaBorde">
-                                            <img src="http://eservicios2.aguascalientes.gob.mx/portalgea/iconos/i_electricidadv2.svg">
+                                            <img src="https://eservicios2.aguascalientes.gob.mx/portalgea/iconos/i_electricidadv2.svg">
                                             <p>Título corto</p>
                                         </a>
                                     </div>
                                     <div class="col-lg-3 col-md-6 mb-3">
                                         <a href="#" class="cartaBorde">
-                                            <img src="http://eservicios2.aguascalientes.gob.mx/portalgea/iconos/i_justicia.svg">
+                                            <img src="https://eservicios2.aguascalientes.gob.mx/portalgea/iconos/i_justicia.svg">
                                             <p>Título corto</p>
                                         </a>
                                     </div>
                                     <div class="col-lg-3 col-md-6 mb-3">
                                         <a href="#" class="cartaBorde">
-                                            <img src="http://eservicios2.aguascalientes.gob.mx/portalgea/iconos/i_huesos.svg">
+                                            <img src="https://eservicios2.aguascalientes.gob.mx/portalgea/iconos/i_huesos.svg">
                                             <p>Título corto</p>
                                         </a>
                                     </div>
