@@ -97,6 +97,8 @@
       margin: 1.5rem 0;
     }
   }
+
+  
 }
 
 @media (max-width: 575.98px) {
@@ -164,4 +166,79 @@
   width: 100px;
   background-size: cover;
   margin-right: 10px;
+}
+
+.cardFuncionario {
+  margin: 2% 0;
+  height: 100%;
+
+  padding: 15px;
+  border-radius: $standard-radius;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3;
+    @media (max-width: 575.98px) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .foto {
+      border-radius: 300px;
+      background-size: cover;
+      background-position: enter;
+      background-repeat: no-repeat;
+      flex-shrink: 0;
+      
+      width: 100px !important;
+      height: 100px;
+      margin-right: 1rem;
+      @media (max-width: 575.98px) {
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+      }
+    }
+    .funcionario {
+      .puesto {
+        font-family: $fuente-principal;
+        font-size: 0.875rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: $color-1;
+        line-height: 1;
+
+        margin-bottom: 5px;
+        word-wrap: break-all;
+        @media (max-width: 575.98px) {
+          text-align: center;
+        }
+      }
+      .nombre {
+        font-family: $fuente-principal;
+        font-size: 1.25rem;
+        line-height: 1;
+        font-weight: 900;
+        color: $color-base;
+        text-transform: uppercase;
+        word-wrap: break-all;
+        @media (max-width: 575.98px) {
+          text-align: center;
+        }
+      }
+    }
+  }
+  .info {
+    .contacto {
+      display: flex;
+      flex-direction: row;
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+
 }

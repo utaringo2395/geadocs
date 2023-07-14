@@ -13693,30 +13693,30 @@ Buscador para mini portales
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 72px;
+  line-height: 1;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #fff;
+  color: #2F328A;
+  display: flex;
+  align-items: center;
 }
-@media (max-width: 991px) {
+@media (max-width: 991.98px) {
   .cabecera-2 .info-contenedor-cb .abr-dependencia {
-    font-size: 3.2rem;
+    font-size: 46px;
+    line-height: 1;
   }
 }
-@media (max-width: 762px) {
+@media (max-width: 768.98px) {
   .cabecera-2 .info-contenedor-cb .abr-dependencia {
-    font-size: 2.5rem;
+    font-size: 32px;
+    line-height: 1;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 575.98px) {
   .cabecera-2 .info-contenedor-cb .abr-dependencia {
-    font-size: 2.2rem;
-  }
-}
-@media (max-width: 411px) {
-  .cabecera-2 .info-contenedor-cb .abr-dependencia {
-    font-size: 1.5rem;
-    line-height: 1.7rem;
+    font-size: 28px;
+    line-height: 1;
+    word-wrap: break-word;
   }
 }
 .cabecera-2 .info-contenedor-cb .sub-dependencia {
@@ -13745,7 +13745,6 @@ Buscador para mini portales
 .cabecera-3 {
   margin-top: 120px;
   width: 100%;
-  min-height: 230px;
   border-radius: 10px;
   position: relative;
   padding: 35px;
@@ -13754,10 +13753,9 @@ Buscador para mini portales
   flex-wrap: wrap;
   align-items: center;
 }
-@media (max-width: 600px) {
+@media (max-width: 768.98px) {
   .cabecera-3 {
-    min-height: 150px;
-    padding: 25px;
+    padding: 25px 15px;
   }
 }
 .cabecera-3 .info-contenedor-cb {
@@ -13766,16 +13764,25 @@ Buscador para mini portales
   text-align: left;
   padding: 0;
   width: 100%;
-  margin-bottom: 20px;
+}
+@media (max-width: 575.98px) {
+  .cabecera-3 .info-contenedor-cb {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
 .cabecera-3 .info-contenedor-cb .logo {
   max-height: 145px;
   text-align: center;
   margin-right: 2rem;
 }
-@media (max-width: 762px) {
+@media (max-width: 575.98px) {
   .cabecera-3 .info-contenedor-cb .logo {
-    display: none;
+    width: 75px;
+    height: auto;
+    margin-right: 10px;
   }
 }
 .cabecera-3 .info-contenedor-cb .abr-dependencia {
@@ -13783,15 +13790,30 @@ Buscador para mini portales
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 72px;
+  line-height: 1;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #2F328A;
+  display: flex;
+  align-items: center;
 }
-@media (max-width: 762px) {
+@media (max-width: 991.98px) {
+  .cabecera-3 .info-contenedor-cb .abr-dependencia {
+    font-size: 46px;
+    line-height: 1;
+  }
+}
+@media (max-width: 768.98px) {
   .cabecera-3 .info-contenedor-cb .abr-dependencia {
     font-size: 32px;
-    line-height: 30px;
+    line-height: 1;
+  }
+}
+@media (max-width: 575.98px) {
+  .cabecera-3 .info-contenedor-cb .abr-dependencia {
+    font-size: 28px;
+    line-height: 1;
+    word-wrap: break-word;
   }
 }
 .cabecera-3 .info-contenedor-cb nav ol.breadcrumb.breadcrumb-sae,
@@ -20055,6 +20077,79 @@ blockquote {
   width: 100px;
   background-size: cover;
   margin-right: 10px;
+}
+
+.cardFuncionario {
+  margin: 2% 0;
+  height: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+.cardFuncionario .header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3;
+}
+@media (max-width: 575.98px) {
+  .cardFuncionario .header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.cardFuncionario .header .foto {
+  border-radius: 300px;
+  background-size: cover;
+  background-position: enter;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  width: 100px !important;
+  height: 100px;
+  margin-right: 1rem;
+}
+@media (max-width: 575.98px) {
+  .cardFuncionario .header .foto {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+.cardFuncionario .header .funcionario .puesto {
+  font-family: "Visby", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #3CB4E5;
+  line-height: 1;
+  margin-bottom: 5px;
+  word-wrap: break-all;
+}
+@media (max-width: 575.98px) {
+  .cardFuncionario .header .funcionario .puesto {
+    text-align: center;
+  }
+}
+.cardFuncionario .header .funcionario .nombre {
+  font-family: "Visby", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1;
+  font-weight: 900;
+  color: #2F328A;
+  text-transform: uppercase;
+  word-wrap: break-all;
+}
+@media (max-width: 575.98px) {
+  .cardFuncionario .header .funcionario .nombre {
+    text-align: center;
+  }
+}
+.cardFuncionario .info .contacto {
+  display: flex;
+  flex-direction: row;
+}
+.cardFuncionario .info .contacto p {
+  margin-bottom: 0;
 }
 
 #tramiteact-content {

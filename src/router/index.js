@@ -16,6 +16,8 @@ import cBotones from '../views/cBotones.vue'
 import cCartas from '../views/cCartas.vue'
 import cCarruseles from '../views/cCarruseles.vue'
 import cHeaders from '../views/cHeaders.vue'
+import cNavbars from '../views/cNavbars.vue'
+import cFooter from '../views/cFooter.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -104,6 +106,16 @@ const router = createRouter({
       path: '/cHeaders',
       name: 'cHeaders',
       component: cHeaders
+    },
+    {
+      path: '/cNavbars',
+      name: 'cNavbars',
+      component: cNavbars
+    },
+    {
+      path: '/cFooter',
+      name: 'cFooter',
+      component: cFooter
     }
     // {
     //   path: '/about',
@@ -113,7 +125,11 @@ const router = createRouter({
     //   // which is lazy-loaded when the route is visited.
     //   component: () => import('../views/AboutView.vue')
     // }
-  ]
+  ],
+  scrollBehavior(to, from, savedPosition) {
+    // always scroll to top
+    return { top: 0 }
+  },
 })
 
 export default router

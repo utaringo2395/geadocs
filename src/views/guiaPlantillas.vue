@@ -30,12 +30,7 @@
               Como en todas las plantillas es necesario cargar el script global de gea que es el
               siguiente:
             </p>
-            <div id="notShow">
-              <div class="make-snippet">
-                &lt;script
-                src="https://eservicios2.aguascalientes.gob.mx/portalgea/js/geavue.js"&gt;&lt;/script&gt;
-              </div>
-            </div>
+            <pre><code id="htmlViewer" style="color:rgb(221, 221, 221); font-weight:400;background-color:rgb(39, 40, 34);background:rgb(39, 40, 34);display:block;padding: .5em;"><span style="color:rgb(249, 38, 114); font-weight:400;">&lt;<span style="color:rgb(249, 38, 114); font-weight:400;">script</span> <span style="color:rgb(249, 38, 114); font-weight:400;">src</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;https://eservicios2.aguascalientes.gob.mx/portalgea/js/geavue.js&quot;</span>&gt;</span><span style="color:rgb(249, 38, 114); font-weight:400;">&lt;/<span style="color:rgb(249, 38, 114); font-weight:400;">script</span>&gt;</span></code></pre>
           </div>
         </div>
         <hr class="my-4" />
@@ -46,12 +41,14 @@
               Los atributos necesarios dentro de la plantilla en su etiqueta <b>body</b> son los
               siguientes:
             </p>
-            <div id="notShow">
-              <div class="make-snippet">
-                &lt;body data-sigla="siglas de su dependencia" data-css="S" data-vue="S"
-                data-folder="js"&gt; &lt;/body&gt;
-              </div>
-            </div>
+            <pre><code id="htmlViewer" style="color:rgb(221, 221, 221); font-weight:400;background-color:rgb(39, 40, 34);background:rgb(39, 40, 34);display:block;padding: .5em;">&lt;body 
+    <span style="color:rgb(249, 38, 114); font-weight:700;">data</span>-sigla=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;siglas de su dependencia&quot;</span> 
+    <span style="color:rgb(249, 38, 114); font-weight:700;">data</span>-css=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;S&quot;</span> 
+    <span style="color:rgb(249, 38, 114); font-weight:700;">data</span>-vue=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;S&quot;</span> 
+    <span style="color:rgb(249, 38, 114); font-weight:700;">data</span>-folder=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;js&quot;</span>
+&gt;
+    
+&lt;/body&gt;</code></pre>
             <p class="mt-4">
               jQuery no es necesario, al menos que usted lo necesite puede habilitarlo o importar su
               propia versión de jQuery
@@ -71,21 +68,13 @@
               navegar a las diferentes categorías del portal, es importante, se identifica por un id
               <b>hgea</b>
             </p>
-            <div id="notShow">
-              <div class="make-snippet">
-                <div id="hgea"></div>
-              </div>
-            </div>
+            <pre><code id="htmlViewer" style="color:rgb(221, 221, 221); font-weight:400;background-color:rgb(39, 40, 34);background:rgb(39, 40, 34);display:block;padding: .5em;">&lt;div <span style="color:rgb(166, 226, 46); font-weight:400;">id</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;hgea&quot;</span>&gt;&lt;/div&gt;</code></pre>
             <p class="mt-4 mb-2"><b>Footer</b></p>
             <p>
               El footer es la parte inferior del sitio donde se tiene información escencial del
               portal así como los links más visitados, se identifica por un id <b>fgea</b>
             </p>
-            <div id="notShow">
-              <div class="make-snippet">
-                <div id="hgea"></div>
-              </div>
-            </div>
+            <pre><code id="htmlViewer" style="color:rgb(221, 221, 221); font-weight:400;background-color:rgb(39, 40, 34);background:rgb(39, 40, 34);display:block;padding: .5em;">&lt;div <span style="color:rgb(166, 226, 46); font-weight:400;">id</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;fgea&quot;</span>&gt;&lt;/div&gt;</code></pre>
           </div>
         </div>
         <hr class="my-4" />
@@ -98,14 +87,15 @@
             </p>
             <br />
             <p><b>Header dependencia</b></p>
-            <div id="notShow">
-              <div class="make-snippet">
-                &lt;gea_cabecera :bg="cabecera.bg" :logo="cabecera.logo"
-                :abreviatura="cabecera.abreviatura" :nombre="cabecera.nombre"
-                :dtrigger="cabecera.dtrigger" :folder="cabecera.folder" :folderl="cabecera.ruta"
-                /&gt;
-              </div>
-            </div>
+            <pre><code id="htmlViewer" style="color:rgb(221, 221, 221); font-weight:400;background-color:rgb(39, 40, 34);background:rgb(39, 40, 34);display:block;padding: .5em;">&lt;gea_cabecera
+    <span style="color:rgb(191, 121, 219); font-weight:400;">:bg=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;cabecera.bg&quot;</span></span>
+    <span style="color:rgb(191, 121, 219); font-weight:400;">:logo=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;cabecera.logo&quot;</span></span>
+    <span style="color:rgb(191, 121, 219); font-weight:400;">:abreviatura=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;cabecera.abreviatura&quot;</span></span>
+    <span style="color:rgb(191, 121, 219); font-weight:400;">:nombre=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;cabecera.nombre&quot;</span></span>
+    <span style="color:rgb(191, 121, 219); font-weight:400;">:dtrigger=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;cabecera.dtrigger&quot;</span></span>
+    <span style="color:rgb(191, 121, 219); font-weight:400;">:folder=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;cabecera.folder&quot;</span></span>
+    <span style="color:rgb(191, 121, 219); font-weight:400;">:folderl=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;cabecera.ruta&quot;</span></span>
+/&gt;</code></pre>
             <p class="mt-4">
               Al usar el componente, no es necesario modificar este codigo, para modificar la
               información del header es necesario modificar el archivo <b>config.js</b> de la
@@ -116,50 +106,41 @@
         <div class="row mb-3">
           <div class="col-lg-12">
             <p><b>Archivo config.js</b></p>
-            <pre
-              class="hljs"
-              style="
-                display: block;
-                overflow-x: auto;
-                padding: 0.5em;
-                background: rgb(39, 40, 34);
-                color: rgb(221, 221, 221);
-              "
-            ><span class="hljs-comment" style="color: rgb(117, 113, 94);">//Carga las rutas locales de la dependencia</span>
-import router from <span class="hljs-string" style="color: rgb(166, 226, 46);">"./rutas.js"</span>;
+            <pre><code id="htmlViewer" style="color:rgb(221, 221, 221); font-weight:400;background-color:rgb(39, 40, 34);background:rgb(39, 40, 34);display:block;padding: .5em;"><span style="color:rgb(117, 113, 94); font-weight:400;">//Carga las rutas locales de la dependencia</span>
+<span style="color:rgb(249, 38, 114); font-weight:700;">import</span> router <span style="color:rgb(249, 38, 114); font-weight:700;">from</span> <span style="color:rgb(166, 226, 46); font-weight:400;">&quot;./rutas.js&quot;</span>;
 
-<span class="hljs-comment" style="color: rgb(117, 113, 94);">//Cargar componente dentro de la libreria</span>
-<span class="hljs-class">import </span>{ gea_navbar } from <span class="hljs-string" style="color: rgb(166, 226, 46);">"./gea-lib.esm.js"</span>;
-<span class="hljs-class">import </span>{ gea_cabecera } from <span class="hljs-string" style="color: rgb(166, 226, 46);">"./gea-lib.esm.js"</span>;
-<span class="hljs-class">import </span>{ gea_contacto } from <span class="hljs-string" style="color: rgb(166, 226, 46);">"./gea-lib.esm.js"</span>;
+<span style="color:rgb(117, 113, 94); font-weight:400;">//Cargar componente dentro de la libreria</span>
+<span style="color:rgb(249, 38, 114); font-weight:700;">import</span> { gea_navbar } <span style="color:rgb(249, 38, 114); font-weight:700;">from</span> <span style="color:rgb(166, 226, 46); font-weight:400;">&quot;./gea-lib.esm.js&quot;</span>;
+<span style="color:rgb(249, 38, 114); font-weight:700;">import</span> { gea_cabecera } <span style="color:rgb(249, 38, 114); font-weight:700;">from</span> <span style="color:rgb(166, 226, 46); font-weight:400;">&quot;./gea-lib.esm.js&quot;</span>;
+<span style="color:rgb(249, 38, 114); font-weight:700;">import</span> { gea_contacto } <span style="color:rgb(249, 38, 114); font-weight:700;">from</span> <span style="color:rgb(166, 226, 46); font-weight:400;">&quot;./gea-lib.esm.js&quot;</span>;
 
-<span class="hljs-comment" style="color: rgb(117, 113, 94);">//Inicializa la librería de Vue</span>
-new Vue({
-<span class="hljs-symbol" style="color: rgb(191, 121, 219);">    el:</span> <span class="hljs-string" style="color: rgb(166, 226, 46);">"#appAgs"</span>,
+<span style="color:rgb(117, 113, 94); font-weight:400;">//Inicializa la librería de Vue</span>
+<span style="color:rgb(249, 38, 114); font-weight:700;">new</span> <span class="hljs-title class_">Vue</span>({
+    <span style="color:rgb(221, 221, 221); font-weight:400;">el</span>: <span style="color:rgb(166, 226, 46); font-weight:400;">&quot;#appAgs&quot;</span>,
     router,
-<span class="hljs-symbol" style="color: rgb(191, 121, 219);">    components:</span> {
+    <span style="color:rgb(221, 221, 221); font-weight:400;">components</span>: {
         gea_navbar,
         gea_cabecera,
         gea_contacto,
     },
-    data() {
-        <span class="hljs-class">return </span>{
-<span class="hljs-symbol" style="color: rgb(191, 121, 219);">            cabecera:</span> {
-                <span class="hljs-comment" style="color: rgb(117, 113, 94);">//todas las imagenes deben de seguir la siguiente ruta: /img/dependencias/nombre de la dependencia</span>
-                <span class="hljs-comment" style="color: rgb(117, 113, 94);">//medida minima de fondo 1110px x 540px</span>
-<span class="hljs-symbol" style="color: rgb(191, 121, 219);">                bg:</span> <span class="hljs-string" style="color: rgb(166, 226, 46);">"https://via.placeholder.com/1110x540?text=fondo 1110x540"</span>,
-                <span class="hljs-comment" style="color: rgb(117, 113, 94);">//medida minima de logotipo 320px x 110px</span>
-<span class="hljs-symbol" style="color: rgb(191, 121, 219);">                logo:</span> <span class="hljs-string" style="color: rgb(166, 226, 46);">"https://via.placeholder.com/320x110?text=logo 320x110"</span>,
-<span class="hljs-symbol" style="color: rgb(191, 121, 219);">                abreviatura:</span> <span class="hljs-string" style="color: rgb(166, 226, 46);">"Abreviatura"</span>,
-<span class="hljs-symbol" style="color: rgb(191, 121, 219);">                nombre:</span> <span class="hljs-string" style="color: rgb(166, 226, 46);">"Nombre de Dependencia"</span>,
+    <span class="hljs-title function_">data</span>(<span style="color:rgb(221, 221, 221); font-weight:400;"></span>) {
+        <span style="color:rgb(249, 38, 114); font-weight:700;">return</span> {
+            <span style="color:rgb(221, 221, 221); font-weight:400;">cabecera</span>: {
+                <span style="color:rgb(117, 113, 94); font-weight:400;">//todas las imagenes deben de seguir la siguiente ruta: /img/dependencias/nombre de la dependencia</span>
+                <span style="color:rgb(117, 113, 94); font-weight:400;">//medida minima de fondo 1110px x 540px</span>
+                <span style="color:rgb(221, 221, 221); font-weight:400;">bg</span>: <span style="color:rgb(166, 226, 46); font-weight:400;">&quot;https://via.placeholder.com/1110x540?text=fondo 1110x540&quot;</span>,
+                <span style="color:rgb(117, 113, 94); font-weight:400;">//medida minima de logotipo 320px x 110px</span>
+                <span style="color:rgb(221, 221, 221); font-weight:400;">logo</span>: <span style="color:rgb(166, 226, 46); font-weight:400;">&quot;https://via.placeholder.com/320x110?text=logo 320x110&quot;</span>,
+                <span style="color:rgb(221, 221, 221); font-weight:400;">abreviatura</span>: <span style="color:rgb(166, 226, 46); font-weight:400;">&quot;Abreviatura&quot;</span>,
+                <span style="color:rgb(221, 221, 221); font-weight:400;">nombre</span>: <span style="color:rgb(166, 226, 46); font-weight:400;">&quot;Nombre de Dependencia&quot;</span>,
 
-                <span class="hljs-comment" style="color: rgb(117, 113, 94);">//Migajas Folder = al nombre del padre del sitio (no mover)</span>
-<span class="hljs-symbol" style="color: rgb(191, 121, 219);">                folder:</span> <span class="hljs-string" style="color: rgb(166, 226, 46);">"Dependencias"</span>,
-<span class="hljs-symbol" style="color: rgb(191, 121, 219);">                ruta:</span> <span class="hljs-string" style="color: rgb(166, 226, 46);">"/gobierno/dependencias.html"</span>,
+                <span style="color:rgb(117, 113, 94); font-weight:400;">//Migajas Folder = al nombre del padre del sitio (no mover)</span>
+                <span style="color:rgb(221, 221, 221); font-weight:400;">folder</span>: <span style="color:rgb(166, 226, 46); font-weight:400;">&quot;Dependencias&quot;</span>,
+                <span style="color:rgb(221, 221, 221); font-weight:400;">ruta</span>: <span style="color:rgb(166, 226, 46); font-weight:400;">&quot;/gobierno/dependencias.html&quot;</span>,
             },
         };
     },
-});</pre>
+});</code></pre>
 
             <p class="mt-4">
               Dentro del apartado <b>data()</b> esta un objeto llamado <b>cabecera:{}</b> dentro de
@@ -183,38 +164,29 @@ new Vue({
               carpeta <b>secciones</b> se pueda visualizar. El archivo rutas se encuentra dentro de
               la carpeta <b>js</b>, es el siguiente:
             </p>
-            <pre
-              class="hljs"
-              style="
-                display: block;
-                overflow-x: auto;
-                padding: 0.5em;
-                background: rgb(39, 40, 34);
-                color: rgb(221, 221, 221);
-              "
-            ><span class="hljs-comment" style="color: rgb(117, 113, 94);">// 0. If using a module system (e.g. via vue-cli), import Vue and VueRouter</span>
-<span class="hljs-comment" style="color: rgb(117, 113, 94);">// and then call `Vue.use(VueRouter)`.</span>
+            <pre><code id="htmlViewer" style="color:rgb(221, 221, 221); font-weight:400;background-color:rgb(39, 40, 34);background:rgb(39, 40, 34);display:block;padding: .5em;"><span style="color:rgb(117, 113, 94); font-weight:400;">// 0. If using a module system (e.g. via vue-cli), import Vue and VueRouter</span>
+<span style="color:rgb(117, 113, 94); font-weight:400;">// and then call `Vue.use(VueRouter)`.</span>
 
-<span class="hljs-comment" style="color: rgb(117, 113, 94);">// 1. Importar la seccion (Componente)</span>
-<span class="hljs-comment" style="color: rgb(117, 113, 94);">// Este se compone por un import + nombre de la seccion + from + la ruta de la seccion (Por default  "./secciones/nombre-de-archivo.js")</span>
-<span class="hljs-keyword" style="color: rgb(249, 38, 114); font-weight: 700;">import</span> principal <span class="hljs-keyword" style="color: rgb(249, 38, 114); font-weight: 700;">from</span> <span class="hljs-string" style="color: rgb(166, 226, 46);">"../secciones/principal.js"</span>;
+<span style="color:rgb(117, 113, 94); font-weight:400;">// 1. Importar la seccion (Componente)</span>
+<span style="color:rgb(117, 113, 94); font-weight:400;">// Este se compone por un import + nombre de la seccion + from + la ruta de la seccion (Por default  &quot;./secciones/nombre-de-archivo.js&quot;)</span>
+<span style="color:rgb(249, 38, 114); font-weight:700;">import</span> principal <span style="color:rgb(249, 38, 114); font-weight:700;">from</span> <span style="color:rgb(166, 226, 46); font-weight:400;">&quot;../secciones/principal.js&quot;</span>;
 
-<span class="hljs-comment" style="color: rgb(117, 113, 94);">// 2. Definir las rutas</span>
-<span class="hljs-comment" style="color: rgb(117, 113, 94);">// Cada ruta debe de estar ligada a una sección</span>
-<span class="hljs-comment" style="color: rgb(117, 113, 94);">// Esta se compone por { + path + nombre de la seccion + , + component : nombre de la seccion (Componente)}</span>
-<span class="hljs-comment" style="color: rgb(117, 113, 94);">// Estas rutas son las que se pondran como un router link de la barra de navegación secundaría</span>
+<span style="color:rgb(117, 113, 94); font-weight:400;">// 2. Definir las rutas</span>
+<span style="color:rgb(117, 113, 94); font-weight:400;">// Cada ruta debe de estar ligada a una sección</span>
+<span style="color:rgb(117, 113, 94); font-weight:400;">// Esta se compone por { + path + nombre de la seccion + , + component : nombre de la seccion (Componente)}</span>
+<span style="color:rgb(117, 113, 94); font-weight:400;">// Estas rutas son las que se pondran como un router link de la barra de navegación secundaría</span>
 
-<span class="hljs-keyword" style="color: rgb(249, 38, 114); font-weight: 700;">const</span> routes = [
-  { path: <span class="hljs-string" style="color: rgb(166, 226, 46);">"/"</span>, component: principal }, 
+<span style="color:rgb(249, 38, 114); font-weight:700;">const</span> routes = [
+  { <span style="color:rgb(221, 221, 221); font-weight:400;">path</span>: <span style="color:rgb(166, 226, 46); font-weight:400;">&quot;/&quot;</span>, <span style="color:rgb(221, 221, 221); font-weight:400;">component</span>: principal }, 
 ];
 
 
-<span class="hljs-comment" style="color: rgb(117, 113, 94);">//3. esto no se tiene que mover :D</span>
-<span class="hljs-keyword" style="color: rgb(249, 38, 114); font-weight: 700;">const</span> router = <span class="hljs-keyword" style="color: rgb(249, 38, 114); font-weight: 700;">new</span> VueRouter({
-  routes, <span class="hljs-comment" style="color: rgb(117, 113, 94);">// short for `routes: routes`</span>
+<span style="color:rgb(117, 113, 94); font-weight:400;">//3. esto no se tiene que mover :D</span>
+<span style="color:rgb(249, 38, 114); font-weight:700;">const</span> router = <span style="color:rgb(249, 38, 114); font-weight:700;">new</span> <span class="hljs-title class_">VueRouter</span>({
+  routes, <span style="color:rgb(117, 113, 94); font-weight:400;">// short for `routes: routes`</span>
 });
 
-<span class="hljs-keyword" style="color: rgb(249, 38, 114); font-weight: 700;">export</span> <span class="hljs-keyword" style="color: rgb(249, 38, 114); font-weight: 700;">default</span> router;</pre>
+<span style="color:rgb(249, 38, 114); font-weight:700;">export</span> <span style="color:rgb(249, 38, 114); font-weight:700;">default</span> router;</code></pre>
           </div>
         </div>
       </div>

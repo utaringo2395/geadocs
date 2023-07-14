@@ -12,7 +12,7 @@
                         <p class="titulo">Cabeceras dependencias</p>
                         <p>Esta cabecera se usa exclusivamente para las páginas de las dependencias.</p>
                         <div class="make-snippet" id="notShow">
-                            <div class="cabecera-1" style="background-image: linear-gradient(305.24deg, rgba(41, 60, 152, 0.5) 23.02%, rgba(41, 60, 152, 0.357) 80.31%), url('https://www.aguascalientes.gob.mx/SIGOD/img/SIGOD.jpg');">
+                            <div class="cabecera-1 mt-0" style="background-image: linear-gradient(305.24deg, rgba(41, 60, 152, 0.5) 23.02%, rgba(41, 60, 152, 0.357) 80.31%), url('https://www.aguascalientes.gob.mx/SIGOD/img/SIGOD.jpg');">
                                 <div class="info-contenedor-cb" >
                                     <img class="logoCompleto img-fluid" src="https://www.aguascalientes.gob.mx/logodep/img-escudoSIGOD_g.png" alt="Logo SIGOD" />
                                 </div>
@@ -58,9 +58,9 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <div class="cabecera-2 bg-2" style="margin-top: 2rem;">
+                                        <div class="cabecera-2 bg-2" style="margin-top: 2rem; z-index: -1;">
                                             <div class="info-contenedor-cb">
-                                                <div class="abr-dependencia" style="color: #fff;">
+                                                <div class="abr-dependencia c_blanco">
                                                     Título de cabecera
                                                 </div>
                                             </div>
@@ -79,9 +79,9 @@
                                         </div>
                                     </div>
                                     <div class="col-md-12">
-                                        <div class="cabecera-2 bg_dg-5" style="margin-top: 2rem;">
+                                        <div class="cabecera-2 bg_dg-5" style="margin-top: 2rem; z-index: -1;">
                                             <div class="info-contenedor-cb">
-                                                <div class="abr-dependencia" style="color: #fff;">
+                                                <div class="abr-dependencia c_blanco">
                                                     Título de cabecera
                                                 </div>
                                             </div>
@@ -100,9 +100,9 @@
                                         </div>
                                     </div>
                                     <div class="col-md-12">
-                                        <div class="cabecera-2 bg-6" style="margin-top: 2rem;">
+                                        <div class="cabecera-2 bg-6" style="margin-top: 2rem; z-index: -1;">
                                             <div class="info-contenedor-cb">
-                                                <div class="abr-dependencia" style="color: #fff;">
+                                                <div class="abr-dependencia c_blanco">
                                                     Título de cabecera
                                                 </div>
                                             </div>
@@ -121,9 +121,9 @@
                                         </div>
                                     </div>
                                     <div class="col-md-12">
-                                        <div class="cabecera-2 bg_dg-3" style="margin-top: 2rem;">
+                                        <div class="cabecera-2 bg_dg-3" style="margin-top: 2rem; z-index: -1;">
                                             <div class="info-contenedor-cb">
-                                                <div class="abr-dependencia" style="color: #fff;">
+                                                <div class="abr-dependencia c_blanco">
                                                     Título de cabecera
                                                 </div>
                                             </div>
@@ -144,11 +144,9 @@
                                 </div>
                             </div>
                         </div>
-                        <pre>
- <code id="htmlViewer" style="color:rgb(221, 221, 221); font-weight:400;background-color:rgb(39, 40, 34);background:rgb(39, 40, 34);display:block;padding: .5em;"><span style="color:rgb(249, 38, 114); font-weight:400;">&lt;<span style="color:rgb(249, 38, 114); font-weight:400;">div</span> <span style="color:rgb(249, 38, 114); font-weight:400;">class</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;cabecera-2 bg-2&quot;</span>&gt;</span>
+                        <pre><code id="htmlViewer" style="color:rgb(221, 221, 221); font-weight:400;background-color:rgb(39, 40, 34);background:rgb(39, 40, 34);display:block;padding: .5em;"><span style="color:rgb(249, 38, 114); font-weight:400;">&lt;<span style="color:rgb(249, 38, 114); font-weight:400;">div</span> <span style="color:rgb(249, 38, 114); font-weight:400;">class</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;cabecera-2 bg-2&quot;</span> <span style="color:rgb(249, 38, 114); font-weight:400;">style</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;margin-top: 2rem;&quot;</span>&gt;</span>
     <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;<span style="color:rgb(249, 38, 114); font-weight:400;">div</span> <span style="color:rgb(249, 38, 114); font-weight:400;">class</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;info-contenedor-cb&quot;</span>&gt;</span>
-        <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;<span style="color:rgb(249, 38, 114); font-weight:400;">div</span> <span style="color:rgb(249, 38, 114); font-weight:400;">class</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;abr-dependencia&quot;</span> <span style="color:rgb(249, 38, 114); font-weight:400;">style</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;color: #fff;&quot;</span>&gt;</span>
-            <span style="color:rgb(117, 113, 94); font-weight:400;">&lt;!--Aquí sustituir el nombre del sitio--&gt;</span>
+        <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;<span style="color:rgb(249, 38, 114); font-weight:400;">div</span> <span style="color:rgb(249, 38, 114); font-weight:400;">class</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;abr-dependencia c_blanco&quot;</span>&gt;</span>
             Título de cabecera
         <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;/<span style="color:rgb(249, 38, 114); font-weight:400;">div</span>&gt;</span>
     <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;/<span style="color:rgb(249, 38, 114); font-weight:400;">div</span>&gt;</span>
@@ -211,6 +209,41 @@
     <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;/<span style="color:rgb(249, 38, 114); font-weight:400;">div</span>&gt;</span>
     <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;<span style="color:rgb(249, 38, 114); font-weight:400;">h2</span>&gt;</span>Subtítulo<span style="color:rgb(249, 38, 114); font-weight:400;">&lt;/<span style="color:rgb(249, 38, 114); font-weight:400;">h2</span>&gt;</span>
 <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;/<span style="color:rgb(249, 38, 114); font-weight:400;">div</span>&gt;</span></code></pre>
+                    </div>
+                </div>
+                <div class="row mt-4 mb-3">
+                    <div class="col-lg-12">
+                        <p class="titulo">Subsecciones principales</p>
+                        <p>Cabecera con logo del Gobierno del Estado, se usa únicamente para la sección de Gobernador y Gabinete, y Directorio de Dependencias.</p>
+                        <div class="make-snippet" id="notShow">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="cabecera-3 mt-0">
+                                            <div class="info-contenedor-cb">
+                                                <img class="logo img-fluid" src="https://www.aguascalientes.gob.mx/img/logos/logoVertical2021.svg" alt="Logo Gobierno del Estado" />
+                                                <div class="abr-dependencia">Dependencias y Entidades</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="cabecera-3" style="margin-top: 2rem;">
+                                            <div class="info-contenedor-cb">
+                                                <img class="logo img-fluid" src="https://www.aguascalientes.gob.mx/img/logos/logoVertical2021.svg" alt="Logo Gobierno del Estado" />
+                                                <div class="abr-dependencia">Gobernadora y gabinete</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <pre><code id="htmlViewer" style="color:rgb(221, 221, 221); font-weight:400;background-color:rgb(39, 40, 34);background:rgb(39, 40, 34);display:block;padding: .5em;"><span style="color:rgb(249, 38, 114); font-weight:400;">&lt;<span style="color:rgb(249, 38, 114); font-weight:400;">div</span> <span style="color:rgb(249, 38, 114); font-weight:400;">class</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;cabecera-3&quot;</span>&gt;</span>
+    <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;<span style="color:rgb(249, 38, 114); font-weight:400;">div</span> <span style="color:rgb(249, 38, 114); font-weight:400;">class</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;info-contenedor-cb&quot;</span>&gt;</span>
+        <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;<span style="color:rgb(249, 38, 114); font-weight:400;">img</span> <span style="color:rgb(249, 38, 114); font-weight:400;">class</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;logo&quot;</span> <span style="color:rgb(249, 38, 114); font-weight:400;">src</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;https://www.aguascalientes.gob.mx/img/logos/logoVertical2021.svg&quot;</span> <span style="color:rgb(249, 38, 114); font-weight:400;">alt</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;Logo Gobierno del Estado&quot;</span> /&gt;</span>
+        <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;<span style="color:rgb(249, 38, 114); font-weight:400;">div</span> <span style="color:rgb(249, 38, 114); font-weight:400;">class</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;abr-dependencia&quot;</span>&gt;</span>Dependencias y Entidades<span style="color:rgb(249, 38, 114); font-weight:400;">&lt;/<span style="color:rgb(249, 38, 114); font-weight:400;">div</span>&gt;</span>
+    <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;/<span style="color:rgb(249, 38, 114); font-weight:400;">div</span>&gt;</span>
+<span style="color:rgb(249, 38, 114); font-weight:400;">&lt;/<span style="color:rgb(249, 38, 114); font-weight:400;">div</span>&gt;</span>
+       </code></pre> 
                     </div>
                 </div>
             </div>

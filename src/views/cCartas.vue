@@ -321,6 +321,113 @@
 <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;/<span style="color:rgb(249, 38, 114); font-weight:400;">div</span>&gt;</span></code></pre>
                     </div>
                 </div>
+
+                <div class="row mt-4 mb-3">
+                    <div class="col-lg-12">
+                        <p class="titulo c_negro">Carta Gabinete</p>
+                        <p>Su uso es exclusivo para los miembros del gabinete estatal, en la sección de <a href="https://www.aguascalientes.gob.mx/GOBIERNO/gabinete/gabinete.html">Gobernadora y Gabinete</a> del portal del Estado de Aguascalientes.</p>
+                        <div class="make-snippet" id="notShow">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <div class="cardFuncionario">
+                                            <div class="header">
+                                                <div class="foto" style="background-image: url('https://www.aguascalientes.gob.mx/GOBIERNO/gabinete/img/CGG.jpeg');"></div>
+                                                <div class="funcionario">
+                                                    <p class="puesto">Coordinador General de Gabinete</p>
+                                                    <p class="nombre">Alfredo Rivadeneyra Hernández</p>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="info">
+                                                <div class="contacto mb-2">
+                                                    <span class="iconify me-2" data-inline="true" data-icon="ic:sharp-place"></span> 
+                                                    <p> Palacio de Gobierno - Planta Baja, Plaza de la Patria s/n</p>
+                                                </div>
+                                                <div class="contacto">
+                                                    <span class="iconify me-2" data-inline="true" data-icon="ic:sharp-phone"></span> 
+                                                    <p> (449) 910 2109 ext. 3214</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <div class="cardFuncionario">
+                                            <div class="header">
+                                                <div class="foto" style="background-image: url('https://www.aguascalientes.gob.mx/GOBIERNO/gabinete/img/CGG.jpeg');"></div>
+                                                <div class="funcionario">
+                                                    <p class="puesto">Coordinador General de Gabinete</p>
+                                                    <p class="nombre">Alfredo Rivadeneyra Hernández</p>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="info">
+                                                <div class="contacto mb-2">
+                                                    <span class="iconify me-2" data-inline="true" data-icon="ic:sharp-place"></span> 
+                                                    <p> Palacio de Gobierno - Planta Baja, Plaza de la Patria s/n</p>
+                                                </div>
+                                                <div class="contacto">
+                                                    <span class="iconify me-2" data-inline="true" data-icon="ic:sharp-phone"></span> 
+                                                    <p> (449) 910 2109 ext. 3214</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mb-3">
+                                        <div class="cardFuncionario">
+                                            <div class="header">
+                                                <div class="foto" style="background-image: url('https://www.aguascalientes.gob.mx/GOBIERNO/gabinete/img/CGG.jpeg');"></div>
+                                                <div class="funcionario">
+                                                    <p class="puesto">Coordinador General de Gabinete</p>
+                                                    <p class="nombre">Alfredo Rivadeneyra Hernández</p>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="info">
+                                                <div class="contacto mb-2">
+                                                    <span class="iconify me-2" data-inline="true" data-icon="ic:sharp-place"></span> 
+                                                    <p> Palacio de Gobierno - Planta Baja, Plaza de la Patria s/n</p>
+                                                </div>
+                                                <div class="contacto">
+                                                    <span class="iconify me-2" data-inline="true" data-icon="ic:sharp-phone"></span> 
+                                                    <p> (449) 910 2109 ext. 3214</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <pre><code id="htmlViewer" style="color:rgb(221, 221, 221); font-weight:400;background-color:rgb(39, 40, 34);background:rgb(39, 40, 34);display:block;padding: .5em;"><span style="color:rgb(249, 38, 114); font-weight:400;">&lt;<span style="color:rgb(249, 38, 114); font-weight:400;">div</span> <span style="color:rgb(249, 38, 114); font-weight:400;">class</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;cardFuncionario&quot;</span>&gt;</span>
+    <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;<span style="color:rgb(249, 38, 114); font-weight:400;">div</span> <span style="color:rgb(249, 38, 114); font-weight:400;">class</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;header&quot;</span>&gt;</span>
+        <span style="color:rgb(117, 113, 94); font-weight:400;">&lt;!--Sustituir link de fotografía--&gt;</span>
+        <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;<span style="color:rgb(249, 38, 114); font-weight:400;">div</span> <span style="color:rgb(249, 38, 114); font-weight:400;">class</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;foto&quot;</span> <span style="color:rgb(249, 38, 114); font-weight:400;">style</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;background-image: url(&#x27;https://www.aguascalientes.gob.mx/GOBIERNO/gabinete/img/CGG.jpeg&#x27;);&quot;</span>&gt;</span><span style="color:rgb(249, 38, 114); font-weight:400;">&lt;/<span style="color:rgb(249, 38, 114); font-weight:400;">div</span>&gt;</span>
+        <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;<span style="color:rgb(249, 38, 114); font-weight:400;">div</span> <span style="color:rgb(249, 38, 114); font-weight:400;">class</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;funcionario&quot;</span>&gt;</span>
+            <span style="color:rgb(117, 113, 94); font-weight:400;">&lt;!--Puesto--&gt;</span>
+            <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;<span style="color:rgb(249, 38, 114); font-weight:400;">p</span> <span style="color:rgb(249, 38, 114); font-weight:400;">class</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;puesto&quot;</span>&gt;</span>Puesto del titular<span style="color:rgb(249, 38, 114); font-weight:400;">&lt;/<span style="color:rgb(249, 38, 114); font-weight:400;">p</span>&gt;</span>
+            <span style="color:rgb(117, 113, 94); font-weight:400;">&lt;!--Nombre Completo--&gt;</span>
+            <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;<span style="color:rgb(249, 38, 114); font-weight:400;">p</span> <span style="color:rgb(249, 38, 114); font-weight:400;">class</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;nombre&quot;</span>&gt;</span>Nombre(s) Apellido Apellido<span style="color:rgb(249, 38, 114); font-weight:400;">&lt;/<span style="color:rgb(249, 38, 114); font-weight:400;">p</span>&gt;</span>
+        <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;/<span style="color:rgb(249, 38, 114); font-weight:400;">div</span>&gt;</span>
+    <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;/<span style="color:rgb(249, 38, 114); font-weight:400;">div</span>&gt;</span>
+    <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;<span style="color:rgb(249, 38, 114); font-weight:400;">hr</span>&gt;</span>
+    <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;<span style="color:rgb(249, 38, 114); font-weight:400;">div</span> <span style="color:rgb(249, 38, 114); font-weight:400;">class</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;info&quot;</span>&gt;</span>
+        <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;<span style="color:rgb(249, 38, 114); font-weight:400;">div</span> <span style="color:rgb(249, 38, 114); font-weight:400;">class</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;contacto mb-2&quot;</span>&gt;</span>
+            <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;<span style="color:rgb(249, 38, 114); font-weight:400;">span</span> <span style="color:rgb(249, 38, 114); font-weight:400;">class</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;iconify me-2&quot;</span> <span style="color:rgb(249, 38, 114); font-weight:400;">data-inline</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;true&quot;</span> <span style="color:rgb(249, 38, 114); font-weight:400;">data-icon</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;ic:sharp-place&quot;</span>&gt;</span><span style="color:rgb(249, 38, 114); font-weight:400;">&lt;/<span style="color:rgb(249, 38, 114); font-weight:400;">span</span>&gt;</span> 
+            
+            <span style="color:rgb(117, 113, 94); font-weight:400;">&lt;!--Dirección--&gt;</span>
+            <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;<span style="color:rgb(249, 38, 114); font-weight:400;">p</span>&gt;</span> Palacio de Gobierno - Planta Baja, Plaza de la Patria s/n<span style="color:rgb(249, 38, 114); font-weight:400;">&lt;/<span style="color:rgb(249, 38, 114); font-weight:400;">p</span>&gt;</span>
+        <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;/<span style="color:rgb(249, 38, 114); font-weight:400;">div</span>&gt;</span>
+        <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;<span style="color:rgb(249, 38, 114); font-weight:400;">div</span> <span style="color:rgb(249, 38, 114); font-weight:400;">class</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;contacto&quot;</span>&gt;</span>
+            <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;<span style="color:rgb(249, 38, 114); font-weight:400;">span</span> <span style="color:rgb(249, 38, 114); font-weight:400;">class</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;iconify me-2&quot;</span> <span style="color:rgb(249, 38, 114); font-weight:400;">data-inline</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;true&quot;</span> <span style="color:rgb(249, 38, 114); font-weight:400;">data-icon</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;ic:sharp-phone&quot;</span>&gt;</span><span style="color:rgb(249, 38, 114); font-weight:400;">&lt;/<span style="color:rgb(249, 38, 114); font-weight:400;">span</span>&gt;</span> 
+            
+             <span style="color:rgb(117, 113, 94); font-weight:400;">&lt;!--Teléfono--&gt;</span>
+            <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;<span style="color:rgb(249, 38, 114); font-weight:400;">p</span>&gt;</span> (449) 910 2109 ext. 3214<span style="color:rgb(249, 38, 114); font-weight:400;">&lt;/<span style="color:rgb(249, 38, 114); font-weight:400;">p</span>&gt;</span>
+        <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;/<span style="color:rgb(249, 38, 114); font-weight:400;">div</span>&gt;</span>
+    <span style="color:rgb(249, 38, 114); font-weight:400;">&lt;/<span style="color:rgb(249, 38, 114); font-weight:400;">div</span>&gt;</span>
+<span style="color:rgb(249, 38, 114); font-weight:400;">&lt;/<span style="color:rgb(249, 38, 114); font-weight:400;">div</span>&gt;</span>
+        </code></pre>
+                    </div>
+                </div>
             </div>
         </main>
     </div>
