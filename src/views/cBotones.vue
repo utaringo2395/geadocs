@@ -37,6 +37,18 @@
                 </div>
                 <div class="row mt-3 mb-4">
                     <div class="col-lg-12">
+                        <p class="titulo">Botón principal light</p>
+                        <p>Usar la clase <b>.btn-principal-light</b></p>
+                        <div class="make-snippet" id="notShow">
+                            <a href="" class="btn btn-principal-light mx-2">Botón Principal Light</a>
+                            <a href="" class="btn btn-principal-light mx-2">Botón Principal Light</a>
+                            <a href="" class="btn btn-principal-light mx-2">Botón Principal Light</a>
+                        </div>
+                        <pre><code id="htmlViewer" style="color:rgb(221, 221, 221); font-weight:400;background-color:rgb(39, 40, 34);background:rgb(39, 40, 34);display:block;padding: .5em;"><span style="color:rgb(249, 38, 114); font-weight:400;">&lt;<span style="color:rgb(249, 38, 114); font-weight:400;">a</span> <span style="color:rgb(249, 38, 114); font-weight:400;">href</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;#&quot;</span> <span style="color:rgb(249, 38, 114); font-weight:400;">class</span>=<span style="color:rgb(166, 226, 46); font-weight:400;">&quot;btn btn-principal-light&quot;</span>&gt;</span>Botón Principal<span style="color:rgb(249, 38, 114); font-weight:400;">&lt;/<span style="color:rgb(249, 38, 114); font-weight:400;">a</span>&gt;</span></code></pre>
+                    </div>
+                </div>
+                <div class="row mt-3 mb-4">
+                    <div class="col-lg-12">
                         <p class="subtitulo c_negro">Botón de color</p>
                         <p>Usando las clases para fondos, podemos cambiar los colores de los botones.<br><RouterLink to="color">Ver documentación de colores.</RouterLink></p>
                         <div class="make-snippet" id="notShow">

@@ -63,31 +63,11 @@
                         <p><b>Loop : </b>si queremos que se repita la primer slide al llegar al finar los valores son true para si o false para no.</p>
                         <p><b>Pagination, navigation, scrollbar : </b>si queremos desplegar una paginación, flechas de navegación o un scrollbar ponemos la clase que identifique este elemento dentro de nuesto HTML.</p>    
                         <pre><code id="htmlViewer" style="color:rgb(221, 221, 221); font-weight:400;background-color:rgb(39, 40, 34);background:rgb(39, 40, 34);display:block;padding: .5em;"><span style="color:rgb(249, 38, 114); font-weight:400;">&lt;<span style="color:rgb(249, 38, 114); font-weight:400;">script</span>&gt;</span><span style="color:rgb(221, 221, 221); font-weight:400;">
-<span style="color:rgb(117, 113, 94); font-weight:400;">// Usamos la configuración de gea.iwin</span>
-gea.<span class="hljs-title function_">iwin</span>(<span style="color:rgb(249, 38, 114); font-weight:700;">function</span> (<span style="color:rgb(221, 221, 221); font-weight:400;"></span>) {
-    <span style="color:rgb(117, 113, 94); font-weight:400;">// Y colocamos nuestra configuración de swiper</span>
-    <span style="color:rgb(249, 38, 114); font-weight:700;">const</span> swiper = <span style="color:rgb(249, 38, 114); font-weight:700;">new</span> <span class="hljs-title class_">Swiper</span>(<span style="color:rgb(166, 226, 46); font-weight:400;">&#x27;.swiper-container&#x27;</span>, {
-        <span style="color:rgb(117, 113, 94); font-weight:400;">// Parámetros opcionales</span>
-        <span style="color:rgb(221, 221, 221); font-weight:400;">direction</span>: <span style="color:rgb(166, 226, 46); font-weight:400;">&#x27;horizontal&#x27;</span>,
-        <span style="color:rgb(221, 221, 221); font-weight:400;">loop</span>: <span style="color:rgb(249, 38, 114); font-weight:700;">true</span>,
-        
-        <span style="color:rgb(117, 113, 94); font-weight:400;">// Si necesitamos paginación</span>
-        <span style="color:rgb(221, 221, 221); font-weight:400;">pagination</span>: {
-            <span style="color:rgb(221, 221, 221); font-weight:400;">el</span>: <span style="color:rgb(166, 226, 46); font-weight:400;">&#x27;.swiper-pagination&#x27;</span>,
-        },
-        
-        <span style="color:rgb(117, 113, 94); font-weight:400;">// Flechas de navegación</span>
-        <span style="color:rgb(221, 221, 221); font-weight:400;">navigation</span>: {
-            <span style="color:rgb(221, 221, 221); font-weight:400;">nextEl</span>: <span style="color:rgb(166, 226, 46); font-weight:400;">&#x27;.swiper-button-next&#x27;</span>,
-            <span style="color:rgb(221, 221, 221); font-weight:400;">prevEl</span>: <span style="color:rgb(166, 226, 46); font-weight:400;">&#x27;.swiper-button-prev&#x27;</span>,
-        },
-        
-        <span style="color:rgb(117, 113, 94); font-weight:400;">// Y si necesitamos un scrollbar</span>
-        <span style="color:rgb(221, 221, 221); font-weight:400;">scrollbar</span>: {
-            <span style="color:rgb(221, 221, 221); font-weight:400;">el</span>: <span style="color:rgb(166, 226, 46); font-weight:400;">&#x27;.swiper-scrollbar&#x27;</span>,
-        },
-    });
-});
+    gea.<span class="hljs-title function_">iwin</span>(<span style="color:rgb(249, 38, 114); font-weight:700;">function</span> (<span style="color:rgb(221, 221, 221); font-weight:400;"></span>) {
+            <span style="color:rgb(117, 113, 94); font-weight:400;">/* ********* Inserta tu codigo javasctipt ********** */</span>
+       
+            <span style="color:rgb(117, 113, 94); font-weight:400;">/* **************************************************** */</span>
+     });
 </span><span style="color:rgb(249, 38, 114); font-weight:400;">&lt;/<span style="color:rgb(249, 38, 114); font-weight:400;">script</span>&gt;</span></code></pre>
                     </div>
                 </div>

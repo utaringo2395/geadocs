@@ -31,8 +31,13 @@
                                     <p class="mb-0">1.2</p>
                                 </td>
                                 <td>
-                                    <a href="http://desarrolloweb.aguascalientes.gob.mx/geaDs/Descargas/plantilladependencias.rar" download class="btn btn-outline-dark mx-2">Descargar plantilla
-                                    </a>
+                                    <button v-on:click="downloadDependencia()" class="btn btn-outline-dark mx-2">
+                                        Descargar plantilla
+                                    </button>
+                                    <!-- <button @click="downloadWithVueResource" class="btn btn-outline-dark mx-2">Descargar plantilla</button> -->
+                                    <!-- <a href="http://desarrolloweb.aguascalientes.gob.mx/geaDs/Descargas/plantilladependencias.rar" download class="btn btn-outline-dark mx-2">Descargar plantilla
+                                    </a> -->
+                                    <!-- <a v-bind:href="item.loc" download>Descargar Plat</a> -->
                                 </td>
                             </tr>
                             <tr>
@@ -43,8 +48,11 @@
                                     <p class="mb-0">1.0</p>
                                 </td>
                                 <td>
-                                    <a href="http://desarrolloweb.aguascalientes.gob.mx/geaDs/Descargas/plantillaSimple.rar" download class="btn btn-outline-dark mx-2">Descargar plantilla
-                                    </a>
+                                    <button v-on:click="downloadSimple()" class="btn btn-outline-dark mx-2">
+                                        Descargar plantilla
+                                    </button>
+                                    <!-- <a href="http://desarrolloweb.aguascalientes.gob.mx/geaDs/Descargas/plantillaSimple.rar" download class="btn btn-outline-dark mx-2">Descargar plantilla
+                                    </a> -->
                                 </td>
                             </tr>
                         </tbody>
@@ -56,3 +64,32 @@
         
     </div>
 </template>
+
+<script>
+export default {
+    el: '#app',
+    data() {
+        return {    
+            // url:'http://desarrolloweb.aguascalientes.gob.mx/geaDs/Descargas/plantilladependencias.rar'
+        }
+    },
+    
+    methods: {
+        downloadDependencia(){
+            const link = document.createElement('a');
+            link.href = 'https://desarrolloweb.aguascalientes.gob.mx/geaDs/Descargas/plantilladependencias.rar';
+            link.setAttribute('download', 'plantilladependencias.rar'); //or any other extension
+            document.body.appendChild(link);
+            link.click();
+        }, 
+        downloadSimple(){
+            const link = document.createElement('a');
+            link.href = 'https://desarrolloweb.aguascalientes.gob.mx/geaDs/Descargas/plantillaSimple.rar';
+            link.setAttribute('download', 'plantillaSimple.rar'); //or any other extension
+            document.body.appendChild(link);
+            link.click();
+        }, 
+
+    }
+};
+</script>

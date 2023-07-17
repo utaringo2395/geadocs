@@ -58,8 +58,9 @@
                                 <li><RouterLink to="cCartas" class="nav-link dropdown-link">Cartas</RouterLink></li>
                                 <li><RouterLink to="cCarruseles" class="nav-link dropdown-link">Carruseles</RouterLink></li>
                                 <li><RouterLink to="cHeaders" class="nav-link dropdown-link">Headers</RouterLink></li>
-                                <li><RouterLink to="cNavbars" class="nav-link dropdown-link">Navbars</RouterLink></li>
                                 <li><RouterLink to="cFooter" class="nav-link dropdown-link">Footer</RouterLink></li>
+                                <li><RouterLink to="cNavbars" class="nav-link dropdown-link">Navbars</RouterLink></li>
+                                <li><RouterLink to="cSidebar" class="nav-link dropdown-link">Sidebar</RouterLink></li>
                                 <!-- <li><RouterLink to="/" class="nav-link dropdown-link">Sidebars</RouterLink></li> -->
                             </ul>
                         </li>

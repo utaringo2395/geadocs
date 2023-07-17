@@ -16704,7 +16704,7 @@ p.red-button-title {
   align-items: center;
   transition: transform 250ms;
 }
-.sideBtn i {
+.sideBtn i, .sideBtn .iconify {
   font-size: 30px;
   margin: 0 10px;
 }
@@ -16727,11 +16727,11 @@ p.red-button-title {
   background: #fff;
   border: 1px solid #2F328A;
 }
-.side-blanco i,
+.side-blanco .iconify, .side-blanco i,
 .side-blanco p {
   color: #2F328A;
 }
-.side-blanco i:hover,
+.side-blanco .iconify:hover, .side-blanco i:hover,
 .side-blanco p:hover {
   text-decoration: none;
 }
@@ -16740,11 +16740,11 @@ p.red-button-title {
   background: #3CB4E5;
   border: 1px solid #3CB4E5;
 }
-.side-aqua i,
+.side-aqua .iconify, .side-aqua i,
 .side-aqua p {
   color: #fff;
 }
-.side-aqua i:hover,
+.side-aqua .iconify:hover, .side-aqua i:hover,
 .side-aqua p:hover {
   text-decoration: none;
 }
@@ -16753,11 +16753,11 @@ p.red-button-title {
   background: #8b44ef;
   border: 1px solid #8b44ef;
 }
-.side-rojo i,
+.side-rojo .iconify, .side-rojo i,
 .side-rojo p {
   color: #fff;
 }
-.side-rojo i:hover,
+.side-rojo .iconify:hover, .side-rojo i:hover,
 .side-rojo p:hover {
   text-decoration: none;
 }
@@ -16766,11 +16766,11 @@ p.red-button-title {
   background: #DF1683;
   border: 1px solid #DF1683;
 }
-.side-azul i,
+.side-azul .iconify, .side-azul i,
 .side-azul p {
   color: #fff;
 }
-.side-azul i:hover,
+.side-azul .iconify:hover, .side-azul i:hover,
 .side-azul p:hover {
   text-decoration: none;
 }
