@@ -17,6 +17,7 @@ import cCartas from '../views/cCartas.vue'
 import cCarruseles from '../views/cCarruseles.vue'
 import cHeaders from '../views/cHeaders.vue'
 import cSidebar from '../views/cSidebar.vue'
+import formularios from '../views/formularios.vue'
 import cNavbars from '../views/cNavbars.vue'
 import cFooter from '../views/cFooter.vue'
 
@@ -112,7 +113,12 @@ const router = createRouter({
       path: '/cSidebar',
       name: 'cSidebar',
       component: cSidebar
-    },    
+    },   
+    {
+      path: '/formularios',
+      name: 'formularios',
+      component: formularios
+    }, 
     {
       path: '/cNavbars',
       name: 'cNavbars',

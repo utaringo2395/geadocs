@@ -64,9 +64,9 @@
                                 <!-- <li><RouterLink to="/" class="nav-link dropdown-link">Sidebars</RouterLink></li> -->
                             </ul>
                         </li>
-                        <!-- <li class="nav-item">
-                            <RouterLink to="/" class="nav-link">Formularios</RouterLink>
-                        </li>  -->
+                        <li class="nav-item">
+                            <RouterLink to="formularios" class="nav-link">Formularios</RouterLink>
+                        </li> 
                     </ul>
                 </div>
             </div>
